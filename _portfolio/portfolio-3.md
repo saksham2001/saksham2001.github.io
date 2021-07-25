@@ -1,6 +1,6 @@
 ---
 title: "ADAMS: Advance Driver Assistance and Monitoring System"
-excerpt: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.<br/><img src='/images/TouchFree-v2.jpeg'><br/>"
+excerpt: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.<br/><img src='/images/ADAMS/src1.jpeg'><br/>"
 collection: portfolio
 ---
 
@@ -12,7 +12,8 @@ collection: portfolio
 
 *A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.*
 
-<div class="github-card" data-github="saksham2001/ADAS" data-width="400" data-height="" data-theme="default"></div>
+### Github Repo
+<div class="github-card" data-github="saksham2001/ADAS" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 ### Project Achievements
