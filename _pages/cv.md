@@ -30,8 +30,8 @@ Organizations
 ======
 * Avionics Department Head
   * [Team Assailing Falcons](http://assailingfalcons.in/) *(11/2019 - Present)*
-    * Team Assailing Falcons represent India in SAE Aerodesign East held in Lakeland, Florida.
-    * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia).
+    * Team Assailing Falcons represent India in the SAE Aerodesign East held in Lakeland, Florida, USA.
+    * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia) in 2021.
     * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System.
 * Core Committee Member
   * [SEDS VIT](https://www.instagram.com/sedsvit/?hl=en)
@@ -41,7 +41,7 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Projects
 ======
   <ul>{% for post in site.projects %}
