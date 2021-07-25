@@ -14,7 +14,7 @@ I am currently pursuing undergraduation in Electronics and Communication Enginee
 I am Head of Avionics and Coding at [Assailing Falcons](http://assailingfalcons.in/). Team Assailing Falcons represents India in SAE Aero Design 
 Competition held every year in Lakeland, Florida, USA. This year we achieved the first position in Technical Design Report, Overall 1st Position 
 in Asia, and 5th Position Worldwide. In the team, I am responsible for leading the department which builds the algorithms for Autonomous Gliders, 
-which are dropped during the flight from a mother ship and have to navigate autonomously to a target zone. The department is also responsible for 
+which are dropped during the flight from the mother ship and have to navigate autonomously to a target zone. The department is also responsible for 
 building the Data Acquisition System and Autonomous Payload Drop System.
 
 My major research interests are in **application of Deep Learning and Robotics to Autonomous System**.
