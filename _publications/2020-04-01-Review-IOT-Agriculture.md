@@ -1,9 +1,9 @@
 ---
 title: "Review of Internet of things towards Sustainable Development in Agriculture"
 collection: publications
-permalink: /publication/2020-04-Review-IOT-Agriculture
+permalink: /publication/2020-04-01-Review-IOT-Agriculture
 excerpt: 'Published in Collaboration with Prof. Dr. Chong Seng Tong, Universiti Tenaga Nasional (UNITEN), Malaysia..'
-date: 2020-04
+date: 2020-04-01
 venue: 'Journal of Critical Review (Scopus Indexed)'
 paperurl: 'http://sakshambhutani.xyz/files/Paper1.pdf'
 citation: 'Pallavi Verma, Saksham Bhutani, S.Srividhya, Dr. J Karthikeyan, Dr. Chong Seng Tong. (2020). &quot;Review of Internet of things towards Sustainable Development in Agriculture.&quot; <i>Journal 1</i>. 1(1).'
