@@ -4,4 +4,7 @@ excerpt: "A Smart Automatic Contactless Temperature Checkup and Mask Detection K
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=4M4-VQM6Nvc">
+</iframe> 
+https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337
