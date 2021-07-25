@@ -5,6 +5,6 @@ collection: portfolio
 ---
 
 <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=HFBD5NxqAko">
+src="https://www.youtube.com/embed/HFBD5NxqAko">
 </iframe> 
 https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337
