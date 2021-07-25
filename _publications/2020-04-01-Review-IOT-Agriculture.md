@@ -1,8 +1,8 @@
 ---
-title: "Review of Internet of things towards Sustainable Development in Agriculture"
+title: "Review of Internet of Things towards Sustainable Development in Agriculture"
 collection: publications
 permalink: /publication/2020-04-01-Review-IOT-Agriculture
-excerpt: 'Published in Collaboration with Prof. Dr. Chong Seng Tong, Universiti Tenaga Nasional (UNITEN), Malaysia..'
+excerpt: 'In Collaboration with Prof. Dr. Chong Seng Tong, Universiti Tenaga Nasional (UNITEN), Malaysia.'
 date: 2020-04-01
 venue: 'Journal of Critical Review (Scopus Indexed)'
 paperurl: 'http://sakshambhutani.xyz/files/Paper1.pdf'

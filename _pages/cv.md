@@ -28,7 +28,7 @@ Work experience
   
 Organizations
 ======
-* Avionics Department Head
+* Avionics Head
   * [Team Assailing Falcons](http://assailingfalcons.in/) *(11/2019 - Present)*
     * Team Assailing Falcons represent India in the SAE Aerodesign East held in Lakeland, Florida, USA.
     * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia) in 2021.
@@ -47,6 +47,8 @@ Projects
   <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+
 
 
 [comment]: <> (Skills)
