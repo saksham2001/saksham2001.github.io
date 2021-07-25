@@ -17,4 +17,4 @@ in Asia, and 5th Position Worldwide. In the team, I am responsible for leading t
 which are dropped during the flight from the mother ship and have to navigate autonomously to a target zone. The department is also responsible for 
 building the Data Acquisition System and Autonomous Payload Drop System.
 
-My major research interests are in **application of Deep Learning and Robotics to Autonomous System**.
+My major research interests are in **application of Deep Learning and Robotics in Autonomous System**.
