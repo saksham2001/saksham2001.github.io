@@ -11,30 +11,28 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Tech Electronics and Communication (*2019 - 2023*)
+  * Vellore Institute of Technology, Vellore (*Percentage: 89%*)
+* HSC (CBSE) (*2017 - 2019*)
+  * Bal Bharati Public School, GRM (*Percentage: 89%*)
+* SSC (CBSE) (*2015 - 2017*)
+  * Bal Bharati Public School, GRM (*CGPA: 10/10*)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Winter 2019: Research Internship (*12/2019 - 01/2020*)
+  * Space Technology and Aeronautical Rocketry Lab, Surat, India
+    * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
+    * Developed Android Application for Triggering Launch and Analysing in Flight Data.
   
-Skills
+  
+Organizations
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Avionics Department Head
+  * [Team Assailing Falcons](http://assailingfalcons.in/) (*11/2019 - Present*)
+    * Team Assailing Falcons represent India in SAE Aerodesign East held in Lakeland, Florida.
+    * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia).
+    * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System.
 
 Publications
 ======
@@ -42,18 +40,29 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Projects
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
+
+[comment]: <> (Skills)
+
+[comment]: <> (======)
+
+[comment]: <> (* Skill 1)
+
+[comment]: <> (* Skill 2)
+
+[comment]: <> (  * Sub-skill 2.1)
+
+[comment]: <> (  * Sub-skill 2.2)
+
+[comment]: <> (  * Sub-skill 2.3)
+
+[comment]: <> (* Skill 3)
