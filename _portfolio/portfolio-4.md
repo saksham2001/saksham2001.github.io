@@ -1,6 +1,6 @@
 ---
 title: "Octopod: Smart IoT Home Automation Project"
-excerpt: "Octopod, a uniquely shaped full automation system that allows you to monitor your industry and keep security with AI and smart RFID locks.<br/><img src='https://www.sakshambhutani.xyz/images/Octopod.jpeg'><br/>"
+excerpt: "Octopod, a uniquely shaped full automation system that allows you to monitor your industry and keep security with AI and smart RFID locks.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Octopod.jpeg'>"
 collection: portfolio
 ---
 
