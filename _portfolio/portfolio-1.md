@@ -4,7 +4,5 @@ excerpt: "A Smart & Affordable Automatic Contactless Temperature Checkup and Mas
 collection: portfolio
 ---
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/HFBD5NxqAko">
-</iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4M4-VQM6Nvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337
