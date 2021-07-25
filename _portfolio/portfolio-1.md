@@ -1,6 +1,6 @@
 ---
-title: "[Portfolio item number 1](TouchFree: Automated Temperature Checkup and Mask Detection)"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "[TouchFree v1: Automated Temperature Checkup and Mask Detection](https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337)"
+excerpt: "A Smart & Affordable Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning.<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
