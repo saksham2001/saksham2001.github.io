@@ -44,9 +44,10 @@ Publications
 Achievements
 ======
 * Awarded limited edition TiuTerra Crystal by Austrian Space Forum (OeWF). TiuTerra Crystals contains rock samples from China to Mexico and from Canada to New Zealand, including samples from the deep ocean floor and from Antarctica. These samples were analysed by Austrian Space Forum planetary geologists in Innsbruck, Austria and then taken to Swarovski, where they were **combined with a Martian meteorite** to form the Tiuterra Crystals.
-* Recognized as Special Achiever for meritorious academic performance and exemplary performance at International Events *(2020 - 2021)*
-* Awarded UNDPs Impact Award for developing an affordable system to detect common COVID'19 symptoms.
-* Recognized for Provisional Discovery of an Asteroids (SJS0011) in the Main Asteroid Belt by International Asteroid Search Collaboration, NASA.
+![TiuTerra Crystal Image](https://sakshambhutani.xyz/images/TuiTerra-Image.jpeg)  
+* Recognized as **Special Achiever** for meritorious academic performance and exemplary performance at International Events *(2020 - 2021)*.
+* Awarded **UNDPs** Impact Award for developing an affordable system to detect common COVID'19 symptoms.
+* Recognized for **Provisional Discovery of an Asteroids** (SJS0011) in the Main Asteroid Belt by International Asteroid Search Collaboration, NASA.
 
 Projects
 ======
