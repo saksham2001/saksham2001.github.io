@@ -11,28 +11,30 @@ redirect_from:
 
 Education
 ======
-* B.Tech Electronics and Communication (*2019 - 2023*)
-  * Vellore Institute of Technology, Vellore (*Percentage: 89%*)
-* HSC (CBSE) (*2017 - 2019*)
-  * Bal Bharati Public School, GRM (*Percentage: 89%*)
-* SSC (CBSE) (*2015 - 2017*)
-  * Bal Bharati Public School, GRM (*CGPA: 10/10*)
+* B.Tech Electronics and Communication *(2019 - 2023)*
+  * Vellore Institute of Technology, Vellore *(CGPA: 9.39/100)*
+* HSC (CBSE) *(2017 - 2019)*
+  * Bal Bharati Public School, GRM *(Percentage: 89%)*
+* SSC (CBSE) *(2015 - 2017)*
+  * Bal Bharati Public School, GRM *(CGPA: 10/10)*
 
 Work experience
 ======
-* Winter 2019: Research Internship (*12/2019 - 01/2020*)
+* Winter 2019: Research Internship *(12/2019 - 01/2020)*
   * Space Technology and Aeronautical Rocketry Lab, Surat, India
     * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
-    * Developed Android Application for Triggering Launch and Analysing in Flight Data.
+    * Developed Android Application for Triggering Launch and in Flight Data Analysis.
   
   
 Organizations
 ======
 * Avionics Department Head
-  * [Team Assailing Falcons](http://assailingfalcons.in/) (*11/2019 - Present*)
+  * [Team Assailing Falcons](http://assailingfalcons.in/) *(11/2019 - Present)*
     * Team Assailing Falcons represent India in SAE Aerodesign East held in Lakeland, Florida.
     * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia).
     * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System.
+* Core Committee Member
+  * [SEDS VIT](https://www.instagram.com/sedsvit/?hl=en)
 
 Publications
 ======
@@ -45,10 +47,6 @@ Projects
   <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
 
 
 [comment]: <> (Skills)
