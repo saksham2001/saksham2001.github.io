@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.Tech Electronics and Communication *(2019 - 2023)*
-  * Vellore Institute of Technology, Vellore *(CGPA: 9.39/100)*
+  * Vellore Institute of Technology, Vellore *(CGPA: 9.39/10)*
 * HSC (CBSE) *(2017 - 2019)*
   * Bal Bharati Public School, GRM *(Percentage: 89%)*
 * SSC (CBSE) *(2015 - 2017)*
