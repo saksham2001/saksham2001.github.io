@@ -7,6 +7,6 @@ collection: portfolio
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4M4-VQM6Nvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Hackster.io Tutorial
-<a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337">
+<a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
     <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v1-banner.png">
 </a>
