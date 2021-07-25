@@ -11,3 +11,6 @@ collection: portfolio
     <img alt="octopod-banner" src="https://www.sakshambhutani.xyz/images/Octopod-Banner.png">
 </a>
 
+### Github Repo
+<div class="github-card" data-github="saksham2001/Octopod_v1" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>

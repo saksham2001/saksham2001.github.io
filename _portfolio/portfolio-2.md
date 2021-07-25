@@ -10,3 +10,7 @@ collection: portfolio
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
     <img alt="TouchFree-v2-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v2-banner.png">
 </a>
+
+### Github Repo
+<div class="github-card" data-github="saksham2001/TouchFree-v2" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
