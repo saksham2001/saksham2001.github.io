@@ -88,7 +88,7 @@ author:
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=-Mcn7UAAAAAJ&hl=en"
   email            : "sakshambhutani2001[at]gmail[dot]com"
-  researchgate     :  "https://www.researchgate.net/profile/Saksham-Bhutani-2"
+  researchgate     : # "https://www.researchgate.net/profile/Saksham-Bhutani-2"
   uri              :
   bitbucket        :
   codepen          :
@@ -191,6 +191,15 @@ collections:
 
 # Defaults
 defaults:
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _posts
   - scope:
       path: ""
@@ -213,15 +222,6 @@ defaults:
   - scope:
       path: ""
       type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
     values:
       layout: single
       author_profile: true
