@@ -14,3 +14,6 @@ collection: portfolio
 ### Github Repo
 <div class="github-card" data-github="saksham2001/TouchFree-v2" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+### Translation
+This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306516-1-1.html).
