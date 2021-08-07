@@ -48,7 +48,7 @@ Achievements
 * Recognized as **Special Achiever** for meritorious academic performance and exemplary performance at International Events *(2020 - 2021)*.
 * Awarded **UNDPs** Impact Award for developing an affordable system to detect common COVID'19 symptoms.
 * Recognized for **Provisional Discovery of an Asteroids** (SJS0011) in the Main Asteroid Belt by International Asteroid Search Collaboration, NASA.
-
+* Licenced Amateur Radio Operator **(Callsign: VU3DTU).**
 
 
 
