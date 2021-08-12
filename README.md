@@ -1,3 +1,3 @@
 ## [Personal Website](sakshambhutani.xyz)
 
-This is fork from the [academicpages](https://github.com/academicpages/academicpages.github.io) project.
+This is a personal website based on the jerkyll theme [Minimal-Mistakes](https://github.com/mmistakes/minimal-mistakes).
