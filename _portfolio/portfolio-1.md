@@ -1,5 +1,5 @@
 ---
-title: "TouchFree v1: Automated Temperature Checkup and Mask Detection"
+title: "TouchFree v1: Automated Temperature Checkup and Mask Detection (2020)"
 excerpt: "A Smart & Affordable Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning.<br/><img src='/images/TouchFree-v1.jpeg'>"
 collection: portfolio
 ---
