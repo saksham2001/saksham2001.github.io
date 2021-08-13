@@ -1,6 +1,6 @@
 ---
 title: "Vulcan" (2021)"
-excerpt: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.<br/><br/><img src='/images/ADAMS-img.jpeg'>"
+excerpt: "RC Aircraft.<br/><br/><img src='/images/falcons-vulcan.png'>"
 collection: portfolio
 ---
 ![Vulcan Flagship'21](https://sakshambhutani.xyz/images/falcons-vulcan.png)
