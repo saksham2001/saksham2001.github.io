@@ -3,7 +3,7 @@ title: "Vulcan (2021)"
 excerpt: "RC Aircraft.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons/falcons-vulcan.png'>"
 collection: portfolio
 ---
-![Vulcan Flagship'21](/images/Falcons/falcons-vulcan.png)
+![Vulcan Flagship'21](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan.png)
 Project Mission:
 Simulate the colonization of Mars by designing as well as building a radio-controlled primary aircraft capable of releasing secondary autonomously guided colonist delivery aircraft (CDA) and supply payloads for the survival of the colonists.
 
@@ -23,6 +23,6 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 * 1st Rank Overall in Asia - SAE International Aerodesign Competition (Lakeland, Florida, USA)
 * 5th Rank Overall Worldwide - SAE International Aerodesign Competition (Lakeland, Florida, USA)
 
-![Design Report Certificate](/https://sakshambhutani.xyzimages/Falcons/falcons-vulcan-pos.png)
+![Design Report Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-pos.png)
 
 ![Participation Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-participation.png)
