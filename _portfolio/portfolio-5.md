@@ -1,6 +1,6 @@
 ---
 title: "Vulcan" (2021)"
-excerpt: "RC Aircraft.<br/><br/><img src='/images/Falcons/falcons-vulcan.png'>"
+excerpt: "RC Aircraft.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons/falcons-vulcan.png'>"
 collection: portfolio
 ---
 ![Vulcan Flagship'21](images/Falcons/falcons-vulcan.png)
