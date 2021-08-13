@@ -23,6 +23,6 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 * 1st Rank Overall in Asia - SAE International Aerodesign Competition (Lakeland, Florida, USA)
 * 5th Rank Overall Worldwide - SAE International Aerodesign Competition (Lakeland, Florida, USA)
 
-![Participation Certificate](/images/Falcons/falcons-vulcan-participation.png)
+![Design Report Certificate](/https://sakshambhutani.xyzimages/Falcons/falcons-vulcan-pos.png)
 
-![Design Report Certificate](/images/Falcons/falcons-vulcan-pos.png)
+![Participation Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-participation.png)
