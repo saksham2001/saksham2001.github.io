@@ -16,7 +16,7 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 * Developed the algorithms for Autonomous Navigation and Stabilisation of Colonist Delivery Aircraft.
 * Developed Autonomoud Payload Drop System which automaticcally triggers the drop of staic payload based on data from various sensors.
 * Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
-* Designed the Website for the year 2021: [link](https://assailingfalcons.in/) | [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
+* Designed the Website for the year 2021: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
 
 ## Project Accomplishments:
 * **1st Worldwide in Design Report** - SAE International Aerodesign Competition (Lakeland, Florida, USA)
