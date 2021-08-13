@@ -9,7 +9,7 @@ Simulate the colonization of Mars by designing as well as building a radio-contr
 
 The CDA needs to be an autonomous glider under 255 grams without any propulsion system. The supply payloads are Nerf howlers and Water bottles. The Final Flight Score is directly proportional to the days of habitability of the colonists.
 
-My Role:
+## My Role:
 * Member of the Avionics and Propulsion Department of Team Assailing Falcons.
 * Designed the Data Acquisition System (DAS) including the Graphical User Interface to 
 * CDA Algorithm
@@ -23,6 +23,6 @@ My Role:
 * 1st Rank Overall in Asia - SAE International Aerodesign Competition (Lakeland, Florida, USA)
 * 5th Rank Overall Worldwide - SAE International Aerodesign Competition (Lakeland, Florida, USA)
 
-![Design Report Certificate](images/Falcons/falcons-vulcan-participation.png)
+![Participation Certificate](images/Falcons/falcons-vulcan-participation.png)
 
 ![Design Report Certificate](images/Falcons/falcons-vulcan-pos.png)
