@@ -14,8 +14,8 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 * Member of the Avionics and Propulsion Department of Team Assailing Falcons.
 * Designed the Data Acquisition System (DAS) including the Graphical User Interface (GUI) and the hardware implementation. DAS is used to receive live telemetry data from various sensors on-board and features control panel to drop the payloads.
 * Developed the algorithms for Autonomous Navigation and Stabilisation of Colonist Delivery Aircraft.
-  
-![CDA](https://sakshambhutani.xyz/images/Falcons/falcons-cda.png)
+
+<p align="center"><img src="https://sakshambhutani.xyz/images/Falcons/falcons-cda.png"/></p>
 
 * Developed Autonomous Payload Drop System which automaticcally triggers the drop of staic payload based on data from various sensors.
 * Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
