@@ -1,14 +1,16 @@
 ---
-title: "Vulcan: SAE Aero Design East 2021"
-excerpt: "SAE Aero Design'21 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Colonist Delivery Aircraft externally and supply payloads namely aero howlers and water bottles in the fuselage.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons/falcons-vulcan.png'>"
+title: "Black Bird: High Powered Model Rocket (2019)"
+excerpt: "High Powered Model Rocket developed during Winter Internship'19 at Avionics Lab, STAR, Surat, India.<br/><br/><img src='https://www.sakshambhutani.xyz/images/STAR/BB1'>"
 collection: portfolio
 ---
-![Vulcan Flagship'21](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan.png)
+![Black Bird 1](https://sakshambhutani.xyz/images/STAR/BB1.png)
+
+This project was undertaken during Winter Intership 2019 at Avionics Lab, Space Technology and Rocketry (STAR) Lab, Surat, India
 
 ## Project Mission:
-Simulate the colonization of Mars by designing as well as building a radio-controlled primary aircraft capable of releasing secondary autonomously guided colonist delivery aircraft (CDA) and supply payloads for the survival of the colonists.
+To Design and Develop a High Powered Model Rocket. This Rocket shall reach a minimum height of 120 meters Propulsively and shall have a Recovery System to Land on Ground safely.
 
-The CDA needs to be an autonomous glider under 255 grams without any propulsion system. The supply payloads are Nerf howlers and Water bottles. The Final Flight Score is directly proportional to the days of habitability of the colonists.
+
 
 ## My Role:
 * Member of the Avionics and Propulsion Department of Team Assailing Falcons.
@@ -18,6 +20,7 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 <p align="center"><img src="https://sakshambhutani.xyz/images/Falcons/falcons-cda.png"/></p>
 
 * Developed Autonomous Payload Drop System which automaticcally triggers the drop of staic payload based on data from various sensors.
+* Compared  more than 100 Power Plant configurations to select the appropriate one for the Primary Aircraft.
 * Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
 * Designed the team website for the year 2021: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
 
