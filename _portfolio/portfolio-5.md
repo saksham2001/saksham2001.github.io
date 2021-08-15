@@ -33,16 +33,19 @@ Team comprising 9 interns worked on different aspects of the Rocket, namely 2 in
 
 * Developed Android Application to communicate with the Rocket Launch Igniter.
     * The application provided ability to initiate the launch countdown and emergency abort the countdown in case of anomaly.
-    
-<img src="https://sakshambhutani.xyz/images/STAR/scr1.jpeg" />
+  
 
-<img src="https://sakshambhutani.xyz/images/STAR/scr2.jpeg" />
+Start Screen | Launch Pad Igniter
+:-------------------------:|:-------------------------:
+![](https://sakshambhutani.xyz/images/STAR/scr1.jpeg) | ![](https://sakshambhutani.xyz/images/STAR/scr2.jpeg)
 
-<img src="https://sakshambhutani.xyz/images/STAR/scr3.jpeg" />
+Bluetooth Selection Menu | Launch Sequence Starter
+:-------------------------:|:-------------------------:
+![](https://sakshambhutani.xyz/images/STAR/scr3.jpeg) | ![](https://sakshambhutani.xyz/images/STAR/scr4.jpeg)
 
-<img src="https://sakshambhutani.xyz/images/STAR/scr4.jpeg" />
-
-<img src="https://sakshambhutani.xyz/images/STAR/scr5.jpeg" />
+During Launch Sequence |
+:-------------------------:|
+![](https://sakshambhutani.xyz/images/STAR/scr5.jpeg) |
 
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
   * Static Launch Pad had 
