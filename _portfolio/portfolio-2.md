@@ -19,7 +19,7 @@ The use of this Kiosk is not limited to Schools, Colleges, Offices, other Workpl
 
 My approach for this project was to build a Streamlined Setup process such that anybody without any Prior Experience of Computer Vision or Deep Learning can use this. This is a fully functioning and ready to use Project. I have made this Project highly customizable by adding code files for each and every stand-alone part and the full version. Thus, you may use any of the parts of the project individually.
 
-What's new in v2?
+## What's new in v2?
 * All-new Web-based Dashboard Design compatible with almost all browsers
 * Self Alignment Feature
 * Reduced Cost for less than $100 ($150 with display)
