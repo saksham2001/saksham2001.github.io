@@ -1,6 +1,6 @@
 ---
 title: "Black Bird: High Powered Model Rocket (2019)"
-excerpt: "High Powered Model Rocket developed during Winter Internship'19 at Avionics Lab, STAR, Surat, India.<br/><br/><p align='center'><img src='https://www.sakshambhutani.xyz/images/STAR/BB1.png'></p>"
+excerpt: "High Powered Model Rocket developed during Winter Internship'19 at Avionics Lab, STAR, Surat, India.<br/><br/>><img src='https://www.sakshambhutani.xyz/images/STAR/BB2.png'>"
 collection: portfolio
 ---
 <p align='center'><img src='https://www.sakshambhutani.xyz/images/STAR/BB1.png'></p>
@@ -10,25 +10,73 @@ This project was undertaken during Winter Intership 2019 at Avionics Lab, Space 
 ## Project Mission:
 To Design and Develop a High Powered Model Rocket. This Rocket shall reach a minimum height of 120 meters Propulsively and shall have a Recovery System to Land on Ground safely.
 
-
+Team comprising 9 interns worked on different aspects of the Rocket, namely 2 interns worked on the Design, 2 interns worked on Avionics, 2 interns worked on Recovery System and 3 interns worked on Propulsion.
 
 ## My Role:
-* Member of the Avionics and Propulsion Department of Team Assailing Falcons.
-* Designed the Data Acquisition System (DAS) including the Graphical User Interface (GUI) and the hardware implementation. DAS is used to receive live telemetry data from various sensors on-board and features control panel to drop the payloads.
-* Developed the algorithms for Autonomous Navigation and Stabilisation of Colonist Delivery Aircraft.
+* Member of Avionics Team, was responsible for the developing Avionics system on-boards the rocket to trigger recovery system and collect data.
+* Designed General Circuit Board (GCB) based on the dimensions of the rocket, the board had microcontroller, sensors and data storage devices.
+    * Roughly Planning the Positioning of various components on paper based on their proximity to the Microcontroller.
+    * Designing the Circuit by Computer-Aid using Eagle software.
+    * Realising the actual design on General Circuit Board by Soldering various components on the board and making required connections between the components.
+    * Various tests were conducted on the GCB prior to the actual flight.
+    
+![General Circuit Board (GCB)](https://sakshambhutani.xyz/images/STAR/gcb.jpeg)
 
-<p align="center"><img src="https://sakshambhutani.xyz/images/Falcons/falcons-cda.png"/></p>
+* Developed the Software for the GCB.
+    * The software was capable of Triggering the Recovery Mechanism based on pre-determined conditions using data from the Inertial Measurement Unit and Altitude Sensor.
+    * The software also recorded data from various sensors on-board and many in-flight events.
+* Developed Rocket Launch Igniter including the hardware and software.
+    * The Igniter provided ability to remotely trigger the launch sequence to light the Rocket Motor.
+    * The Igniter could be used with Bluetooth or Internet to trigger launch countdown and emergency abort of countdown in case of an anomaly.
+    
+![General Circuit Board (GCB)](https://sakshambhutani.xyz/images/STAR/igniter-gcb.jpeg)
 
-* Developed Autonomous Payload Drop System which automaticcally triggers the drop of staic payload based on data from various sensors.
-* Compared  more than 100 Power Plant configurations to select the appropriate one for the Primary Aircraft.
-* Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
-* Designed the team website for the year 2021: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
+* Developed Android Application to communicate with the Rocket Launch Igniter.
+    * The application provided ability to initiate the launch countdown and emergency abort the countdown in case of anomaly.
+    
+<p align="left">
+    <figure>
+        <img src="https://sakshambhutani.xyz/images/STAR/scr1.c" />
+        <figcaption>START SCREEN</figcaption>
+    </figure>
+</p>
+
+<p align="right">
+    <figure>
+        <img src="https://sakshambhutani.xyz/images/STAR/scr2.jpeg" />
+        <figcaption>LAUNCH PAD IGNITER SCREEN</figcaption>
+    </figure>
+</p>
+<br/>
+<p align="left">
+    <figure>
+        <img src="https://sakshambhutani.xyz/images/STAR/scr3.jpeg" />
+        <figcaption>BLUETOOTH SELECTION MENU</figcaption>
+    </figure>
+</p>
+<p align="right">
+    <figure>
+        <img src="https://sakshambhutani.xyz/images/STAR/scr4.jpeg" />
+        <figcaption>LAUNCH SEQUENCE STARTER</figcaption>
+    </figure>
+</p>
+<br/>
+<p align="center">
+    <figure>
+        <img src="https://sakshambhutani.xyz/images/STAR/scr5.jpeg" />
+        <figcaption>LAUNCH COUNTDOWN</figcaption>
+    </figure>
+</p>
+
+* Developed Static Launch Test Pad to help Propulsion Team test different motors.
+  * Static Launch Pad had 
 
 ## Project Accomplishments:
-* **1st Worldwide in Design Report** - SAE International Aerodesign Competition (Lakeland, Florida, USA)
-* **1st Rank Overall in Asia** - SAE International Aerodesign Competition (Lakeland, Florida, USA)
-* **5th Rank Overall Worldwide** - SAE International Aerodesign Competition (Lakeland, Florida, USA)
+* 2 High Powered Model Rockets were succesfully developed.
+* A Remote Launch Igniter and a Static Test Pad was also developed.
+* Many integrated tests were conducted of all the Systems:
+  * Numerous Ground Tests were conducted for the Main Rocket Avionics Board and Wireless Igniter.
+  * 10+ Drop Tests were conducted for main rocket avionics GCB.
+  * 9 Static Tests were conducted and data collected from the tests was analysed to determine the composition of fuel for the motor.
+  * 2 full launches were conducted with all systems together.
 
-![Design Report Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-pos.png)
-
-![Participation Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-participation.png)
