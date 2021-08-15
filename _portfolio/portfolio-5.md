@@ -34,39 +34,15 @@ Team comprising 9 interns worked on different aspects of the Rocket, namely 2 in
 * Developed Android Application to communicate with the Rocket Launch Igniter.
     * The application provided ability to initiate the launch countdown and emergency abort the countdown in case of anomaly.
     
-<p align="left">
-    <figure>
-        <img src="https://sakshambhutani.xyz/images/STAR/scr1.c" />
-        <figcaption>START SCREEN</figcaption>
-    </figure>
-</p>
+<img src="https://sakshambhutani.xyz/images/STAR/scr1.jpeg" />
 
-<p align="right">
-    <figure>
-        <img src="https://sakshambhutani.xyz/images/STAR/scr2.jpeg" />
-        <figcaption>LAUNCH PAD IGNITER SCREEN</figcaption>
-    </figure>
-</p>
-<br/>
-<p align="left">
-    <figure>
-        <img src="https://sakshambhutani.xyz/images/STAR/scr3.jpeg" />
-        <figcaption>BLUETOOTH SELECTION MENU</figcaption>
-    </figure>
-</p>
-<p align="right">
-    <figure>
-        <img src="https://sakshambhutani.xyz/images/STAR/scr4.jpeg" />
-        <figcaption>LAUNCH SEQUENCE STARTER</figcaption>
-    </figure>
-</p>
-<br/>
-<p align="center">
-    <figure>
-        <img src="https://sakshambhutani.xyz/images/STAR/scr5.jpeg" />
-        <figcaption>LAUNCH COUNTDOWN</figcaption>
-    </figure>
-</p>
+<img src="https://sakshambhutani.xyz/images/STAR/scr2.jpeg" />
+
+<img src="https://sakshambhutani.xyz/images/STAR/scr3.jpeg" />
+
+<img src="https://sakshambhutani.xyz/images/STAR/scr4.jpeg" />
+
+<img src="https://sakshambhutani.xyz/images/STAR/scr5.jpeg" />
 
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
   * Static Launch Pad had 
