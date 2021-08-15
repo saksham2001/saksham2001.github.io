@@ -60,5 +60,5 @@ During Launch Sequence |
   * Numerous ground tests were conducted for the main Rocket Avionics Board and Wireless Igniter.
   * 10+ Drop Tests were conducted for the main rocket avionics GCB.
   * 9 Static Tests were conducted and data collected was analysed to determine the composition of fuel for the motor.
-  * 2 full launches were conducted with all systems together.
+  * 2 Rocket launches were conducted with all systems together.
 

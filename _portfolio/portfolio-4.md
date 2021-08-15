@@ -11,7 +11,7 @@ collection: portfolio
 
 *A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.*
 
-### Github Repo
+### Github Repository
 <div class="github-card" data-github="saksham2001/ADAS" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
