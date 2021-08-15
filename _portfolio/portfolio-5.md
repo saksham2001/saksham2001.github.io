@@ -50,6 +50,8 @@ During Launch Sequence |
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
   * Static Launch Pad had 
 
+![](https://sakshambhutani.xyz/images/STAR/launch-pad.gif)
+
 ## Project Accomplishments:
 * 2 High Powered Model Rockets were succesfully developed.
 * A Remote Launch Igniter and a Static Test Pad was also developed.
