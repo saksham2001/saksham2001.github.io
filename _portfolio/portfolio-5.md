@@ -8,13 +8,13 @@ collection: portfolio
 This project was undertaken during Winter Internship 2019 at Avionics Lab, Space Technology and Rocketry (STAR), Surat, India
 
 ## Project Mission:
-To Design and Develop a High Powered Model Rocket. This Rocket shall reach a minimum height of 120 meters Propulsively and shall have a Recovery System to land on the ground safely.
+To design and develop a High Powered Model Rocket. This Rocket shall reach a minimum height of 120 meters Propulsively and shall have a Recovery System to land on the ground safely.
 
 A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 interns worked on the Design, 2 interns worked on Avionics, 2 interns worked on Recovery System and 3 interns worked on Propulsion.
 
 ## My Role:
-* Member of Avionics Team, was responsible for the developing Avionics system on-boards the rocket to trigger recovery system and collect data.
-* Designed General Circuit Board (GCB) based on the dimensions of the rocket, the board had a microcontroller, sensors and data storage devices.
+* Member of Avionics Team, I was responsible for the developing Avionics system onboard the rocket to trigger recovery system and collect data.
+* Designed General Circuit Board (GCB) based on the dimensions of the rocket, the board had a microcontroller, sensors and data storage devices. The build process included the following steps:
     * Roughly Planning the Positioning of various components on paper based on their proximity to the Microcontroller.
     * Designing the Circuit by Computer-Aid using Eagle software.
     * Realising the actual design on General Circuit Board by Soldering various components on the board and making required connections between the components.
@@ -22,9 +22,9 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     
 ![General Circuit Board (GCB)](https://sakshambhutani.xyz/images/STAR/gcb.jpeg)
 
-* Developed the Software for the GCB.
+* Developed the software for the GCB.
     * The software was capable of Triggering the Recovery Mechanism based on pre-determined conditions using data from the Inertial Measurement Unit and Altitude Sensor.
-    * The software also recorded data from various sensors onboard and many in-flight events.
+    * The software also recorded data from various sensors and in-flight events.
 * Developed Rocket Launch Igniter including the hardware and software.
     * The Igniter provided the ability to remotely trigger the launch sequence to light the Rocket Motor.
     * The Igniter could be used with Bluetooth or Internet to trigger launch countdown and emergency abort of countdown in case of an anomaly.
@@ -49,7 +49,7 @@ During Launch Sequence |
 
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
   * Static Launch Pad used a load cell to measure the thrust and burn-time of the motor.
-  * The data recorded was used by Propulsion Team to analyse different fuel compositions.
+  * The data recorded was used by Propulsion Team to analyse different fuel compositions for the rocket motor.
 
 ![](https://sakshambhutani.xyz/images/STAR/launch-pad.gif)
 
