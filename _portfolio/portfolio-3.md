@@ -21,7 +21,7 @@ My approach for this project was to build a Streamlined Setup process such that 
 
 ### Hackster.io Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
-    <img alt="TouchFree-v2-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v2-banner.png">
+    <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v2-banner.png">
 </a>
 
 ### Github Repository
