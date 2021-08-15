@@ -4,7 +4,7 @@ excerpt: "A Smart & Affordable Automatic Contactless Temperature Checkup and Mas
 collection: portfolio
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4M4-VQM6Nvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4M4-VQM6Nvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 
 
 As Countries around the Globe are Reopening, living with the Novel Coronavirus is becoming the new way of life. But to Stop the Spread of the Virus we need to separate people having the Coronavirus from the Rest.
