@@ -11,17 +11,17 @@ collection: portfolio
 
 *A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.*
 
-### Github Repository
+## Github Repository
 <div class="github-card" data-github="saksham2001/ADAS" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-### Project Achievements
+## Project Achievements
 * 3rd Prize in [Hack-a-Motive](https://vit.ac.in/hackamotiVE/)
 * Runner Up in Emerging Technologies in [HackBattle](https://hackbattle.ieeecsvit.com/)
 * Best in Hardware Project in [HackOff](https://www.hackoff.tech/)
 
 
-### Features
+## Features
 
 1. Emotion Recognition
 2. Facial Recognition
@@ -32,7 +32,7 @@ collection: portfolio
 
 
 
-### Setup
+## Setup
 
 *The Code is primarily designed to run on Raspberry Pi, but can be used on Mac OS or Windows.*
 
@@ -40,11 +40,12 @@ collection: portfolio
 * Download the Code or Run the following command to download it `git pull https://github.com/saksham2001/ADAS`
 
 
-### Running
+## Running
 
 * Use the following command to the Code `python3 app.py`
 
-### Screenshots
+## Screenshots
+
 ![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr1.jpeg)
 ![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr2.jpeg)
 ![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr3.jpeg)

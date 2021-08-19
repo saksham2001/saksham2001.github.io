@@ -27,14 +27,14 @@ My approach for this project was to build a Streamlined Setup process such that 
 * PC Support (Mac/Linux/Windows)
 * Remote Access
 
-### Hackster.io Build Tutorial
+## Hackster.io Build Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-v2-contactless-temperature-and-mask-checkup-d01dc8" target="_blank">
     <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v1-banner.png">
 </a>
 
-### Github Repo
+## Github Repo
 <div class="github-card" data-github="saksham2001/TouchFree-v2" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-### Translation
+## Translation
 This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306516-1-1.html).

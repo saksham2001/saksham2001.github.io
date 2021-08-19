@@ -19,14 +19,14 @@ The use of this Kiosk is not limited to Schools, Colleges, Offices, other Workpl
 
 My approach for this project was to build a streamlined Setup process such that anybody without any Prior Experience of Computer Vision or Deep Learning can use this. This is a fully functioning and ready to use Project. I have made this Project highly customizable by adding code files for each and every stand-alone part and the full version. Thus, you may use any of the parts of the project individually.
 
-### Hackster.io Tutorial
+## Hackster.io Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
     <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v2-banner.png">
 </a>
 
-### Github Repository
+## Github Repository
 <div class="github-card" data-github="saksham2001/TouchFree-v1" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-### Translation
+## Translation
 This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306493-1-1.html).
