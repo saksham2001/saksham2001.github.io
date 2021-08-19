@@ -16,7 +16,7 @@ Octopod is equipped with a tiny little camera, which sends you live feed. This c
 </a>
 
 ## Github Repository
-<div class="github-card" data-github="saksham2001/Octopod_v1" data-width="400" data-height="" data-theme="medium"></div>
+<div class="github-card" data-github="saksham2001/Octopod_v1" data-width="400" data-height="278" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 ## Images
@@ -30,5 +30,5 @@ Octopod is equipped with a tiny little camera, which sends you live feed. This c
 ### Intruder Detection
 ![Intruder Detection](https://sakshambhutani.xyz/images/Octopod/human-detection.jpeg)
 
-### Blynk Application to control Appliances
+### Blynk Application
 ![Blynk Control Application](https://sakshambhutani.xyz/images/Octopod/blynk-app.jpeg)
