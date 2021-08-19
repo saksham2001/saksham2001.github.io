@@ -4,7 +4,7 @@ excerpt: "Octopod, a uniquely shaped full automation system that allows you to m
 collection: portfolio
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=BGC9mb7RiwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BGC9mb7RiwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 
 There are many IoT automation projects out there, but trust me there is nothing like this! Octopod is made using NodeMCU, Arduino Uno, and Raspberry Pi 3. Octopod allows you to make your home smart. Octopod sends you variety of data like temperature, humidity, and gas quality inside your home. Octopod also sends you notification whenever it detects any sort of motion inside and tells you when you need to water your plants. You can also control your appliances through a Blynk application on your smartphone. Octopod even enables true mood lighting!
 
