@@ -62,3 +62,4 @@ During Launch Sequence |
   * 9 Static Tests were conducted and data collected was analysed to determine the composition of fuel for the motor.
   * 2 Rocket launches were conducted with all systems together.
 
+![](https://sakshambhutani.xyz/images/STAR/launch-2.gif)
