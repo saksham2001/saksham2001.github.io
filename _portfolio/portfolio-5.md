@@ -1,9 +1,9 @@
 ---
 title: "Black Bird: High Powered Model Rocket (2019)"
-excerpt: "High Powered Model Rocket developed during Winter Internship'19 at Avionics Lab, STAR, Surat, India.<br/><br/><img src='https://www.sakshambhutani.xyz/images/STAR/BB-2.png'>"
+excerpt: "High Powered Model Rocket developed during Winter Internship'19 at Avionics Lab, STAR, Surat, India.<br/><br/><img src='https://www.sakshambhutani.xyz/images/STAR/BB-2.jpeg'>"
 collection: portfolio
 ---
-<p align='center'><img src='https://www.sakshambhutani.xyz/images/STAR/BB-1.png'></p>
+<p align='center'><img src='https://www.sakshambhutani.xyz/images/STAR/BB-1.jpeg'></p>
 
 This project was undertaken during Winter Internship 2019 at Avionics Lab, Space Technology and Rocketry (STAR), Surat, India
 
