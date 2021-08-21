@@ -1,6 +1,6 @@
 ---
 title: "ADAMS: Advance Driver Assistance and Monitoring System (2021)"
-excerpt: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.<br/><br/><img src='/images/ADAMS-img.jpeg'>"
+excerpt: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.<br/><br/><img src='/images/ADAMS/ADAMS-img.jpeg'>"
 collection: portfolio
 ---
 
