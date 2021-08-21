@@ -12,7 +12,7 @@ Octopod is equipped with a tiny little camera, which sends you live feed. This c
 
 ## Hackster.io Build Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/octopod-smart-iot-home-industry-automation-project-fa939b" target="_blank">
-    <img alt="octopod-banner" src="https://www.sakshambhutani.xyz/images/Octopod-Banner.png">
+    <img alt="octopod-banner" src="https://www.sakshambhutani.xyz/images/Octopod/Octopod-Banner.png">
 </a>
 
 ## Github Repository

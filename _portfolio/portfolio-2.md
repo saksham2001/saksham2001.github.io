@@ -1,6 +1,6 @@
 ---
 title: "TouchFree v2: Automated Temperature Checkup and Mask Detection (2020)"
-excerpt: "A Smart Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning for under $100.<br/><br/><img src='/images/TouchFree-v2.jpeg'>"
+excerpt: "A Smart Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning for under $100.<br/><br/><img src='/images/TouchFree/TouchFree-v2.jpeg'>"
 collection: portfolio
 ---
 
@@ -29,7 +29,7 @@ My approach for this project was to build a Streamlined Setup process such that 
 
 ## Hackster.io Build Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-v2-contactless-temperature-and-mask-checkup-d01dc8" target="_blank">
-    <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree-v1-banner.png">
+    <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree/TouchFree-v1-banner.png">
 </a>
 
 ## Github Repo

@@ -13,6 +13,9 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 ## My Role:
 * Member of the Avionics and Propulsion Department of Team Assailing Falcons.
 * Designed the Data Acquisition System (DAS) including the Graphical User Interface (GUI) and the hardware implementation. DAS is used to receive live telemetry data from various sensors onboard and features a control panel to drop the payloads.
+  
+<!-----![GUI](https://sakshambhutani.xyz/images/Falcons/gui.png)--->
+
 * Developed the algorithms for Autonomous Navigation and Stabilisation of Colonist Delivery Aircraft.
 
 <p align="center"><img src="https://sakshambhutani.xyz/images/Falcons/falcons-cda.png"/></p>
