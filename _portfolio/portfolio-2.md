@@ -59,3 +59,7 @@ This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mo
 
 ### Translation
 This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306516-1-1.html).
+
+
+## Project Accomplishments:
+* Awarded **UNDPs** Impact Award for developing an affordable system to detect common COVID'19 symptoms.
