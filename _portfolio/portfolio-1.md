@@ -1,6 +1,6 @@
 ---
 title: "Vulcan: SAE Aero Design East (2021)"
-excerpt: "SAE Aero Design'21 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Colonist Delivery Aircraft externally and supply payloads namely Aero Howlers and Water Bottles in the fuselage.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons/falcons-vulcan.png'>"
+excerpt: "SAE Aero Design'21 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Colonist Delivery Aircraft externally and supply payloads namely Aero Howlers and Water Bottles in the fuselage.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons/vulcan-1'>"
 collection: portfolio
 ---
 ![Vulcan Flagship'21](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan.png)
