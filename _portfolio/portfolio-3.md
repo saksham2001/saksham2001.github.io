@@ -1,32 +1,61 @@
 ---
-title: "TouchFree v1: Automated Temperature Checkup and Mask Detection (2020)"
-excerpt: "A Smart & Affordable Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning.<br/><img src='/images/TouchFree/TouchFree-v1.jpeg'>"
+title: "ADAMS: Advance Driver Assistance and Monitoring System (2021)"
+excerpt: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.<br/><br/><img src='/images/ADAMS/ADAMS-img.jpeg'>"
 collection: portfolio
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4M4-VQM6Nvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GD053njx0fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### By Team Delta Ducks (Saksham Bhutani, Anshuman Phadke and Arvind N)
+[![licence MIT](https://img.shields.io/github/license/saksham2001/TouchFree-v2)](https://github.com/saksham2001/TouchFree-v2/blob/master/LICENSE) 
 
-As Countries around the Globe are reopening, living with the Novel Coronavirus is becoming the new way of life. But to Stop the Spread of the Virus we need to separate people having the Coronavirus from the Rest.
-
-According to the CDC, fever is the leading symptom of the Coronavirus with up to 83% of Symptomatic Patients showing some signs of fever. Many Countries are making Temperature Checkups and Masks mandatory for Schools, Colleges, Offices, and other Workplaces.
-
-Currently, Temperature Checkups are done manually using Contactless Thermometer. Manual Checkups can be Inefficient, Impractical (in places with a large footfall), and Risky.
-
-To solve these problems, I have designed a **Kiosk** that **automates the process of Temperature Checkup by using Facial Landmarking & Contactless IR Temperature Sensor and Mask Detection using Deep Learning Neural Network**.
-
-The use of this Kiosk is not limited to Schools, Colleges, Offices, other Workplaces but can also be used at High-Risk Areas like Hospitals. This Device can also be used at Train Stations, Bus Stops, Airports, etc.
-
-My approach for this project was to build a streamlined Setup process such that anybody without any Prior Experience of Computer Vision or Deep Learning can use this. This is a fully functioning and ready to use Project. I have made this Project highly customizable by adding code files for each and every stand-alone part and the full version. Thus, you may use any of the parts of the project individually.
-
-## Hackster.io Tutorial
-<a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
-    <img alt="TouchFree-v1-banner" src="https://www.sakshambhutani.xyz/images/TouchFree/TouchFree-v2-banner.png">
-</a>
+*A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.*
 
 ## Github Repository
-<div class="github-card" data-github="saksham2001/TouchFree-v1" data-width="400" data-height="" data-theme="medium"></div>
+<div class="github-card" data-github="saksham2001/ADAS" data-width="400" data-height="" data-theme="medium"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-## Translation
-This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306493-1-1.html).
+## Project Achievements
+* 3rd Prize in [Hack-a-Motive](https://vit.ac.in/hackamotiVE/)
+* Runner Up in Emerging Technologies in [HackBattle](https://hackbattle.ieeecsvit.com/)
+* Best in Hardware Project in [HackOff](https://www.hackoff.tech/)
+
+
+## Features
+
+1. Emotion Recognition
+2. Facial Recognition
+3. Blind Spot Detection
+4. Facial Orientation Detection
+5. Drowsiness Detection
+6. Total Time of Drive Calculation
+
+
+
+## Setup
+
+*The Code is primarily designed to run on Raspberry Pi, but can be used on Mac OS or Windows.*
+
+* Download all the Dependencies using the command `pip3 install -r requirements.txt`
+* Download the Code or Run the following command to download it `git pull https://github.com/saksham2001/ADAS`
+
+
+## Running
+
+* Use the following command to the Code `python3 app.py`
+
+## Screenshots
+
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr1.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr2.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr3.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr4.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr5.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr6.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr7.jpeg)
+![Screenshot 1](https://sakshambhutani.xyz/images/ADAMS/scr8.jpeg)
+
+
+
+
+
