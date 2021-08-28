@@ -22,6 +22,8 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 
 * Developed Autonomous Payload Drop System which automatically triggers the drop of static payload based on data from various sensors.
 * Compared  more than 100 Power Plant configurations to select the appropriate one for the Primary Aircraft.
+![Primary Aircraft](https://sakshambhutani.xyz/images/Falcons/vulcan-1.png)
+
 * Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
 * Designed the team website for the year 2021: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
 
