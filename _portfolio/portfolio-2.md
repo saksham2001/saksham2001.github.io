@@ -1,6 +1,6 @@
 ---
 title: "TouchFree: Automated Temperature Checkup and Mask Detection (2020)"
-excerpt: "A Smart Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning for under $100.<br/><br/><img src='/images/TouchFree/TouchFree-v2.jpeg'>"
+excerpt: "A Smart Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning for under $100.<br/><br/><img src='https://www.sakshambhutani.xyz/images/TouchFree/TouchFree-v2.jpeg'>"
 collection: portfolio
 ---
 
@@ -63,4 +63,5 @@ This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mo
 
 ## Project Accomplishments:
 * Awarded **UNDPs** Impact Award for developing an affordable system to detect common COVID'19 symptoms.
+
 ![UNDP Certificate](https://sakshambhutani.xyz/images/TouchFree/Certificate.jpeg)
