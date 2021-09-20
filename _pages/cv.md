@@ -23,7 +23,7 @@ Work experience
 * Avionics Research Internship
   * Space Technology and Aeronautical Rocketry Lab, Surat, India *(12/2019 - 01/2020)*
     * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
-    * Developed Android Application for Triggering Launch and in Flight Data Analysis [Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-4/).
+    * Developed Android Application for Triggering Launch and in Flight Data Analysis [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-4/)].
 * Machine Learning Intern
   * Incirco Ventures LLP *(10/2020 - 01/2020)*
     * Developed Smark Kiosk for automated Temperature Checkup, Mask Detection and Hand Sanitization.
@@ -38,9 +38,11 @@ Organizations
   * Avionics and Coding Head *(11/2019 - Present)*
     * Team Assailing Falcons represent India in the SAE Aerodesign East held in Lakeland, Florida, USA.
     * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia) in 2021.
-    * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System [Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-1/).
+    * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-1/)].
 * [SEDS VIT](https://sedsvit.in/)
   * Core Committee Member *(11/2019 - Present)*
+    * Designed the chapter website for the 2020-2021: [link](https://sedsvit.in/) | [archive](https://web.archive.org/web/20210920200652/https://sedsvit.in/).
+    * Conducted several public events on topics related to Space Technology.
 
 Publications
 ======
