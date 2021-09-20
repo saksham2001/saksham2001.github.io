@@ -39,7 +39,7 @@ Organizations
     * Team Assailing Falcons represent India in the SAE Aerodesign East held in Lakeland, Florida, USA.
     * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia) in 2021.
     * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-1/)].
-* [SEDS VIT](https://sedsvit.in/)
+* SEDS VIT
   * Core Committee Member *(11/2019 - Present)*
     * Designed the chapter website for the 2020-2021: [link](https://sedsvit.in/) \| [archive](https://web.archive.org/web/20210920200652/https://sedsvit.in/).
     * Conducted several public events on topics related to Space Technology.
@@ -49,6 +49,8 @@ Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+<br />
 
 Achievements
 ======
