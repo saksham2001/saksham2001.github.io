@@ -20,20 +20,27 @@ Education
 
 Work experience
 ======
-* Winter 2019: Research Internship *(12/2019 - 01/2020)*
-  * Space Technology and Aeronautical Rocketry Lab, Surat, India
+* Avionics Research Internship
+  * Space Technology and Aeronautical Rocketry Lab, Surat, India *(12/2019 - 01/2020)*
     * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
-    * Developed Android Application for Triggering Launch and in Flight Data Analysis.
+    * Developed Android Application for Triggering Launch and in Flight Data Analysis [Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-4/).
+* Machine Learning Intern
+  * Incirco Ventures LLP *(10/2020 - 01/2020)*
+    * Developed Smark Kiosk for automated Temperature Checkup, Mask Detection and Hand Sanitization.
+* Machine Learning Intern
+  * Wharf Street Strategies *(07/2021 - 09/2021)*
+    * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
+    * Developed ML based Recommendation Algorithm and different Search Filters.
   
 Organizations
 ======
-* Avionics and Coding Head
-  * [Team Assailing Falcons](http://assailingfalcons.in/) *(11/2019 - Present)*
+* Team Assailing Falcons
+  * Avionics and Coding Head *(11/2019 - Present)*
     * Team Assailing Falcons represent India in the SAE Aerodesign East held in Lakeland, Florida, USA.
     * Team was awarded 1st Position in Technical Design Report, 5th Overall Position (Worldwide) and 1st Overall Position (Asia) in 2021.
-    * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System.
-* Core Committee Member *(11/2019 - Present)*
-  * [SEDS VIT](https://sedsvit.in/)
+    * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System [Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-1/).
+* [SEDS VIT](https://sedsvit.in/)
+  * Core Committee Member *(11/2019 - Present)*
 
 Publications
 ======
