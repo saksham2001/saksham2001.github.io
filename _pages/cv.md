@@ -41,7 +41,7 @@ Organizations
     * Responsible in the team for developing Algorithms and Hardware Implementation for the Autonomous Gliders and Data Acquisition System [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-1/)].
 * SEDS VIT
   * Core Committee Member *(11/2019 - Present)*
-    * Designed the chapter website for the 2020-2021: [link](https://sedsvit.in/) \| [archive](https://web.archive.org/web/20210920200652/https://sedsvit.in/).
+    * Designed the chapter website for 2020-2021: [link](https://sedsvit.in/) \| [archive](https://web.archive.org/web/20210920200652/https://sedsvit.in/).
     * Conducted several public events on topics related to Space Technology.
 
 Publications
