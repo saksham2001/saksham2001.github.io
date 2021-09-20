@@ -30,7 +30,7 @@ Work experience
 * Machine Learning Intern
   * Wharf Street Strategies *(07/2021 - 09/2021)*
     * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
-    * Developed ML based Recommendation Algorithm and different Search Filters.
+    * Developed ML based Recommendation Algorithms and different Search Filters.
   
 Organizations
 ======
