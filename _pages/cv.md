@@ -24,13 +24,20 @@ Work experience
   * Space Technology and Aeronautical Rocketry Lab, Surat, India *(12/2019 - 01/2020)*
     * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
     * Developed Android Application for Triggering Launch and in Flight Data Analysis [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-4/)].
-<!--* Machine Learning Intern
-  * Incirco Ventures LLP *(10/2020 - 01/2020)*
-    * Developed Smark Kiosk for automated Temperature Checkup, Mask Detection and Hand Sanitization.
-* Machine Learning Intern
-  * Wharf Street Strategies *(07/2021 - 09/2021)*
-    * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
-    * Developed ML based Recommendation Algorithms and different Search Filters.-->
+
+[comment]: <> Machine Learning Intern
+
+[comment]: <>   * Incirco Ventures LLP *(10/2020 - 01/2020)*
+
+[comment]: <>     * Developed Smark Kiosk for automated Temperature Checkup, Mask Detection and Hand Sanitization.
+
+[comment]: <> * Machine Learning Intern
+
+[comment]: <>   * Wharf Street Strategies *(07/2021 - 09/2021)*
+
+[comment]: <>     * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
+
+[comment]: <>     * Developed ML based Recommendation Algorithms and different Search Filters.-->
   
 Organizations
 ======
