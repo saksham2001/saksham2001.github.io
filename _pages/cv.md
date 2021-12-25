@@ -27,7 +27,7 @@ Work experience
 
 [comment]: <> Machine Learning Intern
 
-[comment]: <>   * Incirco Ventures LLP *(10/2020 - 01/2020)*
+[comment]: <>   * Incirco Ventures LLP *(10/2020 - 01/2021)*
 
 [comment]: <>     * Developed Smark Kiosk for automated Temperature Checkup, Mask Detection and Hand Sanitization.
 
@@ -37,7 +37,7 @@ Work experience
 
 [comment]: <>     * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
 
-[comment]: <>     * Developed ML based Recommendation Algorithms and different Search Filters.-->
+[comment]: <>     * Developed ML based Recommendation Algorithms and different Search Filters.
   
 Organizations
 ======
