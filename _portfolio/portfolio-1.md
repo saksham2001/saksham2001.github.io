@@ -1,14 +1,12 @@
 ---
-title: "Vulcan: SAE Aero Design East (2021)"
+title: "Trident: SAE Aero Design East (2022)"
 excerpt: "SAE Aero Design'21 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Colonist Delivery Aircraft externally and supply payloads namely Aero Howlers and Water Bottles in the fuselage.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons/falcons-vulcan.png'>"
 collection: portfolio
 ---
-![Vulcan Flagship'21](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan.png)
+<!-- ![Trident Flagship'21](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan.png)
 
 ## Project Mission:
-Simulate the colonization of Mars by designing as well as building a radio-controlled primary aircraft capable of releasing secondary autonomously guided colonist delivery aircraft (CDA) and supply payloads for the survival of the colonists.
 
-The CDA needs to be an autonomous glider under 255 grams without any propulsion system. The supply payloads are Nerf howlers and Water bottles. The Final Flight Score is directly proportional to the days of habitability of the colonists.
 
 ## My Role:
 * Member of the Avionics and Propulsion Department of Team Assailing Falcons.
@@ -42,4 +40,4 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 
 ![Design Report Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-pos.png)
 
-![Participation Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-participation.png)
+![Participation Certificate](https://sakshambhutani.xyz/images/Falcons/falcons-vulcan-participation.png) -->
