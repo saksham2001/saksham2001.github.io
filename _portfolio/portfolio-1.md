@@ -1,6 +1,6 @@
 ---
 title: "Trident: SAE Aero Design East (2022)"
-excerpt: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons22/team.png'>"
+excerpt: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons22/team2.png'>"
 collection: portfolio
 ---
 ![Trident Flagship'222](https://sakshambhutani.xyz/images/Falcons22/team.png)
