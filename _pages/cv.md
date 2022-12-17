@@ -21,7 +21,7 @@ Education
 Work experience
 ======
 * Research Internship
-  * ETH Zürich, Switzerland *06/2022 - Present)
+  * ETH Zürich, Switzerland *(06/2022 - Present)*
     * Developing automated kiosks for remotely diagnosing Covid’19.
 
 * Avionics Research Internship
@@ -31,8 +31,8 @@ Work experience
 
 * Machine Learning Intern
   * Wharf Street Strategies *(07/2021 - 09/2021)*
-  * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
-  * Developed ML based Recommendation Algorithms and different Search Filters.
+    * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
+    * Developed ML based Recommendation Algorithms and different Search Filters.
   
 Organizations
 ======
