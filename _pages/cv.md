@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * B.Tech Electronics and Communication *(2019 - 2023)*
-  * Vellore Institute of Technology, Vellore *(CGPA: 9.39/10)*
+  * Vellore Institute of Technology, Vellore *(CGPA: 9.34/10)*
 * HSC (CBSE) *(2017 - 2019)*
   * Bal Bharati Public School, GRM *(Percentage: 89%)*
 * SSC (CBSE) *(2015 - 2017)*
@@ -24,15 +24,15 @@ Work experience
   * ETH Zürich, Switzerland *(06/2022 - Present)*
     * Developing automated kiosks for remotely diagnosing Covid’19.
 
-* Avionics Research Internship
-  * Space Technology and Aeronautical Rocketry Lab, Surat, India *(12/2019 - 01/2020)*
-    * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
-    * Developed Android Application for Triggering Launch and in Flight Data Analysis [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-4/)].
-
 * Machine Learning Intern
   * Wharf Street Strategies *(07/2021 - 09/2021)*
     * Worked on Backend System of Eat Space-iZ, a food delivery project based in London, UK.
     * Developed ML based Recommendation Algorithms and different Search Filters.
+
+* Avionics Research Internship
+  * Space Technology and Aeronautical Rocketry Lab, Surat, India *(12/2019 - 01/2020)*
+    * Worked on Vehicle Avionics, responsible for Data Acquisition and Parachute Deployment System. 
+    * Developed Android Application for Triggering Launch and in Flight Data Analysis [[Detailed Contribution](https://sakshambhutani.xyz/portfolio/portfolio-4/)].
   
 Organizations
 ======
