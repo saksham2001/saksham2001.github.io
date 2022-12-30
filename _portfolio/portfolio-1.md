@@ -1,9 +1,9 @@
 ---
 title: "Trident: SAE Aero Design East (2022)"
-excerpt: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons22/team2.png'>"
+excerpt: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons22/team2.jpeg'>"
 collection: portfolio
 ---
-![Trident Flagship'222](https://sakshambhutani.xyz/images/Falcons22/team.png)
+![Trident Flagship'222](https://sakshambhutani.xyz/images/Falcons22/team.jpeg)
 
 ## Project Mission:
 Simulate the fighting of forest fires by designing and building a radio-controlled primary aircraft (PA) capable of releasing secondary autonomously guided payload delivery aircraft (PADA) and supply payloads for extinguishing the fire.
@@ -37,7 +37,6 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 
 * **3rd Rank Overall Worldwide** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
 
-<!-- ![Placks](https://sakshambhutani.xyz/images/Falcons22/Falcons22-vulcan-pos.png)-->
-
+![Placks](https://sakshambhutani.xyz/images/Falcons22/award.png)
 ![Board Certificate](https://sakshambhutani.xyz/images/Falcons22/board-certificate.jpeg)
 ![Participation Certificate](https://sakshambhutani.xyz/images/Falcons22/participation-certificate.png) 
