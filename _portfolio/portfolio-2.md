@@ -33,7 +33,7 @@ The CDA needs to be an autonomous glider under 255 grams without any propulsion 
 
 * Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
 
-* Designed the team website for the year 2021: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
+* Designed the team website for the year 2021: [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
 
 ## Project Accomplishments:
 * **1st Worldwide in Design Report** - SAE International Aero Design Competition (Lakeland, Florida, USA)
