@@ -3,7 +3,7 @@ title: "Trident: SAE Aero Design East (2022)"
 excerpt: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload.<br/><br/><img src='https://www.sakshambhutani.xyz/images/Falcons22/team2.jpeg'>"
 collection: portfolio
 ---
-![Trident Flagship'222](https://sakshambhutani.xyz/images/Falcons22/team.jpeg)
+![Trident Flagship'22](https://sakshambhutani.xyz/images/Falcons22/team.jpeg)
 
 ## Project Mission:
 Simulate the fighting of forest fires by designing and building a radio-controlled primary aircraft (PA) capable of releasing secondary autonomously guided payload delivery aircraft (PADA) and supply payloads for extinguishing the fire.
@@ -25,7 +25,7 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
   
 * Led the drafting of the Technical Design Report containing every aspect of making the aircraft in detail.
 
-* Led the team website development for the year 2022: [link](https://assailingFalcons22.in/).
+* Led the team website development for the year 2022: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20220610031750/https://assailingfalcons.in/).
 
 * Brought key sponsors like TMotors, Holybro, and APC on board.
 
