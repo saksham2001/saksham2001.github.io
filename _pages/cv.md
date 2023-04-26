@@ -75,6 +75,7 @@ Achievements
 
 Stack
 ======
+
 :-----------------:|:---------------------------------------------------:
 **Coding**|Python, C, C++, MATLAB, Verilog, R, Bash, Linux
 **ML/DL**|Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, CUDA
