@@ -75,12 +75,13 @@ Achievements
 
 Stack
 ======
-|     **Coding**    |    Python    |      C      |    C++    |      R     |  MATLAB |  Verilog  |
-|     **ML/DL**     |     Numpy    | Sckit-Learn |   Scipy   | Tensorflow | Pytorch | CUDA/CUpy |
-|    **Robotics**   |    ROS1/2    |     PX4     | ArduPilot |   Moveit   |         |           |
-| **Edge/Embedded** | Raspberry Pi |    Jetson   |  Arduino  |            |         |           |
-|      **Web**      |     HTML     |     CSS     |  Selenium |    MySQL   | Postman |           |
-|      **Misc**     |    VSCode    |   Pycharm   |  Overleaf |  Grammarly |         |           |
+|     **Coding**    |Python, C, C++, MATLAB, Verilog, R, Bash, Linux|
+|:-----------------:|:---------------------------------------------------:|
+|     **ML/DL**     |Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, CUDA|
+|    **Robotics**   |ROS1/2, PX4, ArduPilot, MoveIt|
+| **Edge/Embedded** |Raspberry Pi, Jetson, Arduino|
+|      **Web**      |HTML, CSS, Javascript, Selenium, MySQL, PostMan|
+|      **Misc**     |VSCode,  Pycharm, Overleaf, Grammarly|
 
 [comment]: <> (Skills)
 
