@@ -73,7 +73,14 @@ Achievements
 * Recognized for **Provisional Discovery of an Asteroids** (SJS0011) in the Main Asteroid Belt by International Asteroid Search Collaboration, NASA.
 * Licenced Amateur Radio Operator **(Callsign: VU3DTU)**
 
-
+Stack
+======
+|     **Coding**    |    Python    |      C      |    C++    |      R     |  MATLAB |  Verilog  |
+|     **ML/DL**     |     Numpy    | Sckit-Learn |   Scipy   | Tensorflow | Pytorch | CUDA/CUpy |
+|    **Robotics**   |    ROS1/2    |     PX4     | ArduPilot |   Moveit   |         |           |
+| **Edge/Embedded** | Raspberry Pi |    Jetson   |  Arduino  |            |         |           |
+|      **Web**      |     HTML     |     CSS     |  Selenium |    MySQL   | Postman |           |
+|      **Misc**     |    VSCode    |   Pycharm   |  Overleaf |  Grammarly |         |           |
 
 [comment]: <> (Skills)
 
