@@ -77,12 +77,14 @@ Stack
 ======
 
 :-----------------:|:---------------------------------------------------:
-**Coding**|Python, C, C++, MATLAB, Verilog, R, Bash, Linux
-**ML/DL**|Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, CUDA
-**Robotics**|ROS1/2, PX4, ArduPilot, MoveIt
-**Edge/Embedded**|Raspberry Pi, Jetson, Arduino
- **Web**|HTML, CSS, Javascript, Selenium, MySQL, PostMan
- **Misc**|VSCode, Pycharm, Overleaf, Grammarly
+**Coding**|Python, C, C++, MATLAB, R, Bash, Linux, SQL
+**ML/DL**|Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, XGBoost, OpenCV
+**Robotics**|ROS1/2, PX4, ArduPilot, MoveIt, Gazebo, RViz
+**Edge/Embedded**|Raspberry Pi, Jetson, Arduino, CUDA, CUDNN, CUPY
+**GUI**|QT, PyQT, PySide, Dash, Kivy, Tkinter
+**Web**|HTML, CSS, Javascript, Selenium, PostMan
+**IDE**|VSCode, PyCharm, Nano, Vim, Gedit
+**Misc**|Overleaf, Grammarly
 
 [comment]: <> (Skills)
 
