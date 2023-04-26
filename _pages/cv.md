@@ -75,9 +75,8 @@ Achievements
 
 Stack
 ======
-
-**Coding**|Python, C, C++, MATLAB, Verilog, R, Bash, Linux
 :-----------------:|:---------------------------------------------------:
+**Coding**|Python, C, C++, MATLAB, Verilog, R, Bash, Linux
 **ML/DL**|Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, CUDA
 **Robotics**|ROS1/2, PX4, ArduPilot, MoveIt
 **Edge/Embedded**|Raspberry Pi, Jetson, Arduino
