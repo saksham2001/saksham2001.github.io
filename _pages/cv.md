@@ -77,7 +77,7 @@ Stack
 ======
 
 :-----------------:|:---------------------------------------------------:
-**Coding**|Python, C, C++, MATLAB, R, Bash, Linux, SQL
+**Coding**|Python, C, C++, MATLAB, R, Bash, Linux, SQL, Assembly
 **ML/DL**|Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, XGBoost, OpenCV
 **Robotics**|ROS1/2, PX4, ArduPilot, MoveIt, Gazebo, RViz
 **Edge/Embedded**|Raspberry Pi, Jetson, Arduino, CUDA, CUDNN, CUPY
