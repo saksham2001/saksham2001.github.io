@@ -83,6 +83,7 @@ Stack
 **Edge/Embedded**|Raspberry Pi, Jetson, Arduino, CUDA, CUDNN, CUPY
 **GUI**|QT, PyQT, PySide, Dash, Kivy, Tkinter
 **Web**|HTML, CSS, Javascript, Flask, Selenium, PostMan
+**DevOps**| Git, Docker, AWS, Heroku, Netlify, Railway
 **IDE**|VSCode, PyCharm, Nano, Vim, Gedit
 **Misc**|Overleaf, Grammarly
 
