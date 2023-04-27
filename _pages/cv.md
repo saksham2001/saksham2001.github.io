@@ -76,13 +76,13 @@ Achievements
 Stack
 ======
 
-:-----------------:|:---------------------------------------------------:
+:-----------------:|:---------------------------------------:
 **Coding**|Python, C, C++, MATLAB, R, Bash, Linux, SQL, Assembly
-**ML/DL**|Numpy, Scikit-Learn, Scipy, Tensorflow, Pytorch, XGBoost, OpenCV
+**ML/DL**|Numpy, Scikit-Learn, Tensorflow, Pytorch, XGBoost, OpenCV
 **Robotics**|ROS1/2, PX4, ArduPilot, MoveIt, Gazebo, RViz
 **Edge/Embedded**|Raspberry Pi, Jetson, Arduino, CUDA, CUDNN, CUPY
 **GUI**|QT, PyQT, PySide, Dash, Kivy, Tkinter
-**Web**|HTML, CSS, Javascript, Selenium, PostMan
+**Web**|HTML, CSS, Javascript, Flask, Selenium, PostMan
 **IDE**|VSCode, PyCharm, Nano, Vim, Gedit
 **Misc**|Overleaf, Grammarly
 
