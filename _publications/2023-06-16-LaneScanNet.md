@@ -2,7 +2,6 @@
 title: "LaneScanNET: A deep-learning approach for simultaneous detection of obstacle-lane states for autonomous driving systems"
 collection: publications
 permalink: /publication/2023-06-16-LaneScanNet
-excerpt: 'In Collaboration with Prof. Dr. Chong Seng Tong, Universiti Tenaga Nasional (UNITEN), Malaysia.'
 date: 2023-06-16
 venue: 'Elsevier Expert Systems with Applications'
 paperurl: 'https://doi.org/10.1016/j.eswa.2023.120970'
