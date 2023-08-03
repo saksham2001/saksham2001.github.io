@@ -1,5 +1,5 @@
 ---
-title: "LaneScanNET: A deep-learning approach for simultaneous detection of obstacle-lane states for autonomous driving systems"
+title: "LaneScanNET: A deep-learning approach for simultaneous detection of obstacle-lane states for autonomous driving systems. <br/><br/><img src='https://www.sakshambhutani.xyz/images/Publications/lanescannet.png'>"
 collection: publications
 permalink: /publication/2023-06-16-LaneScanNet
 date: 2023-06-16
