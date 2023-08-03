@@ -79,26 +79,10 @@ Stack
 :-----------------:|:---------------------------------------:
 **Coding**|Python, C, C++, MATLAB, R, Bash, Linux, SQL, Assembly
 **ML/DL**|Numpy, Scikit-Learn, Tensorflow, Pytorch, XGBoost, OpenCV
-**Robotics**|ROS1/2, PX4, ArduPilot, MoveIt, Gazebo, RViz
+**Robotics**|ROS1/2, PX4, ArduPilot, MoveIt, Gazebo, RViz, Carla
 **Edge/Embedded**|Raspberry Pi, Jetson, Arduino, CUDA, CUDNN, CUPY
 **GUI**|QT, PyQT, PySide, Dash, Kivy, Tkinter
-**Web**|HTML, CSS, Javascript, Flask, Selenium, PostMan
+**Web**|HTML, CSS, Javascript, Flask, Selenium, Postman
 **DevOps**| Git, Docker, AWS, Heroku, Netlify, Railway
 **IDE**|VSCode, PyCharm, Nano, Vim, Gedit
-**Misc**|Overleaf, Grammarly
-
-[comment]: <> (Skills)
-
-[comment]: <> (======)
-
-[comment]: <> (* Skill 1)
-
-[comment]: <> (* Skill 2)
-
-[comment]: <> (  * Sub-skill 2.1)
-
-[comment]: <> (  * Sub-skill 2.2)
-
-[comment]: <> (  * Sub-skill 2.3)
-
-[comment]: <> (* Skill 3)
+**Misc**|Latex
