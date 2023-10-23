@@ -20,6 +20,9 @@ Education
 
 Work experience
 ======
+* Pre-Doctoral Fellowship
+  * Indian Institute of Science (IISc), Bangalore, India
+
 * Research Internship
   * ETH Zürich, Switzerland *(06/2022 - 12/22)*
     * Developed an automated kiosks for remotely diagnosing Covid’19.
