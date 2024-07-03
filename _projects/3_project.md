@@ -1,81 +1,70 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: "TouchFree: Automated Temperature Checkup and Mask Detection (2020)"
+description: "A Smart Automatic Contactless Temperature Checkup and Mask Detection Kiosk using Facial Landmarking and Deep Learning for under $100."
+img: assets/img/TouchFree/TouchFree-v2.jpeg
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HFBD5NxqAko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+As Countries around the Globe are reopening, living with the Novel Coronavirus is becoming the new way of life. But to Stop the Spread of the Virus we need to separate people having the Coronavirus from the Rest.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+According to the CDC, fever is the leading symptom of the Coronavirus with up to 83% of Symptomatic Patients showing some signs of fever. Many Countries are making Temperature Checkups and Masks mandatory for Schools, Colleges, Offices, and other Workplaces.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Currently, Temperature Checkups are done manually using Contactless Thermometer. Manual Checkups can be Inefficient, Impractical (in places with a large footfall), and Risky.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+To solve these problems, I have designed a **Kiosk** that **automates the process of Temperature Checkup by using Facial Landmarking & Contactless IR Temperature Sensor and Mask Detection using Deep Learning Neural Network**.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The use of this Kiosk is not limited to Schools, Colleges, Offices, other Workplaces but can also be used at High-Risk Areas like Hospitals. This Device can also be used at Train Stations, Bus Stops, Airports, etc.
 
-{% raw %}
+My approach for this project was to build a streamlined Setup process such that anybody without any Prior Experience of Computer Vision or Deep Learning can use this. This is a fully functioning and ready to use Project. I have made this Project highly customizable by adding code files for each and every stand-alone part and the full version. Thus, you may use any of the parts of the project individually.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Version 1
+### Project Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4M4-VQM6Nvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 
-{% endraw %}
+### Hackster.io Build Tutorial
+<a href="https://www.hackster.io/sakshambhutani2001/touchfree-v2-contactless-temperature-and-mask-checkup-d01dc8" target="_blank">
+    <img alt="TouchFree-v1-banner" src="assets/img/TouchFree/TouchFree-v1-banner.png">
+</a>
+
+### Github Repository
+<div class="github-card" data-github="saksham2001/TouchFree-v1" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+### Translation
+This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306493-1-1.html).
+
+
+## Version 2
+### Project Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HFBD5NxqAko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+
+### What's new in v2?
+* All-new Web-based Dashboard Design compatible with almost all browsers
+* Self Alignment Feature
+* Reduced Cost for less than $100 ($150 with display)
+* BalenaFin Support for large scale Deployments, use of Cellular Services to name a few.
+* PC Support (Mac/Linux/Windows)
+* Remote Access
+
+### Hackster.io Build Tutorial
+<a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
+    <img alt="TouchFree-v1-banner" src="assets/img/TouchFree/TouchFree-v2-banner.png">
+</a>
+
+### Github Repo
+<div class="github-card" data-github="saksham2001/TouchFree-v2" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+### Translation
+This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mod=space&uid=835443) in *Chinese* and published [here](https://mc.dfrobot.com.cn/thread-306516-1-1.html).
+
+
+## Project Accomplishments:
+* Awarded **UNDPs** Impact Award for developing an affordable system to detect common COVID'19 symptoms.
+
+![UNDP Certificate](https://sakshambhutani.xyz/images/TouchFree/Certificate.jpeg)

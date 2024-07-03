@@ -1,81 +1,45 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: "Trident: SAE Aero Design East (2022)"
+description: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload."
+img: assets/img/Falcons22/team2.jpeg
 importance: 1
 category: work
-related_publications: true
 ---
+![Trident Flagship'22](assets/img/Falcons22/team.jpeg)
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Mission:
+Simulate the fighting of forest fires by designing and building a radio-controlled primary aircraft (PA) capable of releasing secondary autonomously guided payload delivery aircraft (PADA) and supply payloads for extinguishing the fire.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The PADA needs to be an autonomous glider with propulsion under 255 grams and equipped with vision-based navigation. The PADA also needs to deploy a ground transport vehicle (GTV) that is capable of navigating through a maze autonomously. The primary payload is water, and the Final Flight Score is directly proportional to the amount of water delivered, the number of PADAs autonomously landing in a drop zone, and the efficiency of the GTV in navigating the maze.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## My Role:
+* Lead of the Avionics Department of Team Assailing Falcons.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+* Developed the Data Acquisition System (DAS) including the Graphical User Interface (GUI) and the hardware implementation. DAS is used to receive live telemetry data from various sensors onboard and features a control panel to drop the payloads.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+* Designed the Avionics system for the Primary Aircraft, including the selection of appropriate components and the integration of all systems.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+![Primary Aircraft](assets/img/Falcons22/PA.png)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+* Developed the Drop Zone Detection System for the PADA, which uses vision-based navigation to locate and fly to designated drop zones for payload delivery. Created the GTV ground vehicle and developed its autonomous navigation system using vision-based techniques.
 
-{% raw %}
+![PADA](assets/img/Falcons22/PADA.png)
+  
+* Led the drafting of the Technical Design Report containing every aspect of making the aircraft in detail.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+* Led the team website development for the year 2022: [link](https://assailingfalcons.in/) \| [archive](https://web.archive.org/web/20220610031750/https://assailingfalcons.in/).
 
-{% endraw %}
+* Brought key sponsors like TMotors, Holybro, and APC on board.
+
+## Project Accomplishments:
+
+* **1st Worldwide in Technical Design Report** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
+
+* **1st Worldwide in Oral Presentation** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
+
+* **3rd Rank Overall Worldwide** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
+
+![Placks](assets/img/Falcons22/award.png)
+![Board Certificate](assets/img/Falcons22/board-certificate.jpeg)
+![Participation Certificate](assets/img/Falcons22/participation-certificate.png) 

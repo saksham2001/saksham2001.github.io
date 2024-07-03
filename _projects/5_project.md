@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: "Black Bird: High Powered Model Rocket (2019)"
+description: High Powered Model Rocket developed during Winter Internship'19 at Avionics Lab, STAR, Surat, India."
+img: assets/img/STAR/BB-2.jpeg'
 importance: 3
 category: fun
 ---
+<p align='center'><img src='assets/img/STAR/BB-1.jpeg'></p>
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was undertaken during Winter Internship 2019 at Avionics Lab, Space Technology and Rocketry (STAR), Surat, India
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Project Mission:
+To design and develop a High Powered Model Rocket. This Rocket shall reach a minimum height of 120 meters Propulsively and shall have a Recovery System to land on the ground safely.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 interns worked on the Design, 2 interns worked on Avionics, 2 interns worked on Recovery System and 3 interns worked on Propulsion.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## My Role:
+* Member of Avionics Team, I was responsible for the developing Avionics system onboard the rocket to trigger recovery system and collect data.
+* Designed General Circuit Board (GCB) based on the dimensions of the rocket, the board had a microcontroller, sensors and data storage devices. The build process included the following steps:
+    * Roughly Planning the Positioning of various components on paper based on their proximity to the Microcontroller.
+    * Designing the Circuit by Computer-Aid using Eagle software.
+    * Realising the actual design on General Circuit Board by Soldering various components on the board and making required connections between the components.
+    * Various tests were conducted on the GCB before the actual flight.
+    
+![General Circuit Board (GCB)](assets/img/STAR/gcb.jpeg)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+* Developed the software for the GCB.
+    * The software was capable of Triggering the Recovery Mechanism based on pre-determined conditions using data from the Inertial Measurement Unit and Altitude Sensor.
+    * The software also recorded data from various sensors and in-flight events.
+* Developed Rocket Launch Igniter including the hardware and software.
+    * The Igniter provided the ability to remotely trigger the launch sequence to light the Rocket Motor.
+    * The Igniter could be used with Bluetooth or Internet to trigger launch countdown and emergency abort of countdown in case of an anomaly.
+    
+![General Circuit Board (GCB)](assets/img/STAR/igniter-gcb.jpeg)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+* Developed Android Application to communicate with the Rocket Launch Igniter.
+    * The application provided the ability to initiate the launch countdown and emergency abort the countdown in case of anomaly.
+  
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Start Screen | Launch Pad Igniter
+:-------------------------:|:-------------------------:
+![](assets/img/STAR/scr1.jpeg) | ![](assets/img/STAR/scr2.jpeg)
 
-{% raw %}
+Bluetooth Selection Menu | Launch Sequence Starter
+:-------------------------:|:-------------------------:
+![](assets/img/STAR/scr3.jpeg) | ![](assets/img/STAR/scr4.jpeg)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+During Launch Sequence |
+:-------------------------:|
+![](assets/img/STAR/scr5.jpeg) |
 
-{% endraw %}
+* Developed Static Launch Test Pad to help Propulsion Team test different motors.
+  * Static Launch Pad used a load cell to measure the thrust and burn-time of the motor.
+  * The data recorded was used by Propulsion Team to analyse different fuel compositions for the rocket motor.
+
+![](assets/img/STAR/launch-pad.gif)
+
+## Project Accomplishments:
+* 2 High Powered Model Rockets were successfully developed.
+* A Remote Launch Igniter and a Static Test Pad was also developed.
+* Many integrated tests were conducted of all the Systems:
+  * Numerous ground tests were conducted for the main Rocket Avionics Board and Wireless Igniter.
+  * 10+ Drop Tests were conducted for the main rocket avionics GCB.
+  * 9 Static Tests were conducted and data collected was analysed to determine the composition of fuel for the motor.
+  * 2 Rocket launches were conducted with all systems together.
+
+![](assets/img/STAR/launch-2.gif)

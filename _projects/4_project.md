@@ -1,80 +1,59 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: "ADAMS: Advance Driver Assistance and Monitoring System (2021)"
+description: "A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning."
+img: assets/img/ADAMS/ADAMS-img.jpeg
 importance: 3
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GD053njx0fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### By Team Delta Ducks (Saksham Bhutani, Anshuman Phadke and Arvind N)
+[![licence MIT](https://img.shields.io/github/license/saksham2001/TouchFree-v2)](https://github.com/saksham2001/TouchFree-v2/blob/master/LICENSE) 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+*A Smart and Adaptive Driver Monitoring and Assistance System based on Facial Landmarking & Deep Learning.*
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Github Repository
+<div class="github-card" data-github="saksham2001/ADAS" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Project Achievements
+* 3rd Prize in [Hack-a-Motive](https://vit.ac.in/hackamotiVE/)
+* Runner Up in Emerging Technologies in [HackBattle](https://hackbattle.ieeecsvit.com/)
+* Best in Hardware Project in [HackOff](https://www.hackoff.tech/)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Features
 
-{% raw %}
+1. Emotion Recognition
+2. Facial Recognition
+3. Blind Spot Detection
+4. Facial Orientation Detection
+5. Drowsiness Detection
+6. Total Time of Drive Calculation
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+
+## Setup
+
+*The Code is primarily designed to run on Raspberry Pi, but can be used on Mac OS or Windows.*
+
+* Download all the Dependencies using the command `pip3 install -r requirements.txt`
+* Download the Code or Run the following command to download it `git pull https://github.com/saksham2001/ADAS`
+
+
+## Running
+
+* Use the following command to the Code `python3 app.py`
+
+## Screenshots
+
+![Screenshot 1](assets/img/ADAMS/scr1.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr2.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr3.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr4.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr5.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr6.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr7.jpeg)
+![Screenshot 1](assets/img/ADAMS/scr8.jpeg)
