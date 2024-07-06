@@ -1,81 +1,48 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: "Vulcan: SAE Aero Design East (2021)"
+description: "SAE Aero Design'21 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Colonist Delivery Aircraft externally and supply payloads namely Aero Howlers and Water Bottles in the fuselage."
+img: assets/img/Falcons/falcons-vulcan.png
 importance: 2
 category: work
-giscus_comments: true
 ---
+![Vulcan Flagship'21](assets/img/Falcons/falcons-vulcan.png)
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Project Mission:
+Simulate the colonization of Mars by designing as well as building a radio-controlled primary aircraft capable of releasing secondary autonomously guided colonist delivery aircraft (CDA) and supply payloads for the survival of the colonists.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The CDA needs to be an autonomous glider under 255 grams without any propulsion system. The supply payloads are Nerf howlers and Water bottles. The Final Flight Score is directly proportional to the days of habitability of the colonists.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## My Role:
+* Member of the Avionics and Propulsion Department of Team Assailing Falcons.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+* Designed the Data Acquisition System (DAS) including the Graphical User Interface (GUI) and the hardware implementation. DAS is used to receive live telemetry data from various sensors onboard and features a control panel to drop the payloads.
+  
+![GUI](assets/img/Falcons/gui.png)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+* Developed the algorithms for Autonomous Navigation and Stabilisation of Colonist Delivery Aircraft.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<p align="center"><img src="assets/img/Falcons/falcons-cda.png"/></p>
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+* Developed Autonomous Payload Drop System which automatically triggers the drop of static payloads based on data from various sensors.
 
-{% endraw %}
+* Compared  more than 1000 Power Plant configurations to select the appropriate one for the Primary Aircraft. Developed Software to scrape data from web tool (ecalc).
+
+* Created several marketing tools for sending stylish customised bulk emails to supporters.
+
+![Primary Aircraft](assets/img/Falcons/vulcan-1.png)
+
+* Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
+
+* Designed the team website for the year 2021: [archive](https://web.archive.org/web/20210813221449/https://assailingfalcons.in/)
+
+## Project Accomplishments:
+* **1st Worldwide in Design Report** - SAE International Aero Design Competition (Lakeland, Florida, USA)
+* **1st Rank Overall in Asia** - SAE International Aero Design Competition (Lakeland, Florida, USA)
+* **5th Rank Overall Worldwide** - SAE International Aero Design Competition (Lakeland, Florida, USA)
+
+![Design Report Certificate](assets/img/Falcons/falcons-vulcan-pos.png)
+
+![Participation Certificate](assets/img/Falcons/falcons-vulcan-participation.png)
