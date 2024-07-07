@@ -52,15 +52,15 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
 
 Start Screen | Launch Pad Igniter
 :-------------------------:|:-------------------------:
-{% include figure.liquid path="assets/img/STAR_igniter-gcb.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} | {% include figure.liquid path="assets/img/STAR_igniter-gcb.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/STAR_scr1.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} | {% include figure.liquid path="assets/img/STAR_scr2.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %}
 
 Bluetooth Selection Menu | Launch Sequence Starter
 :-------------------------:|:-------------------------:
-{% include figure.liquid path="assets/img/STAR_igniter-gcb.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} | {% include figure.liquid path="assets/img/STAR_igniter-gcb.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/STAR_scr3.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} | {% include figure.liquid path="assets/img/STAR_scr4.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %}
 
 During Launch Sequence |
 :-------------------------:|
-{% include figure.liquid path="assets/img/STAR_igniter-gcb.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} |
+{% include figure.liquid path="assets/img/STAR_scr5.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} |
 
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
   * Static Launch Pad used a load cell to measure the thrust and burn-time of the motor.

@@ -45,11 +45,11 @@ category: fun
 
 ## Screenshots
 
-{% include figure.liquid path="assets/img/ADAMS_ddscr1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr2.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr3.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr4.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr5.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr6.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr7.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_ddscr8.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr2.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr3.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr4.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr5.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr6.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr7.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/ADAMS_scr8.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
