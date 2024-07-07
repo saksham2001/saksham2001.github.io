@@ -6,8 +6,14 @@ img: assets/img/Falcons21_falcons-vulcan.png
 importance: 2
 category: work
 ---
-{% include figure.liquid loading="eager" path="assets/img/Falcons21_falcons-vulcan.png" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}
-Vulcan: Flagship Aircraft of Team Assailing Falcons for 2021
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/Falcons21_falcons-vulcan.png" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+    Vulcan: Flagship Aircraft of Team Assailing Falcons for 2021
+</div>
 
 ## Project Mission:
 Simulate the colonization of Mars by designing as well as building a radio-controlled primary aircraft capable of releasing secondary autonomously guided colonist delivery aircraft (CDA) and supply payloads for the survival of the colonists.
@@ -24,8 +30,14 @@ Graphical User Interface for Data Acquisition System
 
 * Developed the algorithms for Autonomous Navigation and Stabilisation of Colonist Delivery Aircraft.
 
-{% include figure.liquid loading="eager" path="assets/img/Falcons21_falcons-cda.png" title="CDA" class="img-fluid rounded z-depth-1" %}
-Communist Delivery Aircraft
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/Falcons21_falcons-cda.png" title="CDA" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+    Communist Delivery Aircraft (CDA)
+</div>
 
 * Developed Autonomous Payload Drop System which automatically triggers the drop of static payloads based on data from various sensors.
 
@@ -33,8 +45,14 @@ Communist Delivery Aircraft
 
 * Created several marketing tools for sending stylish customised bulk emails to supporters.
 
-{% include figure.liquid loading="eager" path="assets/img/Falcons21_vulcan-1.png" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}
-Vulcan Flagship'21
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/Falcons21_vulcan-1.png" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+    Vulcan Flagship'21
+</div>
 
 * Responsible for drafting the Technical Design Report containing every aspect of making the aircraft in detail.
 
@@ -45,11 +63,12 @@ Vulcan Flagship'21
 * **1st Rank Overall in Asia** - SAE International Aero Design Competition (Lakeland, Florida, USA)
 * **5th Rank Overall Worldwide** - SAE International Aero Design Competition (Lakeland, Florida, USA)
 
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-4 mt-3 mt-md-0">
+  <div class="col-sm-2 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/Falcons21_falcons-vulcan-pos.png" title="Design Report Certificate" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
+  <div class="">
     {% include figure.liquid path="assets/img/Falcons21_falcons-vulcan-participation.png" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
