@@ -6,7 +6,7 @@ img: assets/img/Falcons22_team2.jpeg
 importance: 1
 category: work
 ---
-![Trident Flagship'22](assets/img/Falcons22_team.jpeg)
+{% include figure.liquid loading="eager" path="assets/img/Falcons22_team.jpeg" title="Trident Flagship'22" class="img-fluid rounded z-depth-1" %}
 
 ## Project Mission:
 Simulate the fighting of forest fires by designing and building a radio-controlled primary aircraft (PA) capable of releasing secondary autonomously guided payload delivery aircraft (PADA) and supply payloads for extinguishing the fire.
@@ -20,11 +20,11 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 
 * Designed the Avionics system for the Primary Aircraft, including the selection of appropriate components and the integration of all systems.
 
-![Primary Aircraft](assets/img/Falcons22_PA.png)
+{% include figure.liquid loading="eager" path="assets/img/Falcons22_PA.png" title="Primary Aircraft" class="img-fluid rounded z-depth-1" %}
 
 * Developed the Drop Zone Detection System for the PADA, which uses vision-based navigation to locate and fly to designated drop zones for payload delivery. Created the GTV ground vehicle and developed its autonomous navigation system using vision-based techniques.
 
-![PADA](assets/img/Falcons22_PADA.png)
+{% include figure.liquid loading="eager" path="assets/img/Falcons22_PADA.png" title="PADA" class="img-fluid rounded z-depth-1" %}
   
 * Led the drafting of the Technical Design Report containing every aspect of making the aircraft in detail.
 
@@ -40,6 +40,6 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 
 * **3rd Rank Overall Worldwide** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
 
-![Placks](assets/img/Falcons22_award.png)
-![Board Certificate](assets/img/Falcons22_board-certificate.jpeg)
-![Participation Certificate](assets/img/Falcons22_participation-certificate.png) 
+{% include figure.liquid loading="eager" path="assets/img/Falcons22_award.png" title="Winning Placks" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/Falcons22_board-certificate.jpeg" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/Falcons22_participation-certificate.png" title="Participation Certificate" class="img-fluid rounded z-depth-1" %}
