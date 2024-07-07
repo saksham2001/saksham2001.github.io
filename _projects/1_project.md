@@ -7,6 +7,7 @@ importance: 1
 category: work
 ---
 {% include figure.liquid loading="eager" path="assets/img/Falcons22_team.jpeg" title="Trident Flagship'22" class="img-fluid rounded z-depth-1" %}
+Trident: Flagship Aircraft of Team Assailing Falcons for 2022
 
 ## Project Mission:
 Simulate the fighting of forest fires by designing and building a radio-controlled primary aircraft (PA) capable of releasing secondary autonomously guided payload delivery aircraft (PADA) and supply payloads for extinguishing the fire.
@@ -21,10 +22,12 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 * Designed the Avionics system for the Primary Aircraft, including the selection of appropriate components and the integration of all systems.
 
 {% include figure.liquid loading="eager" path="assets/img/Falcons22_PA.png" title="Primary Aircraft" class="img-fluid rounded z-depth-1" %}
+Primary Aircraft
 
 * Developed the Drop Zone Detection System for the PADA, which uses vision-based navigation to locate and fly to designated drop zones for payload delivery. Created the GTV ground vehicle and developed its autonomous navigation system using vision-based techniques.
 
 {% include figure.liquid loading="eager" path="assets/img/Falcons22_PADA.png" title="PADA" class="img-fluid rounded z-depth-1" %}
+Payload Delivery Aircraft
   
 * Led the drafting of the Technical Design Report containing every aspect of making the aircraft in detail.
 
