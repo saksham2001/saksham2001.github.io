@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I received Pre-doctoral Fellowship from the Kotak-IISc AI Center (KIAC).
+I have received Pre-doctoral Fellowship from the Kotak-IISc AI Center (KIAC).
