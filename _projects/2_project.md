@@ -64,11 +64,5 @@ Graphical User Interface for Data Acquisition System
 * **5th Rank Overall Worldwide** - SAE International Aero Design Competition (Lakeland, Florida, USA)
 
 
-<div class="row justify-content-sm-center">
-  <div class="col-sm-2 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/Falcons21_falcons-vulcan-pos.png" title="Design Report Certificate" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="">
-    {% include figure.liquid path="assets/img/Falcons21_falcons-vulcan-participation.png" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+{% include figure.liquid path="assets/img/Falcons21_falcons-vulcan-pos.png" title="Design Report Certificate" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/Falcons21_falcons-vulcan-participation.png" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
