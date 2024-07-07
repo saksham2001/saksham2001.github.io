@@ -2,7 +2,7 @@
 layout: page
 title: "ADAMS: Advance Driver Assistance and Monitoring System (2021)"
 description: "A Smart and Adaptive Driver Monitoring and Assistance System"
-img: assets/img/ADAMS_ddADAMS-img.jpeg
+img: assets/img/ADAMS_ADAMS-img.jpeg
 importance: 3
 category: fun
 ---

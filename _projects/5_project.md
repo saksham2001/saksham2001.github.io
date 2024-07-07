@@ -2,7 +2,7 @@
 layout: page
 title: "Black Bird: High Powered Model Rocket (2019)"
 description: High Powered Model Rocket"
-img: assets/img/STAR_BB-2.jpeg'
+img: assets/img/STAR_BB-2.jpeg
 importance: 3
 category: fun
 ---
