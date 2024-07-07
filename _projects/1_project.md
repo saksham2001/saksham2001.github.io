@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Trident: SAE Aero Design East (2022)"
-description: "SAE Aero Design'22 Advanced Class RC Aircraft with a Wingspan of > 3m. It carries three Propelled Autonomoust Delivery Aircrafts externally and water as payload."
+description: "SAE Aero Design'22 Advanced Class RC Aircraft"
 img: assets/img/Falcons22_team2.jpeg
 importance: 1
 category: work
