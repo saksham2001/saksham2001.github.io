@@ -6,6 +6,7 @@ description: Aerial views of Switzerland that I took while working in 2022.
 tags: drone, photography, travel, switzerland
 categories: recreational, drone
 featured: true
+thumbnail: "assets/img/swiss_drone_preview.jpeg"
 ---
 
 ## 📍 Rhine Falls, Schaffhausen, Switzerland

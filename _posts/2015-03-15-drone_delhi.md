@@ -6,6 +6,7 @@ description: A collection of Drone Shots from Delhi (My Hometown)
 tags: drone, photography, travel, delhi
 categories: recreational, drone
 featured: true
+thumbnail: "assets/img/delhi_drone_preview.jpeg"
 ---
 
 ## 📍 New Delhi, India
