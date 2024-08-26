@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Schweiz von oben
-date: 2022-08-01 12:00:00
+date: 2022-10-01 12:00:00
 description: Aerial views of Switzerland that I took while working in 2022.
 tags: drone, photography, travel, switzerland
 categories: recreational, drone
