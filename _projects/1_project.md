@@ -62,5 +62,5 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 * **3rd Rank Overall Worldwide** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
 
 {% include figure.liquid loading="eager" path="assets/img/Falcons22_award.png" title="Winning Placks" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/assets/img/Falcons22_board-certificate.jpeg" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/Falcons22_board-certificate.jpeg" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
 {% include figure.liquid path="assets/img/Falcons22_participation-certificate.png" title="Participation Certificate" class="img-fluid rounded z-depth-1" %}
