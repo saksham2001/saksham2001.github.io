@@ -129,8 +129,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: sakshm's life # blog_name will be displayed in your blog page
-blog_description: about me
+blog_name: Saksham's Life # blog_name will be displayed in your blog page
+blog_description: A collection of my thoughts, projects, and experiences.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dilli Ki Udaan - A Drone's Eye View
-date: 2024-07-15 15:09:00
+date: 2021-07-15 15:09:00
 description: A collection of Drone Shots from Delhi (My Hometown)
 tags: drone, photography, travel, delhi
 categories: recreational, drone
