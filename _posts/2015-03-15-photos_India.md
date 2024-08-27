@@ -14,7 +14,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good1.jpeg" title="Connaught Place" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/good1.jpeg" title="Connaught Place" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -64,7 +64,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good4.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/good4.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 
@@ -82,7 +82,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vit3.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/vit3.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -90,10 +90,9 @@ I have had the opportunity to travel extensively across India. My travels have c
 </div>
 
 ## 📍 Goa (2022)
-
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/goa1.jpg" title="Somewhere in Goa" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/goa1.jpg" title="Somewhere in Goa" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -106,21 +105,21 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
-    Left: Early morning view of the iconic Taj Mahal Palace. Right: The majestic Taj Mahal Tower in Mumbai.
+    Left: Early morning view of the iconic Taj Mahal Palace. Right: The majestic Taj Mahal Tower.
 </div>
 
 
 ## 📍 Andaman and Nicobar Islands (2015 & 2019)
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/good7.jpeg" title="Andaman Islands" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">

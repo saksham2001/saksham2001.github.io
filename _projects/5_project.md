@@ -57,30 +57,18 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/STAR_scr2.jpeg" title="Launch Pad Igniter" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Left: Start Screen of the Android application. Right: Launch Pad Igniter interface.
-</div>
-
-<div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/STAR_scr3.jpeg" title="Bluetooth Selection Menu" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/STAR_scr4.jpeg" title="Launch Sequence Starter" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Left: Bluetooth Selection Menu for connecting to the igniter. Right: Launch Sequence Starter interface.
-</div>
-
-<div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/STAR_scr5.jpeg" title="During Launch Sequence" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Interface displayed during the launch sequence, showing countdown and abort options.
+    From left to right: Start Screen, Launch Pad Igniter interface, Bluetooth Selection Menu, Launch Sequence Starter interface, and Interface during launch sequence showing countdown and abort options.
 </div>
 
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
