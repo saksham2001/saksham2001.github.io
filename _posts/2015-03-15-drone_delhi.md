@@ -31,7 +31,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone3.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/drone35.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/drone4.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
@@ -85,3 +85,14 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 <div class="caption">
     Delhi from 400 feet.
 </div>
+
+
+<div class="row mt-5">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/delhi_drone_majnu.jpg" title="Majnu ka Tila Gurudwara" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An aerial view of Majnu ka Tila Gurudwara, a prominent Sikh temple in Delhi.
+</div>
+
