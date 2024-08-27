@@ -50,17 +50,38 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     * The application provided the ability to initiate the launch countdown and emergency abort the countdown in case of anomaly.
   
 
-Start Screen | Launch Pad Igniter
-:-------------------------:|:-------------------------:
-{% include figure.liquid path="assets/img/STAR_scr1.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} | {% include figure.liquid path="assets/img/STAR_scr2.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/STAR_scr1.jpeg" title="Start Screen" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/STAR_scr2.jpeg" title="Launch Pad Igniter" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Start Screen of the Android application. Right: Launch Pad Igniter interface.
+</div>
 
-Bluetooth Selection Menu | Launch Sequence Starter
-:-------------------------:|:-------------------------:
-{% include figure.liquid path="assets/img/STAR_scr3.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} | {% include figure.liquid path="assets/img/STAR_scr4.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %}
+<div class="row mt-5">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/STAR_scr3.jpeg" title="Bluetooth Selection Menu" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/STAR_scr4.jpeg" title="Launch Sequence Starter" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Bluetooth Selection Menu for connecting to the igniter. Right: Launch Sequence Starter interface.
+</div>
 
-During Launch Sequence |
-:-------------------------:|
-{% include figure.liquid path="assets/img/STAR_scr5.jpeg" title="Screenshot" class="img-fluid rounded z-depth-1" %} |
+<div class="row mt-5">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/STAR_scr5.jpeg" title="During Launch Sequence" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Interface displayed during the launch sequence, showing countdown and abort options.
+</div>
 
 * Developed Static Launch Test Pad to help Propulsion Team test different motors.
   * Static Launch Pad used a load cell to measure the thrust and burn-time of the motor.
