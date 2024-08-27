@@ -8,8 +8,9 @@ categories: recreational
 featured: false
 thumbnail: "assets/img/photos_preview.jpeg"
 ---
+I have had the opportunity to travel extensively across India. My travels have covered diverse regions, from the northernmost state of Jammu & Kashmir to the southernmost state of Tamil Nadu, and from Gujarat in the west to Assam in the east. I've explored mountainous regions like Uttarakhand, Himachal Pradesh, and Sikkim, coastal states such as Goa and Odisha, and inland areas including Madhya Pradesh and Telangana. These journeys have allowed me to experience India's varied landscapes, cultures, and traditions firsthand. The following photos showcase some of the places I've visited during these travels.
 
-## 📍 New Delhi, India
+## 📍 New Delhi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,7 +30,7 @@ thumbnail: "assets/img/photos_preview.jpeg"
     India Gate (clicked from Copernicus Marg), a war memorial in the center of New Delhi.
 </div>
 
-## Diwali Celebrations
+### Diwali Celebrations at Home
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,7 +59,8 @@ thumbnail: "assets/img/photos_preview.jpeg"
     Chakri firecrackers during Diwali celebrations.
 </div>
 
-## 📍 Vellore Institute of Technology (2019-2023)
+## 📍 Tamil Nadu (2019-2023)
+### Vellore Institute of Technology, Vellore
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
@@ -70,12 +72,52 @@ thumbnail: "assets/img/photos_preview.jpeg"
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/good5.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/vit1.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/vit2.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/vit3.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     Views of the VIT Campus that I clicked during my bachelors.
 </div>
 
-## 📍 Andaman and Nicobar Islands (2019)
+## 📍 Goa (2022)
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/goa1.jpg" title="Somewhere in Goa" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A picturesque sunset somewhere in the beautiful state of Goa.
+</div>
+
+
+## 📍 Maharashtra (2019)
+### Mumbai
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Early morning view of the iconic Taj Mahal Palace. Right: The majestic Taj Mahal Tower in Mumbai.
+</div>
+
+
+## 📍 Andaman and Nicobar Islands (2015 & 2019)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -90,7 +132,7 @@ thumbnail: "assets/img/photos_preview.jpeg"
 </div>
 
 
-## 📍 Rishikesh (2017)
+## 📍 Uttarakhand (2017)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
