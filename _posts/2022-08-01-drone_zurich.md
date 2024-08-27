@@ -38,4 +38,15 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
     Another breathtaking shot of the Rhine Falls, with the town of Neuhausen am Rheinfall visible in the background.
 </div>
 
+## 📍 Zollikon, Zurich, Switzerland
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/zollikon.JPG" title="Zollikon and Lake Zurich" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An aerial view of Zollikon, where I used to live, with the beautiful Lake Zurich (Zürichsee) in the background.
+</div>
+
+
 ## Going to add more photos/videos here soon!

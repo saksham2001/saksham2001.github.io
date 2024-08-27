@@ -20,10 +20,10 @@ My initial forays into the world of RC aircraft were humble, to say the least. A
 ### The Delta Wing (2015)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fixed_Wing_Aug_21_2016.png" title="Delta Wing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Fixed_Wing_Aug_21_2016.jpeg" title="Delta Wing" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fixed_Wing_2_Aug_21_2016.png" title="Delta Wing Close-up" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Fixed_Wing_2_Aug_21_2016.jpeg" title="Delta Wing Close-up" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
