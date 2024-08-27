@@ -66,71 +66,71 @@ Created by Saksham Bhutani, Anirudh Karnik, Anshuman Phadke, Ishan and Arvind N
 ### About Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/about1.png" title="About Page 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/about1.png?raw=true" title="About Page 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/about2.png" title="About Page 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/about2.png?raw=true" title="About Page 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Home Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/home1.png" title="Home Page 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/home1.png?raw=true" title="Home Page 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/home2.png" title="Home Page 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/home2.png?raw=true" title="Home Page 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Home Page with Alerts
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/home_with_alert.png" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/home_with_alert.png?raw=true" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Buy & Sell Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/buy&sell.png" title="Buy & Sell Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/buy&sell.png?raw=true" title="Buy & Sell Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Buy Page with all Listings
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/buy.png" title="Buy Page with all Listings" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/buy.png?raw=true" title="Buy Page with all Listings" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Buy Page for Individual Listing
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/buy_individual.png" title="Buy Page for Individual Listing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/buy_individual.png?raw=true" title="Buy Page for Individual Listing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Sell Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/sell.png" title="Sell Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/sell.png?raw=true" title="Sell Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### News Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/news.png" title="News Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/news.png?raw=true" title="News Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Login and Register Pages
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/login.png" title="Login Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/login.png?raw=true" title="Login Page" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero/register.png" title="Register Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://github.com/saksham2001/AgriHero/blob/main/screenshots/register.png?raw=true" title="Register Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
