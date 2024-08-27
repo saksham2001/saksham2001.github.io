@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "TouchFree: Automated Temperature Checkup and Mask Detection (2020)"
-description: "A Smart Automatic System to measure symptoms for COVID'19"
+title: "TouchFree"
+description: "A Smart Automatic System to measure symptoms for COVID'19 (2020)"
 img: assets/img/TouchFree_TouchFree-v2.jpeg
 importance: 3
 category: work

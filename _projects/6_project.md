@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Octopod: Smart IoT Home Automation Project (2018)"
-description: "A uniquely shaped home automation IoT system"
+title: "Octopod"
+description: "A uniquely shaped smart home automation IoT system (2018)"
 img: assets/img/Octopod_Octopod.jpeg
 importance: 4
 category: fun

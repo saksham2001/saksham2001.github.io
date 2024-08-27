@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Vulcan: SAE Aero Design East (2021)"
+title: "Vulcan"
 description: "SAE Aero Design'21 Advanced Class RC Aircraft"
 img: assets/img/Falcons21_falcons-vulcan.png
 importance: 2

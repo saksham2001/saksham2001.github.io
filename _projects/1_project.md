@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Trident: SAE Aero Design East (2022)"
+title: "Trident"
 description: "SAE Aero Design'22 Advanced Class RC Aircraft"
 img: assets/img/Falcons22_team2.jpeg
 importance: 1
