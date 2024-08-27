@@ -78,7 +78,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 </div>
 
 <div class="row mt-5">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0" >
         {% include figure.liquid loading="eager" path="assets/img/drone7.JPG" title="Delhi Skyline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

@@ -37,3 +37,5 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 <div class="caption">
     Another breathtaking shot of the Rhine Falls, with the town of Neuhausen am Rheinfall visible in the background.
 </div>
+
+## Going to add more photos/videos here soon!
