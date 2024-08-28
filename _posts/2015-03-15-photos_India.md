@@ -107,7 +107,7 @@ I have had the opportunity to travel extensively across India. My travels have c
     <div class="col-7 mt-3 mt-md-0 align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
     </div>
-    <div class="col-3 mt-3 mt-md-0 align-items-center">
+    <div class="col-4 mt-3 mt-md-0 align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
     </div>
 </div>
