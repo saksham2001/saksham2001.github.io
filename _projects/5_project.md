@@ -7,11 +7,11 @@ importance: 3
 category: work
 ---
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 80vh;" %}
+  <div class="col-sm mt-3 mt-md-0" style="height: 80vh;">
+    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 80vh;" %}
+  <div class="col-sm mt-3 mt-md-0" style="height: 80vh;">
+    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1"%}
   </div>
 </div>
 
@@ -31,7 +31,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     * Various tests were conducted on the GCB before the actual flight.
     
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-sm mt-3 mt-md-0" style="height: 60vh;">
     {% include figure.liquid path="assets/img/STAR_gcb.jpeg" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -78,7 +78,14 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
   * Static Launch Pad used a load cell to measure the thrust and burn-time of the motor.
   * The data recorded was used by Propulsion Team to analyse different fuel compositions for the rocket motor.
 
-{% include figure.liquid path="assets/img/STAR_launch-pad.gif" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/STAR_launch-pad.gif" title="Static Launch Pad Test" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This GIF demonstrates the testing of the rocket motor on the static launch pad. A load cell is used to characterize the thrust curve, providing crucial data for motor performance analysis.
+</div>
 
 ## Project Accomplishments:
 * 2 High Powered Model Rockets were successfully developed.
@@ -89,4 +96,12 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
   * 9 Static Tests were conducted and data collected was analysed to determine the composition of fuel for the motor.
   * 2 Rocket launches were conducted with all systems together.
 
-{% include figure.liquid path="assets/img/STAR_launch-2.gif" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0" style="height: 80vh;">
+        {% include figure.liquid path="assets/img/STAR_launch-2.gif" title="Black Bird Launch" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+        This GIF showcases the successful launch of our model rocket, demonstrating the culmination of our team's efforts in rocket design, propulsion, and avionics systems.
+    </div>
+</div>

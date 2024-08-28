@@ -112,7 +112,7 @@ Vulcan (3.35m wingspan) was designed as our flagship aircraft for the SAE Aero D
     The Colonist Delivery Aircraft (CDA): An autonomous glider designed to be released from Vulcan.
 </div>
 
-Accompanying Vulcan was the Colonist Delivery Aircraft (CDA), an autonomous glider weighing under 255 grams. It was designed to be released from the primary aircraft and deliver "colonists" to the simulated Martian surface.
+Accompanying Vulcan was the Colonist Delivery Aircraft (CDA), an autonomous glider weighing under 255 grams. It was designed to be released from the primary aircraft and deliver "colonists" to the simulated Martian surface. Read more about the project [here](https://www.sakshambhutani.xyz/projects/2_project/).
 
 #### 9. Trident (2022)
 <div class="row">
@@ -136,7 +136,7 @@ Trident (3m wingspan) was our flagship aircraft for the SAE Aero Design 2022 com
     The Payload Delivery Aircraft (PADA): An autonomous aircraft designed to be released from Trident.
 </div>
 
-Accompanying Trident was the Payload Delivery Aircraft (PADA), an autonomous aircraft weighing under 255 grams. It was equipped with vision-based navigation and designed to be released from Trident, locate designated drop zones, and deliver payloads to simulate firefighting efforts.
+Accompanying Trident was the Payload Delivery Aircraft (PADA), an autonomous aircraft weighing under 255 grams. It was equipped with vision-based navigation and designed to be released from Trident, locate designated drop zones, and deliver payloads to simulate firefighting efforts. Read more about the project [here](https://www.sakshambhutani.xyz/projects/1_project/).
 
 These projects represented a significant leap in complexity and purpose from my earlier builds. They challenged me to apply my skills in a team setting, tackle real-world problems, and push the boundaries of what I thought was possible in UAV design and construction.
 
