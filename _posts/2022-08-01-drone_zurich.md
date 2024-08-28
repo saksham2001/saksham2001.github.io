@@ -4,7 +4,7 @@ title: Schweiz von oben - My Journey Through Swiss Skies
 date: 2022-10-01 12:00:00
 description: Aerial views of Switzerland that I took while working in 2022.
 tags: drone, photography, travel, switzerland
-categories: recreational, drone
+categories: recreational
 featured: true
 thumbnail: "assets/img/swiss_drone_preview.jpeg"
 ---

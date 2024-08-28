@@ -50,14 +50,6 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
     A drone video capturing the beauty of the Lotus Temple from above.
 </div>
 
-<div class="row mt-5">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone5.jpeg" title="Yamuna River" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    An aerial view of the Yamuna River.
-</div>
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
@@ -94,5 +86,23 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 </div>
 <div class="caption">
     An aerial view of Majnu ka Tila Gurudwara, a prominent Sikh temple in Delhi.
+</div>
+
+<div class="row mt-5">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/drone5.jpeg" title="Yamuna River" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An aerial view of the Yamuna River.
+</div>
+
+<div class="row mt-5">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/delhi_sahiba.JPG" title="Sahiba River and Highway" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    An aerial view of the Sahiba River and a nearby highway. The river's surface is covered with toxic white foam, a stark reminder of the environmental challenges facing Delhi's waterways. This polluted river eventually drains into the larger Yamuna River.
 </div>
 
