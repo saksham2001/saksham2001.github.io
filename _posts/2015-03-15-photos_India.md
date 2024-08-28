@@ -104,10 +104,10 @@ I have had the opportunity to travel extensively across India. My travels have c
 ### Mumbai
 
 <div class="row mt-4">
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-9 mt-3 mt-md-0 align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-3 mt-3 mt-md-0 align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
     </div>
 </div>
@@ -134,10 +134,10 @@ I have had the opportunity to travel extensively across India. My travels have c
 ## 📍 Uttarakhand (2017)
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-sm mt-3 mt-md-0 align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/good11.jpeg" title="Mountains in Rishikesh" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-sm mt-3 mt-md-0 align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/good10.jpeg" title="Flower in Rishikesh" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
