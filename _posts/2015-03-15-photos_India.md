@@ -90,6 +90,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 </div>
 
 ## 📍 Goa (2022)
+
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/goa1.jpg" title="Somewhere in Goa" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
@@ -104,11 +105,11 @@ I have had the opportunity to travel extensively across India. My travels have c
 ### Mumbai
 
 <div class="row mt-4">
-    <div class="col-7 mt-3 mt-md-0 align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
+    <div class="col-8 mt-3 mt-md-0 align-items-center">
+        {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="object-fit: cover;" %}
     </div>
     <div class="col-4 mt-3 mt-md-0 align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="height: 300px; object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">

@@ -7,10 +7,10 @@ importance: 3
 category: work
 ---
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0" style="height: 80vh;">
+  <div class="col-8 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm mt-3 mt-md-0" style="height: 80vh;">
+  <div class="col-4 mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1"%}
   </div>
 </div>
@@ -31,7 +31,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     * Various tests were conducted on the GCB before the actual flight.
     
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0" style="height: 60vh;">
+  <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid path="assets/img/STAR_gcb.jpeg" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -84,7 +84,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     </div>
 </div>
 <div class="caption">
-    This GIF demonstrates the testing of the rocket motor on the static launch pad. A load cell is used to characterize the thrust curve, providing crucial data for motor performance analysis.
+    Testing of the rocket motor on the static launch pad. A load cell is used to characterize the thrust curve.
 </div>
 
 ## Project Accomplishments:
@@ -98,10 +98,10 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0" style="height: 80vh;">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/STAR_launch-2.gif" title="Black Bird Launch" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">
-        This GIF showcases the successful launch of our model rocket, demonstrating the culmination of our team's efforts in rocket design, propulsion, and avionics systems.
+        Successful launch of our model rocket, demonstrating the culmination of our team's efforts in rocket design, propulsion, and avionics systems!
     </div>
 </div>
