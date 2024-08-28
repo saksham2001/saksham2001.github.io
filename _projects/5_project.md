@@ -8,7 +8,10 @@ category: work
 ---
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 80vh;" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 80vh;" %}
   </div>
 </div>
 
