@@ -37,6 +37,9 @@ I have had the opportunity to travel extensively across India. My travels have c
         {% include figure.liquid loading="eager" path="assets/img/good2.jpeg" title="Diwali Diya" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Illuminating diyas (oil lamps) during Diwali, the festival of lights.
+</div>
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,7 +47,7 @@ I have had the opportunity to travel extensively across India. My travels have c
     </div>
 </div>
 <div class="caption">
-    Illuminating diyas (oil lamps) during Diwali, the festival of lights.
+    Rangoli (floor art) with diyas for Diwali.
 </div>
 
 <div class="row mt-4">
@@ -56,7 +59,7 @@ I have had the opportunity to travel extensively across India. My travels have c
     </div>
 </div>
 <div class="caption">
-    Chakri firecrackers during Diwali celebrations.
+    Chakri firecrackers during Diwali celebrations (left: long shutter speed, right: short shutter speed).
 </div>
 
 ## 📍 Tamil Nadu (2019-2023)
