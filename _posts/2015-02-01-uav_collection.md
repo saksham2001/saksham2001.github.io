@@ -11,7 +11,7 @@ thumbnail: "assets/img/drone_journey_preview.jpg"
 I got inspired to build RC aircrafts after watching [Flite Test](https://www.youtube.com/@FliteTest) and [RCTestFlight](https://www.youtube.com/@rctestflight) on YouTube at the age of 14. The allure of building and flying these magnificent machines captivated my imagination. I embarked on a journey that would span years and transform from a hobby into a passion.
 
 ## The Early Days: Learning to Crawl Before Flying
-
+<br>
 #### 1 & 2. The First Attempts (2014)
 My initial forays into the world of RC aircraft were humble, to say the least. Armed with more enthusiasm than knowledge, I cobbled together two RC airplanes using whatever materials I could find - thermocol and plastic sheets. Unsurprisingly, these makeshift creations were too heavy to achieve liftoff. The lack of proper RC transmitters and receivers didn't help either.
 
@@ -33,7 +33,7 @@ I poured my heart and soul into this build, meticulously crafting each component
 </div>
 
 ## Taking to the Skies
-
+<br>
 #### 4. The Trainer (2016)
 Determined to actually fly this time, I designed a simple three-channel trainer RC plane. This no-frills aircraft was mostly eyeballed on depron sheets, prioritizing function over form. Its simplicity made it perfect for learning the ropes of RC flight and easy to repair after the inevitable crashes. This humble trainer became my ticket to the skies.
 
@@ -47,7 +47,7 @@ Determined to actually fly this time, I designed a simple three-channel trainer 
 </div>
 
 ## Embracing the Drone Revolution
-
+<br>
 #### 5. The Smog Drone (2016)
 As my skills grew, so did my ambitions. I convinced my school to support a drone-building project with a friend. After completing the build, we realized we needed a purpose to justify the project. Inspired by Delhi's persistent air pollution problems, we branded it the "Smog Drone." Our proposal suggested using the drone to spray salt solutions that could help coagulate air pollutants. While we never actually tested this concept, we did present it as part of a smart city initiative.
 
@@ -88,7 +88,7 @@ This drone became my pride and joy, evolving over the years through multiple upg
 </div>
 
 ## Serious Endeavors
-
+<br>
 After joining my bachelor's program at VIT, I decided to continue my passion for building UAVs but with more purpose. With my team, I contributed to the development of four significant UAVs: two large primary aircraft and two smaller autonomous aircraft.
 
 #### 7. Vulcan (2021)
@@ -140,5 +140,5 @@ Accompanying Trident was the Payload Delivery Aircraft (PADA), an autonomous air
 These projects represented a significant leap in complexity and purpose from my earlier builds. They challenged me to apply my skills in a team setting, tackle real-world problems, and push the boundaries of what I thought was possible in UAV design and construction.
 
 ## Looking to the Future
-
+<br>
 From those first clumsy attempts with thermocol to the sophisticated >3m wingspan aircraft, my journey through the world of UAVs has been one of constant learning and growth. Each project taught me valuable lessons about engineering, perseverance, and the sheer joy of creation. I hope to continue building and flying UAVs in the future!
