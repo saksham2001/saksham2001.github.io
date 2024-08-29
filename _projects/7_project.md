@@ -6,13 +6,6 @@ img: assets/img/agrihero_logo.png
 importance: 7
 category: fun
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_logo.png" title="AgriHero Logo" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 ## Overview
 
 AgriHero is an application that serves as a central hub for all agricultural activities in a region. It aims to address the challenges faced by the agriculture sector due to recent regulatory changes and poor infrastructure for crop management.
@@ -41,7 +34,7 @@ AgriHero is an application that serves as a central hub for all agricultural act
 
 ## How to Use
 
-1. Visit the live website: [AgriHero](https://agrihero-webapp.herokuapp.com/)
+1. Visit the live website: [AgriHero](https://agrihero-webapp.herokuapp.com/) [Note: The website is no longer maintained]
 2. For local setup:
    - Clone the repository
    - Install dependencies: `pip3 install -r requirements.txt`
