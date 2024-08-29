@@ -137,11 +137,11 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 ## 📍 Uttarakhand (2017)
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0 align-items-center">
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/good11.jpeg" title="Mountains in Rishikesh" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0 align-items-center">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/good10.jpeg" title="Flower in Rishikesh" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

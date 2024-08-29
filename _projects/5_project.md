@@ -6,12 +6,12 @@ img: assets/img/STAR_launch-2.gif
 importance: 3
 category: work
 ---
-<div class="row">
-  <div class="col-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+<div class="row" style="max-height: 80%;">
+  <div class="col-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1"%}
+    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
 </div>
 
@@ -101,7 +101,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/STAR_launch-2.gif" title="Black Bird Launch" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="caption">
-        Successful launch of our model rocket, demonstrating the culmination of our team's efforts in rocket design, propulsion, and avionics systems!
-    </div>
+</div>
+ <div class="caption">
+    Successful launch of our model rocket, demonstrating the culmination of our team's efforts in rocket design, propulsion, and avionics systems!
 </div>

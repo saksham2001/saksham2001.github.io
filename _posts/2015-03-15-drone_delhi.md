@@ -22,7 +22,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-12 mt-3 mt-md-0">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/Gb6z8TylpPk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/Gb6z8TylpPk" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
@@ -43,7 +43,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-12 mt-3 mt-md-0">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/r84x9-gsCl4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/r84x9-gsCl4" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">

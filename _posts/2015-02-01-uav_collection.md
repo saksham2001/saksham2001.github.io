@@ -52,10 +52,10 @@ Determined to actually fly this time, I designed a simple three-channel trainer 
 As my skills grew, so did my ambitions. I convinced my school to support a drone-building project with a friend. After completing the build, we realized we needed a purpose to justify the project. Inspired by Delhi's persistent air pollution problems, we branded it the "Smog Drone." Our proposal suggested using the drone to spray salt solutions that could help coagulate air pollutants. While we never actually tested this concept, we did present it as part of a smart city initiative.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/Smog_Drone_2_Nov_22_2016.jpeg" title="Smog Drone" class="img-fluid rounded z-depth-1" style="object-fit: cover; height: 80%; width: 100%;" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/Somg_Drone_City_Dec_20_2016.jpeg" title="Smog Drone City Concept" class="img-fluid rounded z-depth-1 mx-auto" style="object-fit: cover; height: 80%; width: 100%;" %}
     </div>
 </div>
@@ -69,10 +69,10 @@ The final step in my UAV journey (so far) was building my very own multirotor. A
 This drone became my pride and joy, evolving over the years through multiple upgrades and flight controller changes. It represented the culmination of everything I had learned and ignited a passion that continues to this day.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/Drone_2016.jpeg" title="First Personal Quadcopter" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0 text-center">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/Drone.jpeg" title="First Personal Quadcopter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
