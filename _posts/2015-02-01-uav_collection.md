@@ -6,6 +6,7 @@ description: A collection of UAVs I have built over the years
 tags: projects
 categories: hobby
 featured: false
+thumbnail: "assets/img/drone_journey_preview.jpg"
 ---
 I got inspired to build RC aircrafts after watching [Flite Test](https://www.youtube.com/@FliteTest) and [RCTestFlight](https://www.youtube.com/@rctestflight) on YouTube at the age of 14. The allure of building and flying these magnificent machines captivated my imagination. I embarked on a journey that would span years and transform from a hobby into a passion.
 
@@ -140,4 +141,4 @@ These projects represented a significant leap in complexity and purpose from my 
 
 ## Looking to the Future
 
-From those first clumsy attempts with thermocol to the sophisticated >3m wingspan aircraft, my journey through the world of UAVs has been one of constant learning and growth. Each project taught me valuable lessons about engineering, perseverance, and the sheer joy of creation.
+From those first clumsy attempts with thermocol to the sophisticated >3m wingspan aircraft, my journey through the world of UAVs has been one of constant learning and growth. Each project taught me valuable lessons about engineering, perseverance, and the sheer joy of creation. I hope to continue building and flying UAVs in the future!
