@@ -77,7 +77,7 @@ This drone became my pride and joy, evolving over the years through multiple upg
     </div>
 </div>
 <div class="caption">
-    Left: Parts of the quadcopter. Left: My first personal quadcopter built.
+    Left: Parts of the quadcopter. Right: My first personal quadcopter built.
 </div>
 
 <div class="col-sm mt-3 mt-md-0">

@@ -6,6 +6,15 @@ img: assets/img/agrihero_logo.png
 importance: 7
 category: fun
 ---
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/agrihero_home_with_alert.png" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    AgriHero home page displaying real-time alerts and key information for farmers and agricultural stakeholders.
+</div>
+
 ## Overview
 
 AgriHero is an application that serves as a central hub for all agricultural activities in a region. It aims to address the challenges faced by the agriculture sector due to recent regulatory changes and poor infrastructure for crop management.
@@ -34,7 +43,7 @@ AgriHero is an application that serves as a central hub for all agricultural act
 
 ## How to Use
 
-1. Visit the live website: [AgriHero](https://agrihero-webapp.herokuapp.com/) [Note: The website is no longer maintained]
+1. Visit the live website: AgriHero [Not Active]
 2. For local setup:
    - Clone the repository
    - Install dependencies: `pip3 install -r requirements.txt`
@@ -51,8 +60,6 @@ AgriHero is an application that serves as a central hub for all agricultural act
 ## Team
 
 Created by Saksham Bhutani, Anirudh Karnik, Anshuman Phadke, Ishan and Arvind N
-
-[View on GitHub](https://github.com/saksham2001/AgriHero)
 
 ## Screenshots
 
@@ -86,7 +93,7 @@ Created by Saksham Bhutani, Anirudh Karnik, Anshuman Phadke, Ishan and Arvind N
 ### Buy & Sell Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_buy&sell.png" title="Buy & Sell Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/agrihero_buy_sell.png" title="Buy & Sell Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
