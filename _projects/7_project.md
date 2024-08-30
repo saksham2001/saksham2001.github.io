@@ -1,14 +1,14 @@
 ---
 layout: page
-title: AgriHero
-description: A comprehensive hub for agricultural activities (2021)
+title: "AgriHero"
+description: "A comprehensive hub for agricultural activities (2021)"
 img: assets/img/agrihero_logo.png
 importance: 7
 category: fun
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_home_with_alert.png" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_home_with_alert.png" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -27,6 +27,9 @@ AgriHero is an application that serves as a central hub for all agricultural act
 - Direct selling platform for farmers
 - Data-driven decision-making for crop pricing
 - One-stop resource for agriculture sector stakeholders
+
+## Github Repository
+[AgriHero](https://github.com/saksham2001/AgriHero)
 
 ## Tech Stack
 
@@ -66,71 +69,71 @@ Created by Saksham Bhutani, Anirudh Karnik, Anshuman Phadke, Ishan and Arvind N
 ### About Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_about1.png" title="About Page 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_about1.png" title="About Page 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_about2.png" title="About Page 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_about2.png" title="About Page 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Home Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_home1.png" title="Home Page 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_home1.png" title="Home Page 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_home2.png" title="Home Page 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_home2.png" title="Home Page 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Home Page with Alerts
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_home_with_alert.png" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_home_with_alert.png" title="Home Page with Alerts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Buy & Sell Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_buy_sell.png" title="Buy & Sell Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_buy_sell.png" title="Buy & Sell Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Buy Page with all Listings
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_buy.png" title="Buy Page with all Listings" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_buy.png" title="Buy Page with all Listings" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Buy Page for Individual Listing
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_buy_individual.png" title="Buy Page for Individual Listing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_buy_individual.png" title="Buy Page for Individual Listing" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Sell Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_sell.png" title="Sell Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_sell.png" title="Sell Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### News Page
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_news.png" title="News Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_news.png" title="News Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Login and Register Pages
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_login.png" title="Login Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_login.png" title="Login Page" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/agrihero_register.png" title="Register Page" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/agrihero_register.png" title="Register Page" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
