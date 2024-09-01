@@ -42,6 +42,38 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
     Another breathtaking shot of the Rhine Falls, with the town of Neuhausen am Rheinfall visible in the background.
 </div>
 
+## 📍 Zurich City, Switzerland
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/drone_zurich.PNG" title="Zurich Skyline" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Limmat River with Zurich's old town (Altstadt) showcasing iconic landmarks like Grossmünster, Fraumünster, and St. Peter's Church.
+</div>
+
+<div class="row mt-4">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
+        {% include figure.liquid loading="eager" path="assets/img/zurich2_drone.PNG" title="Bellevueplatz" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bellvue_drone.PNG" title="Bellevue Intersection" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left: Aerial view of the bustling Bellevueplatz during daytime; Right: Bird's-eye perspective of the intersection between Utoquai and Quaibrücke, showcasing Zurich's urban layout.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/knie_drone.PNG" title="Zurich" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The vibrant Circus Knie setup in Sechseläutenplatz, with the iconic Opernhaus and Theaterstrasse in the backdrop.
+</div>
+
+
 ## 📍 Zollikon, Zurich, Switzerland
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
