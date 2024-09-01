@@ -10,6 +10,11 @@ thumbnail: "assets/img/photos_preview.jpeg"
 ---
 I have had the opportunity to travel extensively across India. My travels have covered diverse regions, from the northernmost state of Jammu & Kashmir to the southernmost state of Tamil Nadu, and from Gujarat in the west to Assam in the east. I've explored mountainous regions like Uttarakhand, Himachal Pradesh, and Sikkim, coastal states such as Goa and Odisha, and inland areas including Madhya Pradesh and Telangana. These journeys have allowed me to experience India's varied landscapes, cultures, and traditions firsthand. The following photos showcase some of the places I've visited during these travels.
 
+> ##### NOTE
+>
+> All the images are high resolution and might take a while to load.
+{: .block-warning }
+
 ## 📍 New Delhi
 
 <div class="row">

@@ -8,6 +8,10 @@ categories: recreational
 featured: true
 thumbnail: "assets/img/delhi_drone_preview.jpeg"
 ---
+> ##### NOTE
+>
+> All the images are high resolution and might take a while to load.
+{: .block-warning }
 
 ## 📍 New Delhi, India
 
