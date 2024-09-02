@@ -60,6 +60,16 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
         {% include figure.liquid loading="eager" path="assets/img/bellvue_drone.PNG" title="Bellevue Intersection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+<div class="row mt-5">
+    <div class="col-12 mt-3 mt-md-0">
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/rs-VLift36Y?si=s4GUiPGA5sIvvNLT" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    Short video of Utoquai and Quaibrücke in Zurich.
+</div>
+
 <div class="caption">
     Left: Aerial view of the bustling Bellevueplatz during daytime; Right: Bird's-eye perspective of the intersection between Utoquai and Quaibrücke, showcasing Zurich's urban layout.
 </div>
