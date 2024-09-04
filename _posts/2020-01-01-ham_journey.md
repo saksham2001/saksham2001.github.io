@@ -6,7 +6,7 @@ description: Exploring the airwaves and building a community through ham radio
 tags: projects
 categories: hobby
 featured: false
-thumbnail: "assets/img/ham_journey_preview.jpg"
+thumbnail: "assets/img/ham_journey_preview.png"
 ---
 
 My journey into the fascinating world of amateur radio began in 2018 when I purchased my first handheld radio (Baofeng UV-5R). In hindsight, I did not understand what it was, I just found the radio to be "cool" and made an impulse purchase. 
