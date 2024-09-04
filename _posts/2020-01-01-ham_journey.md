@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Journey into the World of Amateur Radio
-date: 2020-01-01 
+date: 2014-01-01 
 description: Exploring the airwaves and building a community through ham radio
 tags: projects
 categories: hobby
