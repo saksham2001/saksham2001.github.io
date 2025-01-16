@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Saksham Bhutani",
-    "label": "Pre-Doctoral Researcher",
+    "label": "Graduate Student",
     "image": "",
     "email": "sakshambhutani2001@gmail.com",
     "phone": "",
@@ -10,9 +10,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Bangalore",
-      "countryCode": "India",
-      "region": "Karntaka"
+      "city": "Pittsburgh",
+      "countryCode": "USA",
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
@@ -24,12 +24,22 @@
   },
   "work": [
     {
+      "name": "Khalifa University",
+      "position": "Visiting Researcher",
+      "location": "Abu Dhabi, UAE",
+      "url": "https://www.khalifa.ac.ae",
+      "startDate": "2024-11-01",
+      "endDate": "2025-01-11",
+      "summary": "",
+      "highlights": ["Intelligent Biomedical Devices"]
+    },
+    {
       "name": "Indian Institute of Science (IISc)",
       "position": "Pre-Doctoral Fellow",
       "location": "Bangalore, India",
       "url": "https://iisc.ac.in",
       "startDate": "2023-07-01",
-      "endDate": "Present",
+      "endDate": "2024-10-31",
       "summary": "",
       "highlights": ["Computer Vision", "Robotics"]
     },
@@ -93,6 +103,16 @@
     }
   ],
   "education": [
+    {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, Pennsylvania, USA",
+      "url": "https://www.cmu.edu",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "M.S.",
+      "startDate": "2025-01-13",
+      "endDate": "Present",
+      "score": ""
+    },
     {
       "institution": "Vellore Institute of Technology",
       "location": "Vellore, Tamil Nadu, India",
