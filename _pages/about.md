@@ -24,4 +24,4 @@ My research journey began under the guidance of [Dr. Shunmuga Perumal](https://v
 
 I have also had the privilege of leading the Avionics and Software departments at [Assailing Falcons](https://www.assailingfalcons.in), a team that achieved 3rd place Worldwide and 1st place in Asia in the SAE Aero Design Competition in 2021-2022. I also founded and chaired the [VIT Amateur Radio Club (VARC)](https://vitarc.github.io).
 
-In my free time, I love building and flying drones, capturing breathtaking footage that you can find [here](https://sakshambhutani.xyz/blog/tag/drone/). I'm also a licenced amateur radio operator (Callsign: VU3DTU) and an avid traveler. Per aspera ad astra 💫
+In my free time, I love building and flying drones, capturing breathtaking footage that you can find [here](https://sakshambhutani.xyz/blog/tag/drone/). I'm also a licenced amateur radio operator in US and India (Callsigns: KD3AXL & VU3DTU) and an avid traveler. Per aspera ad astra 💫
