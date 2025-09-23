@@ -28,7 +28,7 @@ The system combines cutting-edge AI technology with automotive diagnostics:
 - **Multimodal AI**: Handles both text queries and image analysis for comprehensive diagnostics
 - **CAN Bus Integration**: Direct communication with vehicle systems for advanced troubleshooting
 
-## Project Presentation
+## Pitch Deck
 
 <iframe src="https://docs.google.com/presentation/d/14ja5QZyH1GCOKl-0RN9JuVpbhh1f7BoV2sei5nloJnM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
