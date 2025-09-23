@@ -45,11 +45,51 @@ category: fun
 
 ## Screenshots
 
-{% include figure.liquid path="assets/img/ADAMS_scr1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr2.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr3.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr4.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr5.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr6.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr7.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/ADAMS_scr8.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+<div id="adamsCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+  </div>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      {% include figure.liquid path="assets/img/ADAMS_scr1.jpeg" title="ADAMS Screenshot 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr2.jpeg" title="ADAMS Screenshot 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr3.jpeg" title="ADAMS Screenshot 3" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr4.jpeg" title="ADAMS Screenshot 4" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr5.jpeg" title="ADAMS Screenshot 5" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr6.jpeg" title="ADAMS Screenshot 6" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr7.jpeg" title="ADAMS Screenshot 7" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="carousel-item">
+      {% include figure.liquid path="assets/img/ADAMS_scr8.jpeg" title="ADAMS Screenshot 8" class="img-fluid rounded z-depth-1" %}
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#adamsCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#adamsCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
