@@ -2,7 +2,7 @@
 layout: page
 title: "Automotiq"
 description: "AI-Powered Vehicle Diagnostics System"
-img: assets/img/autonomiq_preview.pngs
+img: assets/img/autonomiq_preview.png
 importance: 1
 category: fun
 ---
