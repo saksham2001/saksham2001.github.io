@@ -45,17 +45,17 @@ category: fun
 
 ## Screenshots
 
-<div id="adamsCarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
-    <button type="button" data-bs-target="#adamsCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
-  </div>
+<div id="adamsCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#adamsCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#adamsCarousel" data-slide-to="1"></li>
+    <li data-target="#adamsCarousel" data-slide-to="2"></li>
+    <li data-target="#adamsCarousel" data-slide-to="3"></li>
+    <li data-target="#adamsCarousel" data-slide-to="4"></li>
+    <li data-target="#adamsCarousel" data-slide-to="5"></li>
+    <li data-target="#adamsCarousel" data-slide-to="6"></li>
+    <li data-target="#adamsCarousel" data-slide-to="7"></li>
+  </ol>
   
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -84,12 +84,12 @@ category: fun
     </div>
   </div>
   
-  <button class="carousel-control-prev" type="button" data-bs-target="#adamsCarousel" data-bs-slide="prev">
+  <a class="carousel-control-prev" href="#adamsCarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#adamsCarousel" data-bs-slide="next">
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#adamsCarousel" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
