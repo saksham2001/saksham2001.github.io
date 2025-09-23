@@ -2,19 +2,10 @@
 layout: page
 title: "Automotiq"
 description: "AI-Powered Vehicle Diagnostics System"
-img: assets/img/autonomiq_winner.jpeg
+img: assets/img/autonomiq_preview.pngs
 importance: 1
-category: work
+category: fun
 ---
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/autonomiq_winner.jpeg" title="Automotiq - Google DeepMind AI Agent Hackathon Winner" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-<div class="caption">
-    Automotiq won the Grand Prize in Google DeepMind's AI Agent Hackathon
-</div>
 
 ## Project Overview
 
@@ -25,7 +16,7 @@ Automotiq is a comprehensive vehicle diagnostic system that utilizes on-device A
 - **AI-Powered Diagnostics**: Advanced analysis of diagnostic trouble codes using Gemma 3n
 - **Multimodal Chat Interface**: Text and image-based AI assistance for automotive issues
 - **OBD2 Integration**: Real-time vehicle data collection via Bluetooth Low Energy
-- **Agentic Solution**: Tests different CAN commands to solve software-related problems
+- **Agentic Solution**: Tests different candidate CAN commands to solve software-related problems
 - **Offline Capability**: Local AI processing and diagnostic database
 
 ## Technical Implementation
@@ -45,7 +36,14 @@ The system combines cutting-edge AI technology with automotive diagnostics:
 
 **Grand Prize Winner** - Google DeepMind's AI Agent Hackathon
 
-This achievement highlights the innovative approach and practical impact of Automotiq in revolutionizing vehicle diagnostics through AI technology.
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+      {% include figure.liquid loading="eager" path="assets/img/autonomiq_winner.jpeg" title="Automotiq - Google DeepMind AI Agent Hackathon Winner" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+<div class="caption">
+    Automotiq won the Grand Prize in Google DeepMind's AI Agent Hackathon
+</div>
 
 ## Impact
 
