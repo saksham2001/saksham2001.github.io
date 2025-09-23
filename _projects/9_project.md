@@ -2,7 +2,7 @@
 layout: page
 title: "Indecisive"
 description: "AI-Powered Food Decision Engine"
-img: assets/img/indecisive_preview.png
+img: assets/img/indecisive_preview.jpg
 importance: 2
 category: fun
 ---
