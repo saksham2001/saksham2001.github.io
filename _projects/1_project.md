@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Trident"
-description: "SAE Aero Design'22 Advanced Class RC Aircraft"
+description: "SAE Aero Design'22 Advanced Class RC Aircraft (2022)"
 img: assets/img/Falcons22_team2.jpeg
 importance: 1
 category: work, embedded, avionics, cv

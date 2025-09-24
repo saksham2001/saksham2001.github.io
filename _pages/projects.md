@@ -5,7 +5,7 @@ permalink: /projects/
 description: a growing collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun, embedded, cv, llm, software, avionics, iot]
+display_categories: [embedded, cv, llm, software, avionics, iot]
 horizontal: false
 ---
 

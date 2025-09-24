@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Automotiq"
-description: "AI-Powered Vehicle Diagnostics System"
+description: "AI-Powered Vehicle Diagnostics System (2025)"
 img: assets/img/autonomiq_preview.png
 importance: 1
 category: fun, embedded, llm
