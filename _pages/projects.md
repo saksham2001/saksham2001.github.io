@@ -5,7 +5,7 @@ permalink: /projects/
 description: a growing collection of my projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [work, fun, embedded, cv, llm, software, avionics, iot]
 horizontal: false
 ---
 
@@ -17,7 +17,16 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign categorized_projects = "" | split: "" %}
+  {% for project in site.projects %}
+    {% assign project_categories = project.category | split: ", " %}
+    {% for project_category in project_categories %}
+      {% if project_category == category %}
+        {% assign categorized_projects = categorized_projects | push: project %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal %}
