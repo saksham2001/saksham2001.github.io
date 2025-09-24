@@ -4,7 +4,7 @@ title: "Automotiq"
 description: "AI-Powered Vehicle Diagnostics System"
 img: assets/img/autonomiq_preview.png
 importance: 1
-category: fun
+category: fun, embedded, llm
 ---
 
 ## Project Overview

@@ -4,7 +4,7 @@ title: "Octopod"
 description: "A uniquely shaped smart home automation IoT system (2018)"
 img: assets/img/Octopod_Octopod.jpeg
 importance: 4
-category: fun
+category: fun, embedded, iot
 ---
 
 <iframe src="https://www.youtube.com/embed/BGC9mb7RiwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>

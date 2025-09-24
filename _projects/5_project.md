@@ -4,7 +4,7 @@ title: "Black Bird"
 description: "High Powered Model Rocket (2019)"
 img: assets/img/STAR_launch-2.gif
 importance: 3
-category: work
+category: work, avionics
 ---
 <div class="row" style="max-height: 80%;">
   <div class="col-4 mt-3 mt-md-0">

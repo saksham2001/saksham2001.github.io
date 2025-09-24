@@ -4,7 +4,7 @@ title: "Indecisive"
 description: "AI-Powered Food Decision Engine"
 img: assets/img/indecisive_preview.jpg
 importance: 2
-category: fun
+category: fun, llm
 ---
 
 ## Project Overview

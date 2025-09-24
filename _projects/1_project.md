@@ -4,7 +4,7 @@ title: "Trident"
 description: "SAE Aero Design'22 Advanced Class RC Aircraft"
 img: assets/img/Falcons22_team2.jpeg
 importance: 1
-category: work
+category: work, embedded, avionics, cv
 ---
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
