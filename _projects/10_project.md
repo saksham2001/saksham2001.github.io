@@ -1,0 +1,109 @@
+---
+layout: page
+title: "CallCop"
+description: "AI-Powered Real-Time Fraud Detection for Phone Calls (2024)"
+img: assets/img/callcop_thumbnail.jpg
+importance: 4
+category: fun, llm
+---
+
+<video width="100%" controls>
+  <source src="/assets/video/CallCop.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Project Overview
+
+CallCop is an innovative AI-powered system designed to detect fraudulent phone calls in real-time. The project leverages a sophisticated combination of Twilio's API, Large Language Models, and Firebase to provide seamless fraud detection during live phone conversations.
+
+## Problem Statement
+
+With the increasing sophistication of phone scams and fraudulent calls, traditional methods of fraud detection are insufficient. Users need a real-time solution that can analyze conversations as they happen and alert them to potential fraud attempts during the call itself.
+
+## Solution Architecture
+
+Our solution focuses on real-time fraud detection using a multi-layered approach:
+
+- **Twilio Integration**: Handles call routing and real-time audio processing
+- **Google Speech-to-Text API**: Converts live audio to text for analysis
+- **Machine Learning Model**: Analyzes transcriptions to detect fraudulent patterns
+- **Firebase Backend**: Manages data and provides scalable infrastructure
+
+## How It Works
+
+1. **Call Detection**: When an unknown caller contacts a user, a Twilio agent automatically joins the call
+2. **Audio Processing**: The system captures real-time audio and converts it to text using Google's speech-to-text API
+3. **AI Analysis**: Our machine learning model analyzes the transcription to identify fraudulent or suspicious behavior patterns
+4. **Real-Time Alert**: If fraud is detected, the Twilio agent immediately alerts the user during the call
+
+## Technical Implementation
+
+### Core Technologies
+- **Twilio API**: Call handling and real-time audio processing
+- **Google Cloud Speech-to-Text**: Live audio transcription
+- **Machine Learning Models**: Fraud detection algorithms
+- **Firebase**: Backend infrastructure and data management
+
+### Key Features
+- Real-time audio processing and transcription
+- Advanced ML-based fraud detection
+- Seamless integration with existing phone systems
+- Immediate user alerts during suspicious calls
+
+## Project Scope
+
+### In Scope
+- Seamless integration of Twilio for call handling
+- Google's API for real-time speech transcription
+- Machine learning model for detecting fraudulent behavior
+- Real-time fraud detection through live transcription and analysis
+
+### Out of Scope
+- Manual investigation of fraud after call completion
+- Complex multi-lingual support beyond Google's API capabilities
+- Detailed user interface beyond basic alerts
+- Fraud detection for non-phone communication (emails, messages)
+
+## Future Opportunities
+
+The CallCop system has significant potential for expansion and enhancement:
+
+### Technical Enhancements
+- **Multi-language Support**: Expand to support more languages and dialects
+- **Biometric Integration**: Incorporate voice recognition for improved fraud detection accuracy
+- **Advanced Analytics**: Integrate with new channels APIs to stay updated with latest scam patterns
+
+### Platform Expansion
+- **SMS Integration**: Extend fraud detection to text messaging
+- **Email Protection**: Apply similar technology to email communications
+- **Social Media**: Expand to other digital communication platforms
+
+### AI Improvements
+- **Continuous Learning**: Implement models that adapt to new fraud patterns
+- **Enhanced Accuracy**: Improve detection algorithms through larger datasets
+- **Predictive Analytics**: Develop capabilities to predict potential fraud attempts
+
+## Project Impact
+
+CallCop addresses a critical need in digital security by providing:
+- **Real-time Protection**: Immediate fraud detection during calls
+- **User Empowerment**: Users are alerted to potential threats as they happen
+- **Scalable Solution**: Architecture supports widespread deployment
+- **Privacy-Focused**: Local processing ensures user privacy
+
+## GitHub Repository
+
+<div class="github-card" data-github="saksham2001/CallCop" data-width="400" data-height="" data-theme="medium"></div>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+
+## Technologies Used
+
+- **Backend**: Twilio API, Firebase
+- **AI/ML**: Large Language Models, Custom ML algorithms
+- **APIs**: Google Speech-to-Text API, Twilio Voice API
+- **Infrastructure**: Firebase Cloud Functions, Real-time Database
+- **Languages**: Python, JavaScript, Node.js
+
+---
+
+*CallCop represents a significant advancement in real-time fraud detection technology, combining cutting-edge AI with practical telephony solutions to protect users from increasingly sophisticated phone scams.*
