@@ -6,7 +6,11 @@ repo_description_lines_max: 2
 github_repos:
   - saksham2001/TouchFree-v1
   - saksham2001/TouchFree-v2
+  - saksham2001/Balancing-Cardiac-Privacy
+  - saksham2001/rPPG-removal
+  - saksham2001/PyTorch-DL-Models
   - saksham2001/ImageCaptioning
   - Falcons21/Custom_PID
   - saksham2001/ADAS
+  - saksham2001/St.ChatInterface
   - saksham2001/turtlesnake
