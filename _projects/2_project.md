@@ -4,7 +4,7 @@ title: "Vulcan"
 description: "SAE Aero Design'21 Advanced Class RC Aircraft (2021)"
 img: assets/img/Falcons21_falcons-vulcan.png
 importance: 2
-category: work, embedded, avionics, cv
+category: work, embedded, avionics
 ---
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
