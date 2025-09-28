@@ -7,7 +7,7 @@ importance: 4
 category: fun, llm
 ---
 
-<video height="60vh" controls>
+<video width="50%" height="60vh" controls>
   <source src="/assets/video/CallCop.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
