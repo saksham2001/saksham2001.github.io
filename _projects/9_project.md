@@ -36,6 +36,9 @@ category: fun, llm
     {% include figure.liquid path="assets/img/indecisive-8.png" title="Personalized taste summary based on previous selections" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
 </div>
+<div class="caption">
+    Indecisive app interface showing the complete user journey from menu scanning to personalized recommendations.
+</div>
 
 ## Project Overview
 
