@@ -7,10 +7,14 @@ importance: 4
 category: fun, llm
 ---
 
-<video width="50%" controls>
-  <source src="/assets/video/CallCop.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <video width="100%" controls>
+      <source src="/assets/video/CallCop.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 
 ## Project Overview
 

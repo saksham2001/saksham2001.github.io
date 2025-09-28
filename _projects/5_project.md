@@ -6,12 +6,12 @@ img: assets/img/STAR_launch-2.gif
 importance: 3
 category: work, avionics
 ---
-<div class="row" style="max-height: 80%;">
-  <div class="col-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+<div class="row">
+  <div class="col-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  <div class="col-6 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
