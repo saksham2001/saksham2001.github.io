@@ -7,6 +7,36 @@ importance: 2
 category: fun, llm
 ---
 
+<div class="row">
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-1.png" title="Option to browse pre-scanned menus or scan a menu" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-2.png" title="Scan a new menu" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-3.png" title="User sign in" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-4.png" title="Choose a restaurant" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-5.png" title="Dish selection" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-6.png" title="Dish selection" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-7.png" title="Winning dish" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+  <div class="col-3 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/indecisive-8.png" title="Personalized taste summary based on previous selections" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+  </div>
+</div>
+
 ## Project Overview
 
 Choosing what to eat at a restaurant shouldn't feel like an exam. Menus are overwhelming, time is short, and you rarely know what a dish actually looks like. Indecisive solves this problem by turning any messy restaurant menu into a fun, fast, and visual decision-making game.
