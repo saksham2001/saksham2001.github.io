@@ -79,6 +79,6 @@ I did some other interesting endevours like taking my buggy experience to a whol
     Waving the black flag to signal an early end to the Pittsburgh Vintage Grand Prix race due to rain conditions.
 </div>
 
-In my second semester, I became the Station Manager for the W3VC club. I helped taking care of the club's shack and equipment. I also helped in the club's operations. This semester I became really involved with Long Range Radio (LoRa) communication especially mesh networks like meshtastic. I tested several mesh nodes including Seeed Studio Wio M1, Lilygo T3 and Seed Studio nrf52840+Wio-SX1262. We also went on a day trip to Laurel Highlands to do some Parks-in-the-Air (POTA) and Summits-in-the-Air (SOTA) contacts. We did made over 70 contacts in many different HF bands.
+In my second semester, I became the Station Manager for the W3VC club. I helped taking care of the club's shack and equipment. I also helped in the club's operations. This semester I became really involved with Long Range Radio (LoRa) communication especially mesh networks like meshtastic. I tested several mesh nodes including Seeed Studio Wio M1, Lilygo T3 and Seed Studio nrf52840+Wio-SX1262. We also went on a day trip to Laurel Highlands to do some Parks-in-the-Air (POTA) and Summits-in-the-Air (SOTA) contacts. We did made over 70 contacts in many different HF bands. I also got my hands on some new radios like Radtel RT950 Pro and Quancheng UV5(8) handheld radios.
 
 ### Going to add more here soon!
