@@ -69,13 +69,9 @@ In my first semester, I became a Teaching Assistant for the Introduction to Amat
 </div>
 
 I did some other interesting endeavors like taking my buggy experience to a whole new level by volunteering as a track marshal for the [Pittsburgh Vintage Grand Prix](https://pvgp.org). I also helped in comms during the CMU [SCS Pretty Good Race](http://www.cs.cmu.edu/~PGR/).
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-    <video width="100%" controls>
-        <source src="assets/video/pvgp-2025.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+<div class="row" style="max-height: 80vh;">
+    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
+        {% include video.liquid path="assets/video/pvgp-2025.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
