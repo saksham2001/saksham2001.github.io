@@ -33,12 +33,12 @@ In 2025, I moved to Pittsburgh, USA for graduate school to Carnegie Mellon Unive
     <div class="col-6 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/buggyroll2025.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-6 mt-3 mt-md-0">
+    <div class="col-6 mt-3 mt-md-0 justify-content-center">
         {% include figure.liquid loading="eager" path="assets/img/buggyrace2025.jpeg" title="Buggy pusher on Fruh Street during race day" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption text-center">
-    Left: Early morning practice roll with a flagger showing flag to the buggy driver, a follow car behind, and a radio operator acknowledging the buggy's position. Right: A pusher giving their all during race day on Fruh Street.
+    Left: Early morning practice roll with a flagger showing flag to the buggy driver, a follow car behind, and a radio operator (me) acknowledging the buggy's position. Right: A pusher giving their all during race day on Fruh Street.
 </div>
 
 
@@ -72,7 +72,7 @@ I did some other interesting endeavors like taking my buggy experience to a whol
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/pvgp-2025.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+        {% include video.liquid path="assets/video/pvgp-2025.mp4" class="img-fluid rounded z-depth-1" controls=true style="height: 50vh; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
