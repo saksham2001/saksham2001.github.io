@@ -30,10 +30,10 @@ In 2021, soon after receiving my license, I started trying to set up a radio clu
 In 2025, I moved to Pittsburgh, USA for graduate school to Carnegie Mellon University (CMU). At CMU, I joined the [Carnegie Tech Radio Club (W3VC)](http://www.w3vc.org) and became an active member. W3VC was founded in 1914 and is one of the oldest clubs at CMU. Our shack is located in the turret of the iconic Hamerschlag Hall. I did a lot of work with the club including waking up at 5 AM for Buggy rolls. The CMU Buggy (also called Sweepstakes), is a race around the Flagstaff hill of Schenley Park. It is a relay race with five runners, with a buggy vehicle. Buggy is a small, usually torpedo-shaped, vehicle that is pushed uphill and then allowed to free-roll downhill. The driver lies down inside the vehicle with the steering and brake controls. The vehicles are completely unpowered, including the prohibition of energy storing devices such as flywheels. W3VC is an [essential part of buggy](http://www.w3vc.org/buggy/) and is responsible for providing communication between race officials, other volunteers, and emergency personnel around the course. We make it possible for race officials to know when the course is clear and safe for buggies to roll, and to track buggies as they travel around the course at speeds approaching 35 MPH. This is serious business and we have a very detailed [handbook](http://www.w3vc.org/buggy/buggy_handbook2025.pdf) detailing the operations.
 
 <div class="row justify-content-center">
-    <div class="col-6 mt-3 mt-md-0">
+    <div class="col-6 mt-3 mt-md-0 d-flex align-items-center">
         {% include video.liquid path="assets/video/buggyroll2025.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-6 mt-3 mt-md-0 justify-content-center">
+    <div class="col-6 mt-3 mt-md-0 d-flex align-items-center">
         {% include figure.liquid loading="eager" path="assets/img/buggyrace2025.jpeg" title="Buggy pusher on Fruh Street during race day" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -72,13 +72,16 @@ I did some other interesting endeavors like taking my buggy experience to a whol
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/pvgp-2025.mp4" class="img-fluid rounded z-depth-1" controls=true style="height: 50vh; object-fit: cover;" %}
+    <video width="100%" controls>
+        <source src="assets/video/pvgp-2025.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     </div>
 </div>
 <div class="caption">
     Waving the black flag to signal an early end to the Pittsburgh Vintage Grand Prix race due to rain conditions.
 </div>
 
-In my second semester, I became the Station Manager for the W3VC club. I helped take care of the club's shack and equipment. I also helped in the club's operations. This semester I became really involved with Long Range Radio (LoRa) communication especially mesh networks like meshtastic. I tested several mesh nodes including Seeed Studio Wio M1, Lilygo T3 and Seed Studio nrf52840+Wio-SX1262. We went on a day trip to Laurel Highlands make some Parks-in-the-Air (POTA) and Summits-in-the-Air (SOTA) contacts. We made over 70 contacts in many different HF bands. I also got my hands on some new radios like Radtel RT950 Pro and Quancheng UV5(8) handheld radios.
+In my second semester, I became the Station Manager for the W3VC club. I helped take care of the club's shack and equipment. I also helped in the club's operations. This semester I became really involved with Long Range Radio (LoRa) communication especially mesh networks like meshtastic. I tested several mesh nodes including Seeed Studio Wio M1, Lilygo T3 and Seed Studio nrf52840+Wio-SX1262. We went on a day trip to Laurel Highlands to make some Parks-in-the-Air (POTA) and Summits-in-the-Air (SOTA) contacts. We made over 70 contacts in many different HF bands. I also got my hands on some new handheld radios like Radtel RT950 Pro and Quancheng UV5(8).
 
 ### Going to add more here soon!
