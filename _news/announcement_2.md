@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am working as a Visiting Researcher at Khalifa University for two months.
+I will be working as a Visiting Researcher at Khalifa University for few months with [Prof. Moe Elgendi](https://ae.linkedin.com/in/elgendi).

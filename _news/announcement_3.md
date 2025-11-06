@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am starting graduate studies at Carnegie Mellon University.
+I am starting Masters at Carnegie Mellon University.
