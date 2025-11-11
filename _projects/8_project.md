@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Automotiq"
+title: "Autonomiq"
 description: "AI-Powered Vehicle Diagnostics System (2025)"
 img: assets/img/autonomiq_preview.png
 importance: 1
