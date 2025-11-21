@@ -12,4 +12,6 @@ nav_order: 2
 
 {% bibliography %}
 
+† denotes equal contribution; shared first authorship.
+
 </div>
