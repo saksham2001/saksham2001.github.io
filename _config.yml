@@ -189,6 +189,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  hacking:
+    output: true
+    permalink: /hacking/:path/
 
 announcements:
   enabled: true
