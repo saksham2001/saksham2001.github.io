@@ -6,7 +6,7 @@ description: Aerial views of Switzerland that I took while working in 2022.
 tags: drone, photography, travel, switzerland
 categories: recreational
 featured: true
-thumbnail: "assets/img/swiss_drone_preview.jpeg"
+thumbnail: "assets/img/blog/drone_zurich/swiss_drone_preview.jpeg"
 ---
 > ##### NOTE
 >
@@ -17,7 +17,7 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rhein1.JPG" title="Rhine River" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/rhein1.JPG" title="Rhine River" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -26,7 +26,7 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rhein2.JPG" title="Rhine Falls with Rheinbrücke" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/rhein2.JPG" title="Rhine Falls with Rheinbrücke" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,7 +35,7 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/rhein3.JPG" title="Rhine Falls and Neuhausen" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/rhein3.JPG" title="Rhine Falls and Neuhausen" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -45,7 +45,7 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 ## 📍 Zurich City, Switzerland
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/zurich_drone.PNG" title="Zurich Skyline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/zurich_drone.PNG" title="Zurich Skyline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -54,10 +54,10 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/zurich2_drone.PNG" title="Bellevueplatz" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/zurich2_drone.PNG" title="Bellevueplatz" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bellvue_drone.PNG" title="Bellevue Intersection" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/bellvue_drone.PNG" title="Bellevue Intersection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -75,7 +75,7 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/knie_drone.PNG" title="Zurich" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/knie_drone.PNG" title="Zurich" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -86,7 +86,7 @@ thumbnail: "assets/img/swiss_drone_preview.jpeg"
 ## 📍 Zollikon, Zurich, Switzerland
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/zollikon.JPG" title="Zollikon and Lake Zurich" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_zurich/zollikon.JPG" title="Zollikon and Lake Zurich" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -6,7 +6,7 @@ description: Exploring the airwaves and building a community through ham radio
 tags: projects
 categories: hobby
 featured: false
-thumbnail: "assets/img/ham_journey_preview.png"
+thumbnail: "assets/img/blog/ham_journey/ham_journey_preview.png"
 ---
 
 
@@ -34,7 +34,7 @@ In 2025, I moved to Pittsburgh, USA for graduate school to Carnegie Mellon Unive
         {% include video.liquid path="assets/video/buggyroll2025.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
     <div class="col-6 mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/buggyrace2025.jpeg" title="Buggy pusher on Fruh Street during race day" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/ham_journey/buggyrace2025.jpeg" title="Buggy pusher on Fruh Street during race day" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption text-center">
@@ -46,10 +46,10 @@ Apart from buggy, I also worked with the club in Fram2Ham SSTV competition. Fram
 
 <div class="row">
     <div class="col-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fram2ham-1.png" title="Fram2Ham SSTV Competition" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/ham_journey/fram2ham-1.png" title="Fram2Ham SSTV Competition" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/fram2ham-2.png" title="Fram2Ham SSTV Competition" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/ham_journey/fram2ham-2.png" title="Fram2Ham SSTV Competition" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -61,7 +61,7 @@ In my first semester, I became a Teaching Assistant for the Introduction to Amat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/18059spring25.png" title="Field day for Introduction to Amateur Radio course (18-059)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/ham_journey/18059spring25.png" title="Field day for Introduction to Amateur Radio course (18-059)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

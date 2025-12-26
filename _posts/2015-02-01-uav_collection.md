@@ -6,7 +6,7 @@ description: A collection of UAVs I have built over the years
 tags: projects
 categories: hobby
 featured: false
-thumbnail: "assets/img/drone_journey_preview.jpg"
+thumbnail: "assets/img/blog/uav_collection/drone_journey_preview.jpg"
 ---
 I got inspired to build RC aircrafts after watching [Flite Test](https://www.youtube.com/@FliteTest) and [RCTestFlight](https://www.youtube.com/@rctestflight) on YouTube at the age of 14. The allure of building and flying these magnificent machines captivated my imagination. I embarked on a journey that would span years and transform from a hobby into a passion.
 
@@ -22,10 +22,10 @@ I poured my heart and soul into this build, meticulously crafting each component
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fixed_Wing_Aug_21_2016.jpeg" title="Delta Wing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/Fixed_Wing_Aug_21_2016.jpeg" title="Delta Wing" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Fixed_Wing_2_Aug_21_2016.jpeg" title="Delta Wing Close-up" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/Fixed_Wing_2_Aug_21_2016.jpeg" title="Delta Wing Close-up" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ Determined to actually fly this time, I designed a simple three-channel trainer 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/RC_Plane_Dec_26_2016.jpeg" title="Trainer RC Plane" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/RC_Plane_Dec_26_2016.jpeg" title="Trainer RC Plane" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -53,10 +53,10 @@ As my skills grew, so did my ambitions. I convinced my school to support a drone
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/Smog_Drone_2_Nov_22_2016.jpeg" title="Smog Drone" class="img-fluid rounded z-depth-1" style="object-fit: cover; height: 80%; width: 100%;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/Smog_Drone_2_Nov_22_2016.jpeg" title="Smog Drone" class="img-fluid rounded z-depth-1" style="object-fit: cover; height: 80%; width: 100%;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/Somg_Drone_City_Dec_20_2016.jpeg" title="Smog Drone City Concept" class="img-fluid rounded z-depth-1 mx-auto" style="object-fit: cover; height: 80%; width: 100%;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/Somg_Drone_City_Dec_20_2016.jpeg" title="Smog Drone City Concept" class="img-fluid rounded z-depth-1 mx-auto" style="object-fit: cover; height: 80%; width: 100%;" %}
     </div>
 </div>
 <div class="caption">
@@ -70,10 +70,10 @@ This drone became my pride and joy, evolving over the years through multiple upg
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/Drone_2016.jpeg" title="First Personal Quadcopter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/Drone_2016.jpeg" title="First Personal Quadcopter" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/Drone.jpeg" title="First Personal Quadcopter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/Drone.jpeg" title="First Personal Quadcopter" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -81,7 +81,7 @@ This drone became my pride and joy, evolving over the years through multiple upg
 </div>
 
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/drone3.jpeg" title="Quadcopter in Flight" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/blog/uav_collection/drone3.jpeg" title="Quadcopter in Flight" class="img-fluid rounded z-depth-1" %}
 </div>
 <div class="caption">
     The drone in action during a flight.
@@ -96,7 +96,7 @@ Vulcan (3.35m wingspan) was designed as our flagship aircraft for the SAE Aero D
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Falcons21_vulcan-1.png" title="Vulcan Primary Aircraft" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulcan/Falcons21_vulcan-1.png" title="Vulcan Primary Aircraft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -108,7 +108,7 @@ Accompanying Vulcan was the Colonist Delivery Aircraft (CDA), an autonomous glid
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Falcons21_falcons-cda.png" title="Colonist Delivery Aircraft" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/vulcan/Falcons21_falcons-cda.png" title="Colonist Delivery Aircraft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -120,7 +120,7 @@ Trident (3m wingspan) was our flagship aircraft for the SAE Aero Design 2022 com
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Falcons22_PA.png" title="Trident Primary Aircraft" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_PA.png" title="Trident Primary Aircraft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -131,7 +131,7 @@ Trident (3m wingspan) was our flagship aircraft for the SAE Aero Design 2022 com
 Accompanying Trident was the Payload Delivery Aircraft (PADA), an autonomous aircraft weighing under 255 grams. It was equipped with vision-based navigation and designed to be released from Trident, locate designated drop zones, and deliver payloads to simulate firefighting efforts. Read more about the project [here](https://www.sakshambhutani.xyz/projects/1_project/).
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Falcons22_PADA.png" title="Payload Delivery Aircraft" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_PADA.png" title="Payload Delivery Aircraft" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

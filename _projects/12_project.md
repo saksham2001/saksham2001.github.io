@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "LoRa based CubeSat Prototype"
+title: "LoRa based CubeSat"
 description: "LoRa based CubeSat Prototype (2025)"
 img: assets/img/projects/cubesat_lora/cubesat_lora_thumbnail.png
 importance: 6
@@ -10,12 +10,12 @@ year: 2025
 
 # CubeSat Prototype
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="d-flex justify-content-center my-3">
+    <div style="max-width: 280px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_thumbnail.png" title="AI-generated Mission Patch" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-center" style="max-width: 280px; margin: 0 auto;">
     AI-generated mission patch for the CubeSat prototype project.
 </div>
 

@@ -6,7 +6,7 @@ description: A collection of Drone Shots from Delhi (My Hometown)
 tags: drone, photography, delhi
 categories: recreational
 featured: true
-thumbnail: "assets/img/delhi_drone_preview.jpeg"
+thumbnail: "assets/img/blog/drone_delhi/delhi_drone_preview.jpeg"
 ---
 > ##### NOTE
 >
@@ -17,7 +17,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone1.jpeg" title="Signature Bridge" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone1.jpeg" title="Signature Bridge" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,10 +35,10 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone35.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone35.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone4.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone4.jpeg" title="Lotus Temple" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,7 +57,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone2.jpeg" title="Akshardham Temple" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone2.jpeg" title="Akshardham Temple" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -66,7 +66,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone6.JPG" title="Delhi Roundabout" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone6.JPG" title="Delhi Roundabout" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -75,7 +75,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0" >
-        {% include figure.liquid loading="eager" path="assets/img/drone7.JPG" title="Delhi Skyline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone7.JPG" title="Delhi Skyline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -85,7 +85,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/delhi_drone_majnu.jpg" title="Majnu ka Tila Gurudwara" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/delhi_drone_majnu.jpg" title="Majnu ka Tila Gurudwara" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -94,7 +94,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/drone5.jpeg" title="Yamuna River" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone5.jpeg" title="Yamuna River" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -103,7 +103,7 @@ thumbnail: "assets/img/delhi_drone_preview.jpeg"
 
 <div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/delhi_sahiba.JPG" title="Sahiba River and Highway" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/delhi_sahiba.JPG" title="Sahiba River and Highway" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -6,7 +6,7 @@ description: Some photos I have clicked over the years
 tags: photography, travel, festivals
 categories: recreational
 featured: false
-thumbnail: "assets/img/photos_preview.jpeg"
+thumbnail: "assets/img/blog/photos_india/photos_preview.jpeg"
 ---
 I have had the opportunity to travel extensively across India. My travels have covered diverse regions, from the northernmost state of Jammu & Kashmir to the southernmost state of Tamil Nadu, and from Gujarat in the west to Assam in the east. I've explored mountainous regions like Uttarakhand, Himachal Pradesh, and Sikkim, coastal states such as Goa and Odisha, and inland areas including Madhya Pradesh and Telangana. These journeys have allowed me to experience India's varied landscapes, cultures, and traditions firsthand. The following photos showcase some of the places I've visited during these travels.
 
@@ -19,7 +19,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good1.jpeg" title="Connaught Place" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good1.jpeg" title="Connaught Place" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -28,7 +28,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good12.jpeg" title="India Gate" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good12.jpeg" title="India Gate" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -39,7 +39,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good2.jpeg" title="Diwali Diya" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good2.jpeg" title="Diwali Diya" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -48,7 +48,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good3.jpeg" title="Collection of Diyas" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good3.jpeg" title="Collection of Diyas" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -57,10 +57,10 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/good8.jpeg" title="Chakri Firecracker" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good8.jpeg" title="Chakri Firecracker" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good9.jpeg" title="Chakri Firecracker" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good9.jpeg" title="Chakri Firecracker" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -72,25 +72,25 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good4.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good4.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good5.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good5.jpeg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vit1.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/vit1.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vit2.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/vit2.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vit3.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/vit3.jpg" title="VIT Campus" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -101,7 +101,7 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/goa1.jpg" title="Somewhere in Goa" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/goa1.jpg" title="Somewhere in Goa" class="img-fluid rounded z-depth-1" style="max-width: 100%; height: auto; max-height: 400px; object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -114,10 +114,10 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-8 mt-3 mt-md-0 align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/mumbai1.jpg" title="Early morning at Taj Mahal Palace" class="img-fluid rounded z-depth-1" style="object-fit: cover;" %}
     </div>
     <div class="col-4 mt-3 mt-md-0 align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="object-fit: cover;" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/mumbai2.jpg" title="Taj Mahal Tower" class="img-fluid rounded z-depth-1" style="object-fit: cover;" %}
     </div>
 </div>
 <div class="caption">
@@ -129,10 +129,10 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good7.jpeg" title="Andaman Islands" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good7.jpeg" title="Andaman Islands" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/good6.jpeg" title="Andaman Islands" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good6.jpeg" title="Andaman Islands" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -144,10 +144,10 @@ I have had the opportunity to travel extensively across India. My travels have c
 
 <div class="row mt-4">
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/good11.jpeg" title="Mountains in Rishikesh" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good11.jpeg" title="Mountains in Rishikesh" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include figure.liquid loading="eager" path="assets/img/good10.jpeg" title="Flower in Rishikesh" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/blog/photos_india/good10.jpeg" title="Flower in Rishikesh" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
