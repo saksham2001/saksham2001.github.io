@@ -5,6 +5,7 @@ description: "AI-Powered Food Decision Engine (2025)"
 img: assets/img/indecisive_preview.jpg
 importance: 2
 category: fun, llm
+year: 2025
 ---
 
 <div class="row">

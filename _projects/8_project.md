@@ -5,6 +5,7 @@ description: "AI-Powered Vehicle Diagnostics System (2025)"
 img: assets/img/autonomiq_preview.png
 importance: 1
 category: fun, embedded, llm
+year: 2025
 ---
 
 ## Project Overview

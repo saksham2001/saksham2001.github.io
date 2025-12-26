@@ -5,6 +5,7 @@ description: "A Smart and Adaptive Driver Monitoring and Assistance System (2021
 img: assets/img/ADAMS_ADAMS-img.jpeg
 importance: 3
 category: fun, embedded, computer vision
+year: 2021
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GD053njx0fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -5,6 +5,7 @@ description: "A comprehensive hub for agricultural activities (2021)"
 img: assets/img/agrihero_logo.png
 importance: 7
 category: fun, embedded
+year: 2021
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

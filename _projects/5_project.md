@@ -5,6 +5,7 @@ description: "High Powered Model Rocket (2019)"
 img: assets/img/STAR_launch-2.gif
 importance: 3
 category: work, avionics
+year: 2019
 ---
 <div class="row">
   <div class="col-6 mt-3 mt-md-0">

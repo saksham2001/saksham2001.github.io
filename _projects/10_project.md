@@ -5,6 +5,7 @@ description: "AI-Powered Real-Time Fraud Detection for Phone Calls (2024)"
 img: assets/img/callcop_thumbnail.png
 importance: 4
 category: fun, llm
+year: 2024
 ---
 
 <div class="row justify-content-center">

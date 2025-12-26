@@ -5,6 +5,7 @@ description: "A Smart Automatic System to measure symptoms for COVID'19 (2020)"
 img: assets/img/TouchFree_TouchFree-v2.jpeg
 importance: 3
 category: work, embedded, computer vision
+year: 2020
 ---
 
 <iframe src="https://www.youtube.com/embed/HFBD5NxqAko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
