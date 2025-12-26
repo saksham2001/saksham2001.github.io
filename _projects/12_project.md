@@ -24,6 +24,11 @@ Modern CubeSats often rely on low-power long-range communication systems to meet
 
 In this project, we built a simplified CubeSat prototype that captures the core elements of an actual satellite system: power-aware mode switching, periodic scientific data collection, persistent logging, long-range communication via LoRa, and robust scheduling of multiple interacting threads. This was built upon our custom embedded RTOS that I built for a course at CMU. All the code is written in bare metal C for nRF52840 microcontroller. Our goal was to demonstrate how these subsystems integrate into a coherent embedded platform that mirrors the constraints and design principles of real CubeSat missions.
 
+> ##### NOTE
+>
+> The code base is not publically available because it is part of a course at CMU. It is available upon request.
+{: .block-warning }
+
 ## System Architecture
 
 ### State Machine
