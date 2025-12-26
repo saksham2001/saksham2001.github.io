@@ -45,7 +45,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
 - **Interface:**  
   `gpio_init(pin, dir, pull, drive)`  
   `gpio_set(pin)` / `gpio_clr(pin)`  
-  `gpio_read(pin) → 0/1`
+  `gpio_read(pin) to 0/1`
 
 - **Implementation:**  
   GPIO configuration is performed by writing to `PIN_CNF[n]`, explicitly setting direction, pull-up/down resistors, and drive strength. Output transitions use the `OUTSET` and `OUTCLR` registers to guarantee **atomic pin updates** without read-modify-write hazards. Inputs are read from the `IN` register via volatile pointers, ensuring the compiler does not cache pin state.
@@ -64,7 +64,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   `adc_setup(channel, pin, gain, ref)`  
   `adc_init(buffer, count)`  
   `adc_sample()`  
-  `adc_quick_sample() → value`  
+  `adc_quick_sample() to value`  
   `SAADC_Handler()`
 
 - **Implementation:**  
@@ -102,7 +102,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   `i2c_leader_write(addr, buf, len)`  
   `i2c_leader_read(addr, buf, len)`  
   `i2c_leader_stop()`  
-  `check_lux() → value`
+  `check_lux() to value`
 
 - **Implementation:**  
   SDA/SCL pins are configured for open-drain operation and 100 kHz signaling. Transfers use EasyDMA (`TXD_PTR`, `RXD_PTR`) and are orchestrated via `TASKS_STARTTX/STARTRX`. Completion and error states are detected through `EVENTS_LASTTX`, `EVENTS_LASTRX`, and `EVENTS_ERROR`, with error decoding via `ERRORSRC`.
@@ -195,7 +195,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
 
 #### NeoPixel (WS2812)
 
-- **Peripheral:** PWM0 + GPIO (P0.16)
+- **Peripheral:** PWM0 + GPIO (P0.16 connected to the onboard NeoPixel LED)
 
 - **Interface:**  
   `pix_init()`  
@@ -257,5 +257,71 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
 - **Implementation:**  
   GPIO pins are muxed to SPIM3, SPI mode and bit order are configured, and DMA pointers are programmed for full-duplex transfers. Completion is detected by polling `EVENTS_END`.
 
-- **Design notes:**  
-  The driver exposes the full SPI transaction lifecycle, making timing and blocking behavior explicit.
+## User vs Kernel: Privilege Separation
+
+This RTOS enforces a clear separation between kernel and user execution using a combination of Cortex-M privilege levels, dual stack pointers, and the Memory Protection Unit (MPU). The goal is to ensure that application code can execute safely without direct access to kernel state or hardware, while still allowing controlled interaction through well-defined system calls.
+
+Kernel code always runs in privileged mode and uses the Main Stack Pointer (MSP). This includes all exception handlers, scheduler logic, device drivers, and MPU configuration. In contrast, user applications run in unprivileged Thread mode and use the Process Stack Pointer (PSP). Once the MPU is enabled, user code is restricted to explicitly defined regions of flash and RAM and is prevented from accessing kernel memory or MMIO registers directly.
+
+This separation is reinforced at the linker level. The linker script places kernel and user sections into distinct regions—kernel text and data are isolated from user text, rodata, data, and stacks. During initialization, `mpu_enable()` programs MPU regions with appropriate permissions: kernel regions are accessible only in privileged mode, while user regions are readable and writable (or executable where appropriate) only when running unprivileged. As a result, any illegal access from user code reliably triggers a memory management fault rather than silently corrupting kernel state.
+
+Transitioning from kernel execution into unprivileged user code is a deliberate, explicit handoff. While still in privileged mode, the kernel initializes the user process stack and switches the active stack pointer to the PSP. Control is then transferred to a small user-mode entry stub, which updates the processor control state so that Thread mode becomes unprivileged and continues execution using the PSP. Only after this transition does user C code begin executing. From that point onward, user code cannot regain privilege on its own.
+
+Interaction between user and kernel code is implemented through system calls using the ARM Supervisor Call (SVC) mechanism. User-space functions invoke SVC instructions with a small immediate value identifying the requested service, passing arguments in registers according to the standard calling convention. Executing an SVC causes the processor to synchronously enter Handler mode, which is always privileged. The hardware automatically saves the user execution context, and control is transferred to the kernel’s SVC handler.
+
+The SVC handler extracts the system call identifier, validates arguments, and dispatches to the corresponding kernel service. Any return value is written back into the saved user context so that, when the exception completes, execution resumes seamlessly in user space as if the call had returned from a normal function. Crucially, the processor automatically restores unprivileged Thread mode and the PSP on exception return, ensuring that privilege is never accidentally retained by user code.
+
+Together, privilege levels, stack separation, MPU enforcement, and SVC-based system calls form the security and isolation boundary of the RTOS. This design allows user applications to run with strong safety guarantees while keeping the kernel small, auditable, and fully in control of hardware and system state.
+
+## Context Switching & Multithreading
+
+The multitasking subsystem extends the kernel from a single-threaded execution model into a true multi-threaded runtime that supports both non-preemptive and preemptive scheduling of multiple user-level threads. This design deliberately mirrors how real RTOS kernels structure their threading APIs, while keeping the mechanics explicit and inspectable.
+
+User code interacts with the multitasking system exclusively through a small, well-defined set of system calls. Before any scheduling begins, the user program declares its intent by calling `multitask_request(n, stack_bytes)`, which informs the kernel how many threads will exist and how much stack space each thread requires. The kernel validates these parameters, partitions the user stack region accordingly, and initializes a global process control block (PCB) that will hold all thread metadata. At this stage, no threads are runnable yet; the kernel is only reserving resources and establishing bookkeeping structures.
+
+Threads are then defined individually using `thread_define(thread_id, fn, arg)`. For each thread, the kernel constructs an initial user-mode stack frame that makes the thread appear as though it had been interrupted just before executing `fn(arg)`. This includes preloading the argument register, setting the program counter to the thread entry function, installing a special `thread_end` trampoline as the return address, and initializing the processor state so execution begins in Thumb mode. In parallel, the kernel allocates a corresponding kernel stack frame and records both user and kernel context in a Thread Control Block (TCB). Each TCB therefore captures everything required to suspend and later resume that thread.
+
+Once all threads are defined, `multitask_start(freq)` transfers control to the scheduler. At this point, all user-defined threads are marked `READY`, and the original `main` execution context is converted into a special main thread TCB. This main thread is treated like any other schedulable entity, allowing the system to cleanly return to `main` once all worker threads have completed. If `freq` is zero, the system runs in non-preemptive mode, and context switches occur only when threads explicitly yield or terminate. If `freq` is non-zero, the kernel configures the SysTick timer to generate periodic interrupts, enabling preemptive scheduling.
+
+All transitions between threads are mediated by the PendSV exception, which is reserved exclusively for context switching. When a switch is required—either because a thread voluntarily yields, terminates, or is preempted by SysTick—the kernel sets the PendSV pending bit. When PendSV is taken, execution enters privileged handler mode, and the low-level assembly stub preserves the minimal architectural state before transferring control to a C-level handler.
+
+The core of the context switch occurs in the PendSV handler in `multitask.c`. If a thread was previously running, its callee-saved registers, stack pointers, and exception return state are saved into its TCB, and its state is updated from `RUNNING` to `READY` as appropriate. The scheduler is then invoked to select the next runnable thread using a simple round-robin policy that skips threads marked `DONE`. If no runnable user threads remain, the scheduler selects the main thread TCB, allowing execution to unwind naturally back to the original user program.
+
+Once a next thread is selected, its saved context is restored, the kernel stack is reloaded, and PendSV returns using a carefully chosen exception return value that resumes execution in Thread mode using the PSP. From the perspective of user code, this entire process is invisible: each thread simply appears to pause and resume execution at arbitrary points, depending on scheduling decisions.
+
+Preemptive scheduling is layered cleanly on top of this mechanism. When enabled, the SysTick handler runs at a fixed frequency and decides whether a scheduling event should occur. Instead of performing a context switch directly, SysTick merely requests one by setting PendSV, ensuring that all switching logic remains centralized and consistent. This separation keeps interrupt handlers short and deterministic while allowing the kernel to control when and how context switches occur.
+
+Thread termination is handled explicitly through `thread_end()`. When a thread exits, the kernel marks its TCB as `DONE`, compacts the active TCB list, and requests a context switch. Eventually, when all user threads have terminated, the scheduler naturally falls back to the main thread, and `multitask_start()` returns. In this way, the multitasking system integrates seamlessly with normal program control flow, treating the main thread as just another schedulable context rather than a special case.
+
+Overall, this design demonstrates how thread abstraction, scheduling policy, and low-level context switching fit together in a real RTOS. By separating user intent (via syscalls) from kernel mechanics (via PendSV and SysTick), the system remains modular, debuggable, and faithful to how production kernels implement multitasking on Cortex-M platforms.
+
+## Scheduling & Concurrency: From Round-Robin to Real-Time Guarantees
+
+After establishing basic multitasking, the kernel was extended to support real-time scheduling and safe concurrency control, moving progressively from best-effort scheduling to analytically grounded guarantees.
+
+#### Rate Monotonic Scheduling (RMS)
+
+The round-robin scheduler was replaced with a Rate Monotonic Scheduler (RMS), where thread priority is derived from timing requirements rather than fairness. Each thread now declares a worst-case execution time (`Ci`) and a period (`Ti`), and the kernel performs admission control before accepting the thread. A utilization-bound test ensures that the total CPU demand remains schedulable before the thread is admitted.
+
+Once multitasking starts, each thread tracks remaining execution budget (`Ci_remaining`), remaining period (`Ti_remaining`), and cumulative runtime. Static priorities are assigned based on period length (shorter period ⇒ higher priority), and scheduling decisions always select the READY thread with the highest priority. SysTick enforces timing constraints by decrementing execution budgets and releasing threads when their periods expire. Whenever a higher-priority thread becomes READY, the kernel immediately preempts the running thread via PendSV, preserving strict RMS semantics.
+
+This design cleanly separates timing enforcement (SysTick) from context switching (PendSV), ensuring deterministic behavior even under preemption.
+
+---
+
+#### Memory Protection for Multitasking
+
+Building on RMS, the kernel integrates the ARM Memory Protection Unit (MPU) to enforce isolation. Kernel memory is always protected from user threads, and an optional per-thread protection mode further isolates user stacks from one another. Static MPU regions protect user text, data, and heap, while two dynamic regions are reprogrammed on every context switch to grant access only to the currently running thread’s user and kernel stacks.
+
+Any illegal access—such as stack overflow or cross-thread memory access—triggers a memory fault. The fault handler diagnoses the violation and terminates the offending thread, preventing silent corruption and allowing the system to fail safely.
+
+---
+
+#### Priority Ceiling Protocol (PCP)
+
+To handle shared resources safely under RMS, the kernel implements the Priority Ceiling Protocol (PCP). Each lock is assigned a priority ceiling, and a thread may acquire a lock only if its priority exceeds the current system ceiling. When contention occurs, priority inheritance is applied: a thread holding a lock temporarily inherits the highest priority of any thread it blocks, ensuring bounded blocking time and preventing priority inversion.
+
+Dynamic priority management is fully integrated into scheduling and preemption logic. All scheduling decisions operate on dynamic priority, while static priorities remain the baseline. When locks are released, priorities are restored consistently, and any remaining dependencies are re-evaluated.
+
+## Final Thoughts
+This project progressed from bare-metal bring-up to a fully functional real-time operating system, implementing core OS concepts such as privilege separation, multitasking, real-time scheduling, memory protection, and safe concurrency entirely from scratch. By building each layer explicitly from linker scripts and exception handlers to RMS scheduling and priority ceiling locking, the kernel exposes how real RTOSes achieve determinism, safety, and control on resource-constrained hardware.

@@ -16,9 +16,17 @@ year: 2025
 
 ## Video Demo
 
-<div class="row justify-content-center my-4">
-  <div class="col-md-8">
-    {% include video.liquid path="assets/video/projects/visiontracker_demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+<div class="row justify-content-center">
+  <div class="col-lg-10">
+    <figure class="text-center">
+      <video width="100%" controls>
+        <source src="{{ '/assets/video/projects/visiontracker_demo.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption class="mt-2">
+        The bot is instructed to look for a "potted plant". It starts the object-finding maneuver, locates the target, and then uses PID control to gradually approach the object until it is 1 meter away.
+      </figcaption>
+    </figure>
   </div>
 </div>
 
