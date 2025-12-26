@@ -1,14 +1,12 @@
 ---
 layout: page
-title: "LoRa based CubeSat"
-description: "LoRa based CubeSat Prototype (2025)"
+title: "CubeSat with LoRa P2P Communication"
+description: "CubeSat Prototype for Embedded Systems final project (2025)"
 img: assets/img/projects/cubesat_lora/cubesat_lora_thumbnail.png
 importance: 6
 category: embedded, comms
 year: 2025
 ---
-
-# CubeSat Prototype
 
 <div class="d-flex justify-content-center my-3">
     <div style="max-width: 300px; width: 100%;">
@@ -26,7 +24,7 @@ In this project, we built a simplified CubeSat prototype that captures the core 
 
 > ##### NOTE
 >
-> The code base is not publically available because it is part of a course at CMU. It is available upon request.
+> The codebase for this project is not publically available because it this was part of a course at CMU. It can be made available upon request.
 {: .block-warning }
 
 ## System Architecture
@@ -68,13 +66,43 @@ Packetizer thread loads data segments from flash, formats LoRa packets, and queu
 - Transition to Sleep if energy becomes insufficient.
 
 ### State Transition Logic
-| Current State | Condition                 | Next State                                   |
-| ------------- | ------------------------- | -------------------------------------------- |
-| Sleep         | Power ≥ threshold         | Experiment / Communication depending on data |
-| Experiment    | Data ready for TX         | Communication                                |
-| Experiment    | Power < threshold         | Sleep                                        |
-| Communication | TX finished & power is OK | Experiment                                   |
-| Communication | Power < threshold         | Sleep                                        |
+
+<table>
+  <thead>
+    <tr>
+      <th>Current State</th>
+      <th>Condition</th>
+      <th>Next State</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sleep</td>
+      <td>Power &ge; threshold</td>
+      <td>Experiment / Communication (depending on data)</td>
+    </tr>
+    <tr>
+      <td>Experiment</td>
+      <td>Data ready for TX</td>
+      <td>Communication</td>
+    </tr>
+    <tr>
+      <td>Experiment</td>
+      <td>Power &lt; threshold</td>
+      <td>Sleep</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>TX finished &amp; power is OK</td>
+      <td>Experiment</td>
+    </tr>
+    <tr>
+      <td>Communication</td>
+      <td>Power &lt; threshold</td>
+      <td>Sleep</td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Thread Model

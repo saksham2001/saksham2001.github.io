@@ -16,7 +16,7 @@ year: 2025
 
 > ##### NOTE
 >
-> The code base is not publically available because it was developed as part of a course at CMU. It is available upon request.
+> The codebase for this project is not publically available because it this was part of a course at CMU. It can be made available upon request.
 {: .block-warning }
 
 ## Introduction

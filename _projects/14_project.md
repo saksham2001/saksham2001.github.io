@@ -23,7 +23,7 @@ Rather than treating this as a purely machine learning or sensing problem, I app
 
 This kiosk was developed as part of my bachelor’s thesis and internship at **ETH Zurich**, with the broader vision that such systems could extend beyond COVID-19 and serve as scalable screening tools for future infectious diseases and public health emergencies.
 
-### Video Demo
+### Demo
 <div class="row my-4">
   <div class="col-md-7 mb-3 mb-md-0 d-flex align-items-center justify-content-center" style="min-height: 320px;">
     <iframe 
@@ -185,7 +185,7 @@ To keep the system inexpensive and easy to modify, the enclosure was built using
 - 3D-printed parts for sensor housings, hand trays, and internal mounts  
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-md-6 mx-auto mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/projects/covid19_screening_kiosk/3d_parts.png" title="3D-printed parts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

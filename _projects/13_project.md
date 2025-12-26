@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "VisionTracker"
-description: "YOLOv8 Object Detection Robot (2025)"
+description: "Autonomous Object-Following Mobile Robot for Autonomous Robotics I (2025)"
 img: assets/img/projects/visiontracker/visiontracker_thumbnail.png
 importance: 7
 category: ml, robotics
@@ -14,8 +14,44 @@ year: 2025
     </div>
 </div>
 
+## Video Demo
+
+<div class="row justify-content-center my-4">
+  <div class="col-md-8">
+    {% include video.liquid path="video/projects/visiontracker_demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+  </div>
+</div>
+
 > ##### NOTE
 >
-> The codebase for this project is not publically available because it is part of a course at CMU. It is available upon request.
+> The codebase for this project is not publically available because it this was part of a course at CMU. It can be made available upon request.
 {: .block-warning }
+
+As the final project for *Autonomous Robotics I* at CMU, we designed and built a fully autonomous 4-wheel drive mobile robot capable of detecting, localizing, and tracking everyday objects in real time using onboard perception and control.
+
+### System Overview
+
+We assembled a 4-wheel drive robot platform equipped with motor controllers and an **NVIDIA Jetson Nano** as the onboard computer along with an **Intel RealSense depth camera**. The Jetson Nano interfaces directly with the motor drivers via GPIO pins, issuing individual velocity commands for each wheel. The entire system runs **ROS 2**, for modular perception, planning, and control.
+
+### Motion Control & ROS 2 Architecture
+
+The robot follows a velocity-based control pipeline:
+
+* A ROS 2 node converts commanded linear and angular velocity (`/cmd_vel`) into individual wheel velocities, which are published to the motor control interface.
+* An action server exposes high-level motion commands, allowing the robot to be commanded asynchronously for behaviors such as object search and tracking.
+* Low-level wheel velocity commands are continuously updated to ensure smooth motion and stable tracking.
+
+### Perception & Object Selection
+
+For perception, we run a YOLOv8 object detection model onboard the Jetson Nano, pretrained on the COCO dataset (80 object classes). A dedicated ROS 2 node allows the user to select any COCO object class at runtime.
+
+Once an object is selected, the robot enters object-finding mode:
+
+1. The robot performs a full 360° rotational scan to locate the target object in its camera view.
+2. Upon detection, the system switches to tracking mode.
+
+### Visual Servoing & Depth-Aware Control
+
+The robot uses the depth camera to estimate the distance to the detected object. A PID control loop keeps the object centered in the camera frame while simultaneously driving the robot forward. Depth feedback is used to regulate forward velocity, and the robot autonomously approaches the object until it reaches a target distance of 1 meter, at which point it stops.
+
 
