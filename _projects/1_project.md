@@ -2,14 +2,14 @@
 layout: page
 title: "Trident"
 description: "SAE Aero Design'22 Advanced Class RC Aircraft (2022)"
-img: assets/img/Falcons22_team2.jpeg
+img: assets/img/projects/trident/Falcons22_team2.jpeg
 importance: 1
 category: work, embedded, avionics
 year: 2022
 ---
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/Falcons22_team.jpeg" title="Trident Flagship'22" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_team.jpeg" title="Trident Flagship'22" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -30,7 +30,7 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/Falcons22_PA.png" title="Primary Aircraft" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_PA.png" title="Primary Aircraft" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -41,7 +41,7 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/Falcons22_PADA.png" title="PADA" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_PADA.png" title="PADA" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -62,6 +62,6 @@ The PADA needs to be an autonomous glider with propulsion under 255 grams and eq
 
 * **3rd Rank Overall Worldwide** - SAE International Aero Design Competition 2022 (Fort Worth, Texas, USA)
 
-{% include figure.liquid loading="eager" path="assets/img/Falcons22_award.png" title="Winning Placks" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/Falcons22_board-certificate.jpeg" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
-{% include figure.liquid path="assets/img/Falcons22_participation-certificate.png" title="Participation Certificate" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_award.png" title="Winning Placks" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/projects/trident/Falcons22_board-certificate.jpeg" title="Board Certificate" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/img/projects/trident/Falcons22_participation-certificate.png" title="Participation Certificate" class="img-fluid rounded z-depth-1" %}

@@ -2,7 +2,7 @@
 layout: page
 title: "CallCop"
 description: "AI-Powered Real-Time Fraud Detection for Phone Calls (2024)"
-img: assets/img/callcop_thumbnail.png
+img: assets/img/projects/callcop/callcop_thumbnail.png
 importance: 4
 category: fun, llm
 year: 2024
@@ -11,7 +11,7 @@ year: 2024
 <div class="row justify-content-center">
   <div class="col-md-6">
     <video width="100%" controls>
-      <source src="/assets/video/CallCop.mp4" type="video/mp4">
+      <source src="{{ '/assets/video/projects/CallCop.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </div>

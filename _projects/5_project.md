@@ -2,17 +2,17 @@
 layout: page
 title: "Black Bird"
 description: "High Powered Model Rocket (2019)"
-img: assets/img/STAR_launch-2.gif
+img: assets/img/projects/black_bird/STAR_launch-2.gif
 importance: 3
 category: work, avionics
 year: 2019
 ---
 <div class="row">
   <div class="col-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/black_bird/STAR_BB-1.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-6 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/black_bird/STAR_BB-2.jpeg" title="image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -33,7 +33,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_gcb.jpeg" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/black_bird/STAR_gcb.jpeg" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -46,7 +46,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
     
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/STAR_igniter-gcb.jpeg" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="assets/img/projects/black_bird/STAR_igniter-gcb.jpeg" title="General Circuit Board (GCB)" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 
@@ -56,19 +56,19 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/STAR_scr1.jpeg" title="Start Screen" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/black_bird/STAR_scr1.jpeg" title="Start Screen" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/STAR_scr2.jpeg" title="Launch Pad Igniter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/black_bird/STAR_scr2.jpeg" title="Launch Pad Igniter" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/STAR_scr3.jpeg" title="Bluetooth Selection Menu" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/black_bird/STAR_scr3.jpeg" title="Bluetooth Selection Menu" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/STAR_scr4.jpeg" title="Launch Sequence Starter" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/black_bird/STAR_scr4.jpeg" title="Launch Sequence Starter" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/STAR_scr5.jpeg" title="During Launch Sequence" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/black_bird/STAR_scr5.jpeg" title="During Launch Sequence" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -81,7 +81,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/STAR_launch-pad.gif" title="Static Launch Pad Test" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/black_bird/STAR_launch-pad.gif" title="Static Launch Pad Test" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -100,7 +100,7 @@ A Team comprising 9 interns worked on different aspects of the Rocket, namely 2 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/STAR_launch-2.gif" title="Black Bird Launch" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/black_bird/STAR_launch-2.gif" title="Black Bird Launch" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
  <div class="caption">

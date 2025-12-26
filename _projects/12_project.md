@@ -2,7 +2,7 @@
 layout: page
 title: "LoRa based CubeSat Prototype"
 description: "LoRa based CubeSat Prototype (2025)"
-img: assets/img/cubesat_lora_thumbnail.png
+img: assets/img/projects/cubesat_lora/cubesat_lora_thumbnail.png
 importance: 6
 category: embedded, comms
 year: 2025
@@ -12,7 +12,7 @@ year: 2025
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cubesat_lora_thumbnail.png" title="AI-generated Mission Patch" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_thumbnail.png" title="AI-generated Mission Patch" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -33,7 +33,7 @@ In this project, we built a simplified CubeSat prototype that captures the core 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cubesat_lora_state_machine.png" title="State Machine" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_state_machine.png" title="State Machine" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -140,7 +140,7 @@ and it worked.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cubesat_lora_seeed_wio.png" title="Wio SX1262 Schematic" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_seeed_wio.png" title="Wio SX1262 Schematic" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -196,7 +196,7 @@ The following table summarizes all GPIO pin assignments used in the CubeSat prot
 You can see our final setup here:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cubesat_lora_final.jpg" title="Final Setup" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_final.jpg" title="Final Setup" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -209,7 +209,7 @@ To test the transmission from our CubeSat, we used another board with Seeed Stud
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cubesat_lora_receiving_board.jpeg" title="Receiving Board" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_receiving_board.jpeg" title="Receiving Board" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

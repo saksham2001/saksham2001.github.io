@@ -2,7 +2,7 @@
 layout: page
 title: "ADAMS"
 description: "A Smart and Adaptive Driver Monitoring and Assistance System (2021)"
-img: assets/img/ADAMS_ADAMS-img.jpeg
+img: assets/img/projects/adams/ADAMS_ADAMS-img.jpeg
 importance: 3
 category: fun, embedded, computer vision
 year: 2021
@@ -60,28 +60,28 @@ year: 2021
   
   <div class="carousel-inner">
     <div class="carousel-item active">
-      {% include figure.liquid path="assets/img/ADAMS_scr1.jpeg" title="ADAMS Screenshot 1" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr1.jpeg" title="ADAMS Screenshot 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr2.jpeg" title="ADAMS Screenshot 2" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr2.jpeg" title="ADAMS Screenshot 2" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr3.jpeg" title="ADAMS Screenshot 3" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr3.jpeg" title="ADAMS Screenshot 3" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr4.jpeg" title="ADAMS Screenshot 4" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr4.jpeg" title="ADAMS Screenshot 4" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr5.jpeg" title="ADAMS Screenshot 5" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr5.jpeg" title="ADAMS Screenshot 5" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr6.jpeg" title="ADAMS Screenshot 6" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr6.jpeg" title="ADAMS Screenshot 6" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr7.jpeg" title="ADAMS Screenshot 7" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr7.jpeg" title="ADAMS Screenshot 7" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="carousel-item">
-      {% include figure.liquid path="assets/img/ADAMS_scr8.jpeg" title="ADAMS Screenshot 8" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="assets/img/projects/adams/ADAMS_scr8.jpeg" title="ADAMS Screenshot 8" class="img-fluid rounded z-depth-1" %}
     </div>
   </div>
   

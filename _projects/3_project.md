@@ -2,7 +2,7 @@
 layout: page
 title: "TouchFree"
 description: "A Smart Automatic System to measure symptoms for COVID'19 (2020)"
-img: assets/img/TouchFree_TouchFree-v2.jpeg
+img: assets/img/projects/touchfree/TouchFree_TouchFree-v2.jpeg
 importance: 3
 category: work, embedded, computer vision
 year: 2020
@@ -28,7 +28,7 @@ My approach for this project was to build a streamlined Setup process such that 
 
 ### Hackster.io Build Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-v2-contactless-temperature-and-mask-checkup-d01dc8" target="_blank">
-    <img alt="TouchFree-v1-banner" src="assets/img/TouchFree_TouchFree-v1-banner.png">
+    <img alt="TouchFree-v1-banner" src="assets/img/projects/touchfree/TouchFree_TouchFree-v1-banner.png">
 </a>
 
 ### Github Repository
@@ -52,7 +52,7 @@ This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mo
 
 ### Hackster.io Build Tutorial
 <a href="https://www.hackster.io/sakshambhutani2001/touchfree-automated-temperature-checkup-and-mask-detection-2cc337" target="_blank">
-    <img alt="TouchFree-v1-banner" src="assets/img/TouchFree_TouchFree-v2-banner.png">
+    <img alt="TouchFree-v1-banner" src="assets/img/projects/touchfree/TouchFree_TouchFree-v2-banner.png">
 </a>
 
 ### Github Repo
@@ -67,6 +67,6 @@ This project was also translated by [fibx](https://mc.dfrobot.com.cn/home.php?mo
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/TouchFree_Certificate.jpeg" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/projects/touchfree/TouchFree_Certificate.jpeg" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>

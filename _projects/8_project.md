@@ -2,7 +2,7 @@
 layout: page
 title: "Autonomiq"
 description: "AI-Powered Vehicle Diagnostics System (2025)"
-img: assets/img/autonomiq_preview.png
+img: assets/img/projects/autonomiq/autonomiq_preview.png
 importance: 1
 category: fun, embedded, llm
 year: 2025
@@ -39,7 +39,7 @@ The system combines cutting-edge AI technology with automotive diagnostics:
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-      {% include figure.liquid loading="eager" path="assets/img/autonomiq_winner.jpeg" title="Automotiq - Google DeepMind AI Agent Hackathon Winner" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid loading="eager" path="assets/img/projects/autonomiq/autonomiq_winner.jpeg" title="Automotiq - Google DeepMind AI Agent Hackathon Winner" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">

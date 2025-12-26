@@ -2,7 +2,7 @@
 layout: page
 title: "Indecisive"
 description: "AI-Powered Food Decision Engine (2025)"
-img: assets/img/indecisive_preview.jpg
+img: assets/img/projects/indecisive/indecisive_preview.jpg
 importance: 2
 category: fun, llm
 year: 2025
@@ -10,31 +10,31 @@ year: 2025
 
 <div class="row">
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-1.PNG" title="Option to browse pre-scanned menus or scan a menu" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-1.PNG" title="Option to browse pre-scanned menus or scan a menu" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-2.PNG" title="Scan a new menu" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-2.PNG" title="Scan a new menu" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-3.PNG" title="User sign in" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-3.PNG" title="User sign in" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-4.PNG" title="Choose a restaurant" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-4.PNG" title="Choose a restaurant" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
 </div>
 
 <div class="row">
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-5.PNG" title="Dish selection" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-5.PNG" title="Dish selection" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-6.PNG" title="Dish selection" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-6.PNG" title="Dish selection" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-7.PNG" title="Winning dish" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-7.PNG" title="Winning dish" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
   <div class="col-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/indecisive-8.PNG" title="Personalized taste summary based on previous selections" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/indecisive/indecisive-8.PNG" title="Personalized taste summary based on previous selections" class="img-fluid rounded z-depth-1" style="height: 100%; object-fit: cover;" %}
   </div>
 </div>
 <div class="caption">
