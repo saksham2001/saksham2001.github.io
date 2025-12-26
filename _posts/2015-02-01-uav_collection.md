@@ -3,7 +3,7 @@ layout: post
 title: My Journey of Building and Flying UAVs
 date: 2015-02-01 
 description: A collection of UAVs I have built over the years
-tags: projects
+tags: hobby
 categories: hobby
 featured: false
 thumbnail: "assets/img/blog/uav_collection/drone_journey_preview.jpg"

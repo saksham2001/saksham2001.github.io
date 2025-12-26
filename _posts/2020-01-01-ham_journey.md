@@ -3,7 +3,7 @@ layout: post
 title: My Journey into the World of Amateur Radio
 date: 2014-01-01 
 description: Exploring the airwaves and building a community through ham radio
-tags: projects
+tags: hobby
 categories: hobby
 featured: false
 thumbnail: "assets/img/blog/ham_journey/ham_journey_preview.png"
@@ -69,12 +69,14 @@ In my first semester, I became a Teaching Assistant for the Introduction to Amat
 </div>
 
 I did some other interesting endeavors like taking my buggy experience to a whole new level by volunteering as a track marshal for the [Pittsburgh Vintage Grand Prix](https://pvgp.org). I also helped in comms during the CMU [SCS Pretty Good Race](http://www.cs.cmu.edu/~PGR/).
-<div class="row" style="max-height: 80vh;">
-    <div class="col-sm mt-3 mt-md-0 d-flex align-items-center">
-        {% include video.liquid path="assets/video/pvgp-2025.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+<div class="row justify-content-center">
+    <div class="col-8 col-md-6 mt-3 mt-md-0 d-flex align-items-center">
+        <div style="width: 100%; max-width: 480px; margin: 0 auto;">
+            {% include video.liquid path="assets/video/pvgp-2025.mp4" class="img-fluid rounded z-depth-1" style="max-height:80vh; width:100%; height:auto;" controls=true %}
+        </div>
     </div>
 </div>
-<div class="caption">
+<div class="caption text-center">
     Waving the black flag to signal an early end to the Pittsburgh Vintage Grand Prix race due to rain conditions.
 </div>
 

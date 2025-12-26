@@ -11,12 +11,9 @@ year: 2025
 # CubeSat Prototype
 
 <div class="d-flex justify-content-center my-3">
-    <div style="max-width: 280px; width: 100%;">
+    <div style="max-width: 300px; width: 100%;">
         {% include figure.liquid loading="eager" path="assets/img/projects/cubesat_lora/cubesat_lora_thumbnail.png" title="AI-generated Mission Patch" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption text-center" style="max-width: 280px; margin: 0 auto;">
-    AI-generated mission patch for the CubeSat prototype project.
 </div>
 
 ## Introduction
@@ -25,7 +22,7 @@ CubeSats are a class of miniature satellites built using standardized modular un
 
 Modern CubeSats often rely on low-power long-range communication systems to meet their strict energy budgets. LoRa, in particular, has become increasingly popular because of its long-distance capability, robustness to noise, and high link redundancy. Community networks such as TinyGS have further accelerated adoption by enabling inexpensive, crowdsourced reception of CubeSat telemetry worldwide. In addition to communication, CubeSats must also deal with environmental challenges such as radiation-induced bit flips, motivating the use of watchdog timers, and other redundancy mechanisms.
 
-In this project, we built a simplified CubeSat prototype that captures the core elements of an actual satellite system: power-aware mode switching, periodic scientific data collection, persistent logging, long-range communication via LoRa, and robust scheduling of multiple interacting threads. This was built upon our custom embedded RTOS that I built for a course at CMU. Our goal was to demonstrate how these subsystems integrate into a coherent embedded platform that mirrors the constraints and design principles of real CubeSat missions.
+In this project, we built a simplified CubeSat prototype that captures the core elements of an actual satellite system: power-aware mode switching, periodic scientific data collection, persistent logging, long-range communication via LoRa, and robust scheduling of multiple interacting threads. This was built upon our custom embedded RTOS that I built for a course at CMU. All the code is written in bare metal C for nRF52840 microcontroller. Our goal was to demonstrate how these subsystems integrate into a coherent embedded platform that mirrors the constraints and design principles of real CubeSat missions.
 
 ## System Architecture
 
