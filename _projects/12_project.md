@@ -21,32 +21,11 @@ year: 2025
 
 ## Introduction
 
-CubeSats are a class of miniature satellites built using standardized 
-modular units that offer a low-cost and accessible platform for performing 
-scientific experiments in space. Their small size and inexpensive 
-construction have made them an important tool for performing science in 
-space. Despite their simplicity, CubeSats must handle many of the same 
-challenges as larger satellites, including power management during orbital 
-shadow periods, executing a primary scientific experiment using onboard 
-sensors, and reliably downlinking collected data to ground stations.
+CubeSats are a class of miniature satellites built using standardized modular units that offer a low-cost and accessible platform for performing scientific experiments in space. Their small size and inexpensive construction have made them an important tool for performing science in space. Despite their simplicity, CubeSats must handle many of the same challenges as larger satellites, including power management during orbital shadow periods, executing a primary scientific experiment using onboard sensors, and reliably downlinking collected data to ground stations.
 
-Modern CubeSats often rely on low-power long-range communication systems 
-to meet their strict energy budgets. LoRa, in particular, has become 
-increasingly popular because of its long-distance capability, robustness 
-to noise, and high link redundancy. Community networks such as TinyGS have 
-further accelerated adoption by enabling inexpensive, crowdsourced 
-reception of CubeSat telemetry worldwide. In addition to communication, 
-CubeSats must also deal with environmental challenges such as 
-radiation-induced bit flips, motivating the use of watchdog timers, and 
-other redundancy mechanisms.
+Modern CubeSats often rely on low-power long-range communication systems to meet their strict energy budgets. LoRa, in particular, has become increasingly popular because of its long-distance capability, robustness to noise, and high link redundancy. Community networks such as TinyGS have further accelerated adoption by enabling inexpensive, crowdsourced reception of CubeSat telemetry worldwide. In addition to communication, CubeSats must also deal with environmental challenges such as radiation-induced bit flips, motivating the use of watchdog timers, and other redundancy mechanisms.
 
-In this project, we built a simplified CubeSat prototype that captures the 
-core elements of an actual satellite system: power-aware mode switching, 
-periodic scientific data collection, persistent logging, long-range 
-communication via LoRa, and robust scheduling of multiple interacting 
-threads. Our goal was to demonstrate how these subsystems integrate into a 
-coherent embedded platform that mirrors the constraints and design 
-principles of real CubeSat missions.
+In this project, we built a simplified CubeSat prototype that captures the core elements of an actual satellite system: power-aware mode switching, periodic scientific data collection, persistent logging, long-range communication via LoRa, and robust scheduling of multiple interacting threads. This was built upon our custom embedded RTOS that I built for a course at CMU. Our goal was to demonstrate how these subsystems integrate into a coherent embedded platform that mirrors the constraints and design principles of real CubeSat missions.
 
 ## System Architecture
 
@@ -61,13 +40,7 @@ principles of real CubeSat missions.
     State machine diagram showing the three-state power-aware architecture.
 </div>
 
-The CubeSat prototype operates using a three-state power-aware 
-architecture that mirrors real spacecraft behavior. The system transitions 
-between Sleep, Experiment, and Communication modes based on available 
-energy and the presence of data waiting to be transmitted. A simplified 
-hardware switch is used in place of a real battery to simulate power 
-availability. We modified our RMS scheduler to support the state 
-transitions based on the battery level and data availability.
+The CubeSat prototype operates using a three-state power-aware architecture that mirrors real spacecraft behavior. The system transitions between Sleep, Experiment, and Communication modes based on available energy and the presence of data waiting to be transmitted. A simplified hardware switch is used in place of a real battery to simulate power availability. We modified our RMS scheduler from our custom embedded RTOS to support the state transitions based on the battery level and data availability.
 
 #### Sleep Mode
 - Lowest-power state; entered on reset.
@@ -104,10 +77,7 @@ Packetizer thread loads data segments from flash, formats LoRa packets, and queu
 
 ### Thread Model
 
-The system is composed of five periodic threads that operate across 
-different system states. Each state uses a different subset of threads, 
-enabling modularity and power-aware scheduling. Threads are organized into 
-common (always running) and mode-specific categories.
+The system is composed of five periodic threads that operate across different system states. Each state uses a different subset of threads, enabling modularity and power-aware scheduling. Threads are organized into common (always running) and mode-specific categories.
 
 #### A. Common Threads (always running)
 1. **Watchdog Thread**
@@ -177,62 +147,35 @@ and it worked.
     Wio SX1262 Schematic.
 </div>
 
-The interaction with the SX1262 is done using the SPI interface and it 
-usually follows this structure where we send specific OPCODEs and 
-parameters (optional) to the module and it responds with a status (for the 
-command) or data (for some other command). See the
+The interaction with the SX1262 is done using the SPI interface and it usually follows this structure where we send specific OPCODEs and parameters (optional) to the module and it responds with a status (for the command) or data (for some other command). See the
 [SX1262 Datasheet](https://www.semtech.com/products/wireless-rf/lora-connect/sx1262) for more details.
 
 The power to the crystal oscillator is provided by the SX1262's DIO3 pin, but these need to be confiured using SPI commands. The SX1262 controls the RF switch to select the TX or RX path from the DIO2 pin, which is also configured using SPI commands. The SX1262's BUSY pin is used to wait for the module to be ready for the next command which is configured to GPIO. The SX1262's DIO1 pin is used to detect the end of a transmission or reception which is also configured to GPIO. The output of the DIO1 is dynamically configured using SPI commands to either trigger a transmission or reception, and the thread polls this pin to check for the end of a transmission or reception. The SX1262 needs to be configured for the desired frequency, spreading factor, bandwidth, coding rate, preamble length, payload length, and other parameters using SPI commands before the TX or RX can be initiated.
 
 ### Microphone / ADC
 
-The microphone is used as a sensor data source and is wired and set up
-like in our earlier labs. The driver for this device operates
-asynchronously and communicates with its caller by means of a callback. As
-we are storing the microphone data into flash, this is handled in the
-callback, and the caller receives the status of the flash write.
+The microphone is used as a sensor data source and is wired and set up like in our earlier labs. The driver for this device operates asynchronously and communicates with its caller by means of a callback. As we are storing the microphone data into flash, this is handled in the callback, and the caller receives the status of the flash write.
 
 ### Watchdog
 
-The board's builtin watchdog interface has been configured with one
-input, and a timeout of 10 seconds. Functionality has been tested by
-halting the watchdog monitoring thread.
+The board's builtin watchdog interface has been configured with one input, and a timeout of 10 seconds. Functionality has been tested by halting the watchdog monitoring thread.
 
 ### Flash memory
 
-The board has flash memory with an erasure unit of 4096 bytes. We are
-using lower pages for program code, so our storage facility has picked the
-top two pages for storage. It was necessary to allocate two pages so that
-when a write operation goes past the end of one page, it can continue
-writing in another page, while read operations can still proceed in the
-original page. Functionality was tested by doing continuous writes to
-flash and reading to compare.
+The board has flash memory with an erasure unit of 4096 bytes. We are using lower pages for program code, so our storage facility has picked the top two pages for storage. It was necessary to allocate two pages so that when a write operation goes past the end of one page, it can continue writing in another page, while read operations can still proceed in the original page. Functionality was tested by doing continuous writes to flash and reading to compare.
 
-Once flash was used, code corruption on upload became much more frequent.
-Erasing the flash on connection to the board has eliminated this problem
-during the remainder of development on this project.
+Once flash was used, code corruption on upload became much more frequent. Erasing the flash on connection to the board has eliminated this problem during the remainder of development on this project.
 
 ### Scheduler
 
-The scheduler from our labs has been extended to manage operating states
-of the system. State change logic determines the operating state based on
-defined parameters, such as the system energy level. Threads request in
-which operating state to run in, and they will only be scheduled when the
-system is in the correct state. We have chosen to have a SLEEP state;
-threads that are allocated to that state will also be run in the other
-states. Those threads are generally important to the operation of the
-system, such as the watchdog bopper, energy monitor and status
-transmitter.
+The scheduler from our labs has been extended to manage operating states of the system. State change logic determines the operating state based on defined parameters, such as the system energy level. Threads request in
+which operating state to run in, and they will only be scheduled when the system is in the correct state. We have chosen to have a SLEEP state; threads that are allocated to that state will also be run in the other states. Those threads are generally important to the operation of the system, such as the watchdog bopper, energy monitor and status transmitter.
 
-Threads were profiled, but utilization was not an issue for us here, 
-partially because longer scheduling periods made demonstrating operation 
-easier.
+Threads were profiled, but utilization was not an issue for us here,  partially because longer scheduling periods made demonstrating operation easier.
 
 ### Pin Configuration:
 
-The following table summarizes all GPIO pin assignments used in the 
-CubeSat prototype:
+The following table summarizes all GPIO pin assignments used in the CubeSat prototype:
 
 | Pin | Function | Direction |
 |-----|----------|-----------|
@@ -262,11 +205,7 @@ You can see our final setup here:
 
 ### Receiving Board
 
-To test the transmission from our CubeSat, we used another board with Seeed 
-Studio XIAO nRF52840 microcontroller along with a Seeed Studio Wio SX1262 
-LoRa radio module. The code to configure this was written in Arduino IDE 
-and uses the [RadioLib Library](https://github.com/jgromes/RadioLib) to 
-interact with the SX1262.
+To test the transmission from our CubeSat, we used another board with Seeed Studio XIAO nRF52840 microcontroller along with a Seeed Studio Wio SX1262 LoRa radio module. The code to configure this was written in Arduino IDE and uses the [RadioLib Library](https://github.com/jgromes/RadioLib) to interact with the SX1262.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
