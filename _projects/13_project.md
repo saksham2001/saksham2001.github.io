@@ -22,11 +22,6 @@ year: 2025
   </div>
 </div>
 
-> ##### NOTE
->
-> The codebase for this project is not publically available because it this was part of a course at CMU. It can be made available upon request.
-{: .block-warning }
-
 As the final project for *Autonomous Robotics I* at CMU, we designed and built a fully autonomous 4-wheel drive mobile robot capable of detecting, localizing, and tracking everyday objects in real time using onboard perception and control.
 
 ### System Overview
