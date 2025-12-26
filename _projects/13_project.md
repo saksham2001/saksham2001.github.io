@@ -18,7 +18,7 @@ year: 2025
 
 <div class="row justify-content-center my-4">
   <div class="col-md-8">
-    {% include video.liquid path="assets/video/projects/visiontracker_demo.mov" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include video.liquid path="assets/video/projects/visiontracker_demo.mp4" class="img-fluid rounded z-depth-1" controls=true %}
   </div>
 </div>
 
