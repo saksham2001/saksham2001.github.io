@@ -157,8 +157,6 @@ td.list-group-link {
 }
 
 .cv-logo {
-  max-width: 80px;
-  max-height: 80px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -170,10 +168,66 @@ td.list-group-link {
   filter: brightness(1.1);
 }
 
-@media (max-width: 768px) {
+/* Desktop/Laptop screens (≥992px) - larger logos */
+@media (min-width: 992px) {
+  .cv-logo {
+    max-width: 140px;
+    max-height: 140px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Tablet screens (768px - 991px) - medium logos */
+@media (min-width: 768px) and (max-width: 991px) {
+  .cv-logo {
+    max-width: 110px;
+    max-height: 110px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Mobile screens (≤767px) - smaller, constrained logos, stacked layout */
+@media (max-width: 767px) {
+  .cv-logo-column {
+    padding: 0.5rem 0.25rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
   .cv-logo {
     max-width: 60px;
     max-height: 60px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Very small mobile screens (≤576px) - even smaller */
+@media (max-width: 576px) {
+  .cv-logo-column {
+    padding: 0.4rem 0.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .cv-logo {
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Extra small screens (≤400px) - minimal size */
+@media (max-width: 400px) {
+  .cv-logo-column {
+    padding: 0.3rem 0.15rem;
+  }
+  
+  .cv-logo {
+    max-width: 45px;
+    max-height: 45px;
   }
 }
 
