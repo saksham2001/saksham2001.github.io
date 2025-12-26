@@ -13,8 +13,8 @@ horizontal: false
 <div class="projects">
   <!-- Sort Selector -->
   <div class="mb-4 d-flex justify-content-end">
-    <div class="btn-group" role="group" aria-label="Sort projects">
-      <button type="button" class="btn btn-sm btn-outline-secondary sort-btn-year active">
+    <div role="group" aria-label="Sort projects">
+      <button type="button" class="btn btn-sm btn-outline-secondary sort-btn-year active mr-2">
         Sort by Year
       </button>
       <button type="button" class="btn btn-sm btn-outline-secondary sort-btn-category">
