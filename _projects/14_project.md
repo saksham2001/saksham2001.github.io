@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Covid'19 Screening Kiosk"
-description: "Covid'19 Screening Kiosk (2022)"
+title: "COVID-19 Screening Kiosk"
+description: "COVID-19 Screening Kiosk (2022)"
 img: assets/img/projects/covid19_screening_kiosk/kiosk_final.png
 importance: 8
 category: ml, health
@@ -9,17 +9,11 @@ year: 2022
 ---
 
 ## Why an Automated Screening Kiosk?
-The COVID-19 pandemic exposed a critical weakness in how public spaces handle health screening. Airports, university campuses, hospitals, malls, and workplaces suddenly became high-risk environments for viral transmission, yet the primary line of defense remained manual screening: temperature checks with handheld devices, visual inspection for mask compliance, and ad-hoc sanitization.
-
-These manual processes were slow, labor-intensive, and error-prone. They created long queues, increased close-contact exposure, and depended heavily on human consistency. Ironically, the very act of screening people for infection risk often increased the risk of transmission itself.
-
-At the same time, large-scale diagnostic testing was expensive and impractical for continuous use. During the peak of the pandemic, a single COVID-19 test could be expensive and time-consuming, making frequent testing economically infeasible for organizations operating at scale. What was needed was not a diagnostic replacement, but a fast, reliable *first-line screening system* that could flag potential risk while maintaining social distancing.
-
-This project was motivated by that gap.
+The COVID-19 pandemic exposed a weakness in how public spaces handle health screening: manual temperature checks, visual inspection for mask compliance, and ad-hoc sanitization. These processes are slow, labor-intensive, error-prone, and increase close-contact exposure. At the same time, large-scale diagnostic testing is too expensive and impractical for continuous use. This project targets the gap: a fast, reliable *first-line screening system* that flags potential risk while maintaining social distancing.
 
 The goal was to design and build an **automated, self-service screening kiosk** capable of rapidly assessing key COVID-19 indicators—mask usage, body temperature, blood oxygen saturation (SpO₂), and pulse rate—while minimizing physical contact and human intervention. The system needed to be accurate enough to be meaningful, fast enough to avoid bottlenecks, accessible to a wide range of users, and inexpensive enough to justify real-world deployment.
 
-Rather than treating this as a purely machine learning or sensing problem, I approached it as a **full systems challenge**: integrating sensing theory, signal processing, computer vision, embedded hardware, user interface design, accessibility standards, and cost analysis into a single deployable platform.
+Rather than treating this as a purely machine learning or sensing problem, I approached it as a full systems challenge: integrating sensing theory, signal processing, computer vision, embedded hardware, user interface design, accessibility standards, and cost analysis into a single deployable platform.
 
 This kiosk was developed as part of my bachelor’s thesis and internship at **ETH Zurich**, with the broader vision that such systems could extend beyond COVID-19 and serve as scalable screening tools for future infectious diseases and public health emergencies.
 
@@ -35,7 +29,7 @@ This kiosk was developed as part of my bachelor’s thesis and internship at **E
     ></iframe>
   </div>
   <div class="col-md-5 d-flex align-items-center justify-content-center">
-    {% include figure.liquid loading="eager" path="assets/img/projects/covid19_screening_kiosk/kiosk_final.png" title="Covid'19 Screening Kiosk - Final Build" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/covid19_screening_kiosk/kiosk_final.png" title="COVID-19 Screening Kiosk - Final Build" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -46,19 +40,19 @@ This kiosk was developed as part of my bachelor’s thesis and internship at **E
 
 At a high level, the kiosk is designed to perform end-to-end health screening for a single user in a guided, self-service workflow. From the moment a user approaches the kiosk to the final screening decision, all sensing, inference, and feedback are handled automatically without requiring trained personnel.
 
-The system integrates multiple sensing modalities (vision, thermal imaging, and photoplethysmography) each targeting a specific screening signal. These subsystems operate in parallel and are orchestrated through a centralized decision-making pipeline to minimize total screening time.
+The system integrates multiple sensing modalities (vision, thermal/infrared sensing, and photoplethysmography), each targeting a specific screening signal. These subsystems operate in parallel and are orchestrated through a centralized decision-making pipeline to minimize total screening time.
 
 ### Screening Signals Captured
 
 The kiosk screens for the following indicators:
 
 - **Mask compliance** using an RGB camera and a real-time computer vision model  
-- **Body temperature** by combining thermal imaging and RGB camera 
+- **Body temperature** using thermal/infrared sensing with vision-based alignment  
 - **Blood oxygen saturation (SpO₂)** using a fingertip photoplethysmography (PPG) sensor  
 - **Pulse rate**, estimated from both contact-based PPG and camera-based remote PPG (rPPG)  
 - **Hand sanitization**, enforced as part of the workflow to reduce cross-user contamination  
 
-Each signal is chosen deliberately. While no single measurement is sufficient to identify infection.
+Each signal is chosen deliberately; no single measurement is sufficient to identify infection.
 
 ### User-Centered Workflow
 
@@ -85,7 +79,7 @@ In the following sections, I break down how each of these subsystems—hardware,
 
 <div class="row my-4">
   <div class="col-md-6 mx-auto">
-    {% include figure.liquid loading="eager" path="assets/img/projects/covid19_screening_kiosk/kiosk_flow.png" title="Covid'19 Kiosk System Flowchart" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/covid19_screening_kiosk/kiosk_flow.png" title="COVID-19 Kiosk System Flowchart" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
@@ -193,7 +187,7 @@ To keep the system inexpensive and easy to modify, the enclosure was built using
     3D-printed sensor housings, hand trays, and mounting brackets for modular sensor integration.
 </div>
 
-This hybrid approach enabled fast iteration: structural changes could be made by updating CAD files and re-cutting or re-printing individual components rather than rebuilding the entire kiosk. Each sensing module (RGB camera, thermal camera, PPG sensor, and motion sensor) was housed in a dedicated enclosure.
+This hybrid approach enabled fast iteration: structural changes could be made by updating CAD files and re-cutting or re-printing individual components rather than rebuilding the entire kiosk. Each sensing module (RGB camera, thermal/infrared sensing, PPG sensor, and motion sensor) was housed in a dedicated enclosure.
 
 ## Electronics Design
 
@@ -224,6 +218,7 @@ A **PIR motion sensor** is connected to a GPIO pin and is used to detect the pre
 
 Physiological and thermal sensing devices are connected to the Raspberry Pi via the I²C bus:
 - Two thermal cameras  
+- One infrared temperature sensor  
 - One fingertip PPG sensor  
 
 Both thermal cameras share the same fixed I²C address. To resolve this address conflict, an additional GPIO line from the Raspberry Pi is used to control sensor power, ensuring that only one thermal camera is powered and active on the bus at any given time. This approach avoids the need for external I²C multiplexers while maintaining deterministic sensor selection.
@@ -436,7 +431,7 @@ RGB lighting is used to spatially guide users (e.g., blinking LEDs around the PP
 No fine motor actions or prolonged postures are required at any stage of the interaction.
 
 ## Deployment
-The kiosk is deployed as a standalone, continuously running system intended for unattended operation in public environments. Upon boot, the system initializes all sensing threads, peripheral interfaces, and the graphical user interface, then enters an idle state awaiting user presence.
+The kiosk is deployed as a standalone, continuously running system intended for unattended operation in public environments. Upon boot, the system initializes all sensing threads, peripheral interfaces, and the GUI, then enters an idle state awaiting user presence.
 
 ### Runtime States
 
@@ -454,15 +449,13 @@ State transitions are governed exclusively by the central controller and are not
 
 ### Graphical User Interface
 
-The graphical user interface provides deterministic, step-specific guidance throughout the screening process. Each screen corresponds to exactly one system state and exposes only the interaction required for that state.
+The GUI provides step-specific guidance synchronized with the workflow state machine. Each screen maps to a single system state and exposes only the required interaction.
 
 UI characteristics:
 - Full-screen, single-task views  
 - Large, high-contrast visual elements  
 - Minimal text, icon-driven instructions  
 - Explicit progress indicators showing screening stage completion  
-
-The GUI does not initiate sensing operations. It only reflects system state and provides user feedback.
 
 ### UI–Hardware Coupling
 

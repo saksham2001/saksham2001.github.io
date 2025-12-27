@@ -16,24 +16,24 @@ year: 2025
 
 > ##### NOTE
 >
-> The codebase for this project is not publically available because it this was part of a course at CMU. It can be made available upon request.
+> The codebase for this project is not publicly available because this was part of a CMU course. It can be shared upon request.
 {: .block-warning }
 
 ## Introduction
 
-As part of an embedded systems course at CMU, I built a real-time operating system (RTOS) entirely from scratch on the nRF52840 microcontroller using bare-metal C, without relying on any SDKs, libraries, or existing operating systems. Starting from the reset handler and custom linker scripts, I implemented core OS functionality including device drivers, interrupt handling, privilege separation, context switching, and a preemptive, priority-based scheduler. This was one of the most fun and challenging projects I have worked on. I spent countless hours debugging and testing the OS, and I learned a lot about the intricacies of embedded systems.
+As part of an embedded systems course at CMU, I built a real-time operating system (RTOS) from scratch on the nRF52840 microcontroller in bare-metal C—without relying on SDKs, libraries, or an existing OS. Starting from the reset handler and custom linker scripts, I implemented core OS functionality including device drivers, interrupt handling, privilege separation, context switching, and a preemptive, priority-based scheduler.
 
 ## Hardware & Constraints
-This project was implemented on the Nordic nRF52840 (Arm Cortex-M4) using the Adafruit Feather nRF52840 development board. All code was written in bare-metal C and built/debugged using the Arm GNU toolchain (arm-none-eabi-gcc, arm-none-eabi-gdb) with a Black Magic Probe (BMP) serving as both the flashing and hardware debugging interface. In addition to on-chip peripherals (GPIO, timers, UART, SAADC, NVIC), the system interfaced with external hardware including an I²C ambient light (lux) sensor, an analog microphone module, and the Feather’s onboard WS2812 (NeoPixel) RGB LED, all driven through custom drivers without any SDK or libraries.
+This project targets the Nordic nRF52840 (Arm Cortex-M4) on the Adafruit Feather nRF52840. All code was written in bare-metal C and built/debugged using the Arm GNU toolchain (arm-none-eabi-gcc, arm-none-eabi-gdb) with a Black Magic Probe (BMP) for flashing and hardware debugging. In addition to on-chip peripherals (GPIO, timers, UART, SAADC, NVIC), the system interfaced with external hardware including an I²C ambient light (lux) sensor, an analog microphone module, and the Feather’s onboard WS2812 (NeoPixel) RGB LED—each driven via custom drivers without SDKs or libraries.
 
 ## Bootloader
-On reset, the nRF52840 follows the standard Cortex-M boot sequence, beginning execution from a vector table placed at address 0 in flash. I defined this vector table manually in startup.s, with the first entry providing the initial main stack pointer and the second entry pointing to Reset_Handler, followed by handlers for core exceptions (HardFault, SVC, PendSV, SysTick, MemoryFault, etc) and all nRF52840 external IRQs. The linker script explicitly places this .vector_table section at the start of flash, ensuring the CPU can locate it immediately after reset.
+On reset, the nRF52840 begins execution from a vector table at address 0 in flash. I defined this vector table manually in startup.s, with the first entry providing the initial main stack pointer and the second entry pointing to Reset_Handler, followed by handlers for core exceptions (HardFault, MemManage, BusFault, UsageFault, SVC, PendSV, SysTick) and all nRF52840 external IRQs. The linker script explicitly places this .vector_table section at the start of flash so the CPU can locate it immediately after reset.
 
-The Reset_Handler performs a minimal runtime bring-up before handing control to the kernel. It invokes an early setup routine (prep_for_reset) to configure system handler priorities and initialize RAM with a known pattern for debugging. It then clears the .bss section, copies initialized .data from flash into RAM using linker-defined symbols, and finally branches into kernel_main. At this point, all C runtime assumptions are satisfied, and the system transitions cleanly from bare-metal startup code into the RTOS kernel proper.
+The Reset_Handler performs minimal runtime bring-up before handing control to the kernel. It invokes an early setup routine (prep_for_reset) to configure system handler priorities and initialize RAM with a known pattern for debugging. It then clears the .bss section, copies initialized .data from flash into RAM using linker-defined symbols, and finally branches into kernel_main.
 
 ## Kernel MMIO & Device Drivers
 
-All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)**, following the nRF52840 task/event programming model and ARM Cortex-M architectural constraints. Each driver exposes a minimal, synchronous interface intended to be predictable, debuggable, and suitable for use both in early boot code and later multitasking contexts.
+All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)**, following the nRF52840 task/event model and Cortex-M constraints. Each driver exposes a minimal, synchronous interface suitable for both early boot and later multitasking contexts.
 
 ---
 
@@ -45,7 +45,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
 - **Interface:**  
   `gpio_init(pin, dir, pull, drive)`  
   `gpio_set(pin)` / `gpio_clr(pin)`  
-  `gpio_read(pin) to 0/1`
+  `gpio_read(pin) -> 0/1`
 
 - **Implementation:**  
   GPIO configuration is performed by writing to `PIN_CNF[n]`, explicitly setting direction, pull-up/down resistors, and drive strength. Output transitions use the `OUTSET` and `OUTCLR` registers to guarantee **atomic pin updates** without read-modify-write hazards. Inputs are read from the `IN` register via volatile pointers, ensuring the compiler does not cache pin state.
@@ -64,14 +64,14 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   `adc_setup(channel, pin, gain, ref)`  
   `adc_init(buffer, count)`  
   `adc_sample()`  
-  `adc_quick_sample() to value`  
+  `adc_quick_sample() -> value`  
   `SAADC_Handler()`
 
 - **Implementation:**  
   The driver configures SAADC channels in single-ended mode using the internal 0.6 V reference, programmable gain, and acquisition time. DMA buffers are set via `RESULT_PTR` and `MAX_CNT`. Conversions are driven explicitly using the task/event pipeline (`TASKS_START`, `TASKS_SAMPLE`, `EVENTS_STARTED`, `EVENTS_END`). Optional interrupt handling clears events and supports chained reactions to new samples.
 
 - **Design notes:**  
-  This implementation highlights the nRF task/event model as a hardware-level state machine. Both blocking (polling) and interrupt-driven usage are supported, making the driver usable in early boot and later multitasking contexts.
+  Highlights the nRF task/event model as a hardware-level state machine; supports both blocking (polling) and interrupt-driven usage.
 
 ---
 
@@ -88,7 +88,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   TIMER0 is configured with a programmable prescaler and compare value. The driver busy-waits on compare events to generate precise timing intervals. Each “tick” toggles GPIO pins using `OUTSET`/`OUTCLR`, allowing software-defined waveforms and PWM without using the hardware PWM block.
 
 - **Design notes:**  
-  This driver demonstrates how predictable timing can be achieved even without dedicated peripherals, at the cost of CPU occupancy. It was particularly useful for understanding the limits of polling-based designs.
+  Enables predictable timing without dedicated peripherals at the cost of CPU occupancy.
 
 ---
 
@@ -102,7 +102,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   `i2c_leader_write(addr, buf, len)`  
   `i2c_leader_read(addr, buf, len)`  
   `i2c_leader_stop()`  
-  `check_lux() to value`
+  `check_lux() -> value`
 
 - **Implementation:**  
   SDA/SCL pins are configured for open-drain operation and 100 kHz signaling. Transfers use EasyDMA (`TXD_PTR`, `RXD_PTR`) and are orchestrated via `TASKS_STARTTX/STARTRX`. Completion and error states are detected through `EVENTS_LASTTX`, `EVENTS_LASTRX`, and `EVENTS_ERROR`, with error decoding via `ERRORSRC`.
@@ -189,7 +189,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   The low-frequency clock is started explicitly, RTC prescaler and compare registers are programmed from millisecond inputs, and compare interrupts are enabled via `INTENSET` and NVIC. The ISR clears events and re-arms periodic compares.
 
 - **Design notes:**  
-  This driver demonstrates low-power, long-interval timing suitable for periodic tasks and system heartbeats.
+  Low-power, long-interval timing for periodic tasks and system heartbeats.
 
 ---
 
@@ -241,7 +241,7 @@ All peripherals in this RTOS are driven directly via **memory-mapped I/O (MMIO)*
   Static MPU regions protect user text, rodata, and data using linker-defined boundaries. Dynamic regions enforce per-thread stack isolation. The MemFault handler inspects fault status registers and address registers to diagnose violations and terminate offending threads safely.
 
 - **Design notes:**  
-  This provides true user/kernel isolation on a microcontroller-class system.
+  True user/kernel isolation on a microcontroller-class system.
 
 ---
 
@@ -271,11 +271,11 @@ Interaction between user and kernel code is implemented through system calls usi
 
 The SVC handler extracts the system call identifier, validates arguments, and dispatches to the corresponding kernel service. Any return value is written back into the saved user context so that, when the exception completes, execution resumes seamlessly in user space as if the call had returned from a normal function. Crucially, the processor automatically restores unprivileged Thread mode and the PSP on exception return, ensuring that privilege is never accidentally retained by user code.
 
-Together, privilege levels, stack separation, MPU enforcement, and SVC-based system calls form the security and isolation boundary of the RTOS. This design allows user applications to run with strong safety guarantees while keeping the kernel small, auditable, and fully in control of hardware and system state.
+Together, privilege levels, stack separation, MPU enforcement, and SVC-based system calls form the RTOS security boundary, allowing user applications to run safely while keeping the kernel small and auditable.
 
 ## Context Switching & Multithreading
 
-The multitasking subsystem extends the kernel from a single-threaded execution model into a true multi-threaded runtime that supports both non-preemptive and preemptive scheduling of multiple user-level threads. This design deliberately mirrors how real RTOS kernels structure their threading APIs, while keeping the mechanics explicit and inspectable.
+The multitasking subsystem extends the kernel from a single-threaded execution model into a multi-threaded runtime supporting both non-preemptive and preemptive scheduling of user-level threads.
 
 User code interacts with the multitasking system exclusively through a small, well-defined set of system calls. Before any scheduling begins, the user program declares its intent by calling `multitask_request(n, stack_bytes)`, which informs the kernel how many threads will exist and how much stack space each thread requires. The kernel validates these parameters, partitions the user stack region accordingly, and initializes a global process control block (PCB) that will hold all thread metadata. At this stage, no threads are runnable yet; the kernel is only reserving resources and establishing bookkeeping structures.
 
@@ -293,7 +293,7 @@ Preemptive scheduling is layered cleanly on top of this mechanism. When enabled,
 
 Thread termination is handled explicitly through `thread_end()`. When a thread exits, the kernel marks its TCB as `DONE`, compacts the active TCB list, and requests a context switch. Eventually, when all user threads have terminated, the scheduler naturally falls back to the main thread, and `multitask_start()` returns. In this way, the multitasking system integrates seamlessly with normal program control flow, treating the main thread as just another schedulable context rather than a special case.
 
-Overall, this design demonstrates how thread abstraction, scheduling policy, and low-level context switching fit together in a real RTOS. By separating user intent (via syscalls) from kernel mechanics (via PendSV and SysTick), the system remains modular, debuggable, and faithful to how production kernels implement multitasking on Cortex-M platforms.
+By separating user intent (via syscalls) from kernel mechanics (via PendSV and SysTick), the system remains modular and debuggable while staying faithful to Cortex-M RTOS structure.
 
 ## Scheduling & Concurrency: From Round-Robin to Real-Time Guarantees
 
@@ -305,7 +305,7 @@ The round-robin scheduler was replaced with a Rate Monotonic Scheduler (RMS), wh
 
 Once multitasking starts, each thread tracks remaining execution budget (`Ci_remaining`), remaining period (`Ti_remaining`), and cumulative runtime. Static priorities are assigned based on period length (shorter period ⇒ higher priority), and scheduling decisions always select the READY thread with the highest priority. SysTick enforces timing constraints by decrementing execution budgets and releasing threads when their periods expire. Whenever a higher-priority thread becomes READY, the kernel immediately preempts the running thread via PendSV, preserving strict RMS semantics.
 
-This design cleanly separates timing enforcement (SysTick) from context switching (PendSV), ensuring deterministic behavior even under preemption.
+This separation keeps timing enforcement (SysTick) independent from context switching (PendSV), preserving deterministic behavior under preemption.
 
 ---
 
