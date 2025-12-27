@@ -45,7 +45,7 @@ year: 2025
 
 Choosing what to eat at a restaurant shouldn't feel like an exam. Menus are overwhelming, time is short, and you rarely know what a dish actually looks like. Indecisive solves this problem by turning any messy restaurant menu into a fun, fast, and visual decision-making game.
 
-Simply upload a photo of a menu, and Indecisive will parse all the dishes, generate clean images, and guide you through quick pairwise comparisons. At the end, you get a confident recommendation — "Here's your perfect choice!" — plus backup options that match your taste and dietary preferences.
+Simply upload a photo of a menu, and Indecisive will parse all the dishes, generate clean images, and guide you through quick pairwise comparisons. At the end, you get a confident recommendation: "Here's your perfect choice!", plus backup options that match your taste and dietary preferences.
 
 Indecisive is designed to make food decisions effortless, playful, and personalized. This is insipired by [MenuGen](https://karpathy.bearblog.dev/vibe-coding-menugen/) project by Karpathy.
 

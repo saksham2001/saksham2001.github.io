@@ -11,7 +11,7 @@ year: 2022
 ## Why an Automated Screening Kiosk?
 The COVID-19 pandemic exposed a weakness in how public spaces handle health screening: manual temperature checks, visual inspection for mask compliance, and ad-hoc sanitization. These processes are slow, labor-intensive, error-prone, and increase close-contact exposure. At the same time, large-scale diagnostic testing is too expensive and impractical for continuous use. This project targets the gap: a fast, reliable *first-line screening system* that flags potential risk while maintaining social distancing.
 
-The goal was to design and build an **automated, self-service screening kiosk** capable of rapidly assessing key COVID-19 indicators—mask usage, body temperature, blood oxygen saturation (SpO₂), and pulse rate—while minimizing physical contact and human intervention. The system needed to be accurate enough to be meaningful, fast enough to avoid bottlenecks, accessible to a wide range of users, and inexpensive enough to justify real-world deployment.
+The goal was to design and build an **automated, self-service screening kiosk** capable of rapidly assessing key COVID-19 indicators (mask usage, body temperature, blood oxygen saturation (SpO₂), and pulse rate) while minimizing physical contact and human intervention. The system needed to be accurate enough to be meaningful, fast enough to avoid bottlenecks, accessible to a wide range of users, and inexpensive enough to justify real-world deployment.
 
 Rather than treating this as a purely machine learning or sensing problem, I approached it as a full systems challenge: integrating sensing theory, signal processing, computer vision, embedded hardware, user interface design, accessibility standards, and cost analysis into a single deployable platform.
 
@@ -75,7 +75,7 @@ Rather than building a monolithic pipeline, the kiosk is structured as a set of 
 
 This modular design improves robustness, allows individual components to be upgraded independently, and makes the system adaptable to different deployment scenarios or future screening requirements.
 
-In the following sections, I break down how each of these subsystems—hardware, sensing algorithms, software architecture, and user interface—was designed, implemented, and evaluated as part of this project.
+In the following sections, I break down how each subsystem (hardware, sensing algorithms, software architecture, and user interface) was designed, implemented, and evaluated as part of this project.
 
 <div class="row my-4">
   <div class="col-md-6 mx-auto">
