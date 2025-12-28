@@ -2,7 +2,7 @@
 layout: page
 title: hacking
 permalink: /hacking/
-description: a collection of my hacking adventures.
+description: Coming soon...
 nav: true
 nav_order: 4
 horizontal: false
