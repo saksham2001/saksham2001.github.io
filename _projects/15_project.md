@@ -1,18 +1,18 @@
 ---
 layout: page
 title: "AutoGrader"
-description: "AI-Powered Evidence-Anchored Grading Platform (2025)"
-img: assets/img/projects/autograder/hil_grading.png
+description: "AI-Powered Evidence-Anchored Grading Platform (2026)"
+img: assets/img/projects/autograder/thumbnail.png
 importance: 1
 category: work, ml, llm
-year: 2025
+year: 2026
 ---
 
 ## The Problem with Grading at Scale
 
-Last semester I was the Head TA for **18-844: Embedded Machine Learning** at Carnegie Mellon. The course had 50+ students submitting open-ended coding assignments — Jupyter notebooks, Python scripts, PDF reports — every week. Grading was the bottleneck. Each submission required carefully reading through student code, cross-referencing against a rubric, and writing justifiable feedback. With a small TA team, we were spending more time grading than teaching.
+Last semester I was the Head TA for **Embedded Machine Learning** at CMU. The course had 50+ students submitting open-ended coding assignments — Jupyter notebooks, Python scripts, PDF reports — every week. Grading was the bottleneck. Each submission required carefully reading through student code, cross-referencing against a rubric, and writing justifiable feedback. With a small TA team, we were spending more time grading than teaching.
 
-The issue wasn't just speed. It was **consistency** and **transparency**. Different TAs interpreted rubrics differently. Students would ask "why did I lose points here?" and sometimes the answer wasn't clear, even to us. I wanted a system that could help grade faster while making every scoring decision *fully traceable* back to the student's own work.
+The issue wasn't just speed. It was **consistency** and **transparency**. Different TAs interpreted rubrics differently. Students would ask "why did I lose points here?" and sometimes the answer wasn't clear, even to us. I wanted a system that could help grade faster while making every scoring decision fully traceable back to the student's own work.
 
 So I built AutoGrader.
 
