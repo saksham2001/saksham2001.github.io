@@ -13,6 +13,9 @@ year: 2026
   </div>
 </div>
 
+## Live:
+Use the AutoGrader here: [autograder.fly.dev](https://autograder.fly.dev)
+
 ## The Problem with Grading at Scale
 
 Last semester I was the Head TA for **Embedded Machine Learning** at CMU. The course had 50+ students submitting open-ended coding assignments — Jupyter notebooks, Python scripts, PDF reports — every week. Grading was the bottleneck. Each submission required carefully reading through student code, cross-referencing against a rubric, and writing justifiable feedback. With a small TA team, we were spending more time grading than teaching.

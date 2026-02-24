@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AgenticNetController"
+title: "AgenticNet"
 description: "AI-Powered Amateur Radio Net Control Operator (2026)"
 img: assets/img/projects/agentic_net_controller/agenticNet.png
 importance: 2
