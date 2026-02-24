@@ -2,11 +2,16 @@
 layout: page
 title: "AutoGrader"
 description: "AI-Powered Evidence-Anchored Grading Platform (2026)"
-img: assets/img/projects/autograder/thumbnail.png
+img: assets/img/projects/autograder/autograder.png
 importance: 1
 category: work, ml, llm
 year: 2026
 ---
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/autograder/thumnail.png" title="AutoGrader" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
 
 ## The Problem with Grading at Scale
 
