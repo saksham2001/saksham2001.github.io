@@ -2,13 +2,13 @@
 layout: page
 title: "Emile"
 description: "Agentic AI for GPU Kernels (2026)"
-img: assets/img/projects/emile/emile.png
+img: assets/img/projects/emile/emile_logo.png
 importance: 1
 category: fun, llm, ml
 year: 2026
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yAIB-kk-ypU" title="Emile Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 1.5rem;"><iframe src="https://www.youtube.com/embed/yAIB-kk-ypU" title="Emile Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## The Problem
 

@@ -52,7 +52,7 @@ The rear housing contains the core electronics: LiDAR sensor modules on each sid
 The rear module attaches to the back of a standard full-face helmet. The 3D-printed housing is designed to be aerodynamic and unobtrusive, with the LiDAR sensors and brake/turn signal LEDs integrated into the form factor.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-md-6 mx-auto mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/knightrider/assembled_back.jpeg" title="Knight Rider Assembled Back View" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -65,7 +65,7 @@ The rear module attaches to the back of a standard full-face helmet. The 3D-prin
 The heads-up display projects directly onto the visor, visible in the rider's natural line of sight. The display shows current speed (67 mph shown here), an artificial horizon for lean-angle awareness, and blind-spot warning symbols on both sides of the display that light up when the LiDAR detects a vehicle.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-md-6 mx-auto mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/knightrider/view_form_inside.jpeg" title="Knight Rider View From Inside" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -74,7 +74,7 @@ The heads-up display projects directly onto the visor, visible in the rider's na
 </div>
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">
+  <div class="col-md-6 mx-auto mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/knightrider/hud.jpeg" title="Knight Rider HUD Close-up" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
