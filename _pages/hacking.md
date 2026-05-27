@@ -2,7 +2,7 @@
 layout: page
 title: hacking
 permalink: /hacking/
-description: Coming soon...
+description: Reverse-engineering, BLE sniffing, and other hardware tinkering.
 nav: true
 nav_order: 4
 horizontal: false
