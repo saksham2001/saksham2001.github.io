@@ -20,15 +20,15 @@ horizontal: false
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for hacking in sorted_hacking %}
-      {% include projects_horizontal.liquid project=hacking %}
+    {% for project in sorted_hacking %}
+      {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for hacking in sorted_hacking %}
-      {% include projects.liquid project=hacking %}
+    {% for project in sorted_hacking %}
+      {% include projects.liquid %}
     {% endfor %}
   </div>
   {% endif %}
