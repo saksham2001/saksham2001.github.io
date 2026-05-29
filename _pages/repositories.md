@@ -15,3 +15,7 @@ nav_order: 5
   {% endfor %}
 </div>
 {% endif %}
+
+<!-- prettier-ignore-start -->
+<script defer src="{{ '/assets/js/github-repos.js' | relative_url | bust_file_cache }}"></script>
+<!-- prettier-ignore-end -->
