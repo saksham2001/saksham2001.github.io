@@ -119,7 +119,7 @@ This is still work in progress and a few commands are still murky. The `0x52` ai
 
 ## How to use the CLI
 
-The CLI [x] is a Python script that uses the Bleak library to connect to the ring and send commands. 
+The CLI [7] is a Python script that uses the Bleak library to connect to the ring and send commands. 
 
 The CLI provides the following commands:
 ```bash
@@ -174,4 +174,4 @@ One macOS quirk worth noting: CoreBluetooth hides the real BLE MAC and hands you
 - [4] Reverse engineering the SR08 smart ring with display: https://github.com/atc1441/ATC_SR08_Ring
 - [5] My detailed notes that I made while reverse engineering the protocol: https://github.com/saksham2001/Smart-Ring-Protocol/blob/main/lab-notes.md
 - [6] The full protocol reference: https://github.com/saksham2001/Smart-Ring-Protocol/blob/main/Protocol.md
-- [x] The CLI code: https://github.com/saksham2001/Smart-Ring-Protocol/blob/main/smart_ring_cli.py
+- [7] The CLI code: https://github.com/saksham2001/Smart-Ring-Protocol/blob/main/smart_ring_cli.py
