@@ -491,25 +491,42 @@ footer.sticky-bottom {
 
 // Repositories
 
-@media (min-width: 768px) {
-  .repo {
-    max-width: 50%;
+.repositories {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 1.5rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
+.repo {
+  display: flex; // let the card stretch to fill the grid cell
+}
+
 .repo-card {
-  display: block;
-  height: 100%;
-  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.1rem 1.25rem;
   border: 1px solid var(--global-divider-color);
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: var(--global-card-bg-color);
   text-align: left;
-  transition: border-color 0.2s ease-in-out;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease;
 
   &:hover {
     text-decoration: none;
+    transform: translateY(-2px);
     border-color: var(--global-theme-color);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
   }
 
   .repo-card-header {
@@ -544,6 +561,7 @@ footer.sticky-bottom {
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-top: auto; // pin footer to the bottom so equal-height cards line up
     font-size: 0.8rem;
     color: var(--global-text-color-light);
 
