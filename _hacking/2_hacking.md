@@ -63,7 +63,7 @@ The ring advertises as `SMART_RING`, and the first six bytes of its manufacturer
 
 ### Packet format
 
-Every packet is a fixed 20 bytes. There is no length field or framing header — byte 0 is the command/response ID, and the rest is payload zero-padded out to 20 bytes. Multi-byte integers (timestamps, steps, distance, calories) are little-endian.
+Every packet is a fixed 20 bytes. There is no length field or framing header. Byte 0 is the command/response ID, and the rest is payload zero-padded out to 20 bytes. Multi-byte integers (timestamps, steps, distance, calories) are little-endian.
 
 ```text
 byte 0       command / response id

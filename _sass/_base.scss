@@ -493,17 +493,21 @@ footer.sticky-bottom {
 
 .repositories {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+  grid-template-columns: minmax(0, 22rem);
+  justify-content: center;
+  gap: 1.25rem;
   margin-top: 1.5rem;
 
   @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr);
+    // Two cards capped a bit under half-width and centered, so they read as a
+    // clean pair instead of stretching edge to edge on wide screens.
+    grid-template-columns: repeat(2, minmax(0, 22rem));
   }
 }
 
 .repo {
   display: flex; // let the card stretch to fill the grid cell
+  min-width: 0; // allow the card to shrink instead of overflowing its track
 }
 
 .repo-card {
@@ -554,6 +558,7 @@ footer.sticky-bottom {
     font-size: 0.85rem;
     line-height: 1.4;
     color: var(--global-text-color);
+    overflow-wrap: break-word;
     min-height: 2.4em;
   }
 
