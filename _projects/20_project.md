@@ -8,15 +8,11 @@ category: fun, llm, health, embedded
 year: 2026
 ---
 
-A while ago I [reverse engineered the BLE protocol of a $7 AliExpress smart ring](/hacking/2_hacking/) and wrote a small Python CLI to talk to it. That was the fun part. This project is what I did next: I turned the ring into a full iOS app called PulseLoop, with an AI coach that reads your actual ring data and talks to you about it. It is open source, it is bring-your-own-key, and all of your sensitive health data stays on your phone.
-
-## Why I built this
-
 I recently got a Google Fitbit Air and I genuinely loved the idea behind it. The app wraps every measurement from the band in an LLM. It sends you two daily briefs, it analyzes your sleep and activity, and you can talk to a coach, set goals, and ask about a specific workout. That last part is the real unlock. Sparse temporal health data is not intuitive from graphs and gauges. A line going up and to the right does not tell you much. A coach that can say "your resting heart rate crept up the three nights you slept under six hours" tells you something.
 
 But there were a few things I could not get past. The band is $100, and there is a $10 per month subscription on top of it, so you are looking at roughly $360 in the first year and $120 every year after. The app itself is buggy, the interface is rough, and there is honestly too much LLM stuff shoved into every corner. And it is Google, a company whose entire business depends on collecting as much data about you as it possibly can. Handing them a continuous stream of my heart rate, sleep, and movement felt like the wrong trade.
 
-So I wanted to build the opposite. An app where you own your sensitive health data and it never leaves your device except when you choose to ask a question, where the LLM runs through APIs that do not store your prompts or train on your data, and where you pay only for what you actually use. No $360 a year, and no $100 device when a $7 ring gets you most of the way there.
+So I wanted to build the opposite. An app where you own your sensitive health data and it never leaves your device except when you choose to ask a question, where the LLM runs through APIs that do not store your prompts or train on your data, and where you pay only for what you actually use. No $360 a year, and no $100 device when a $7 ring gets you most of the way there. I bought a very cheap $7 ring from AliExpress and reverse engineered the BLE protocol.
 
 That is PulseLoop. It is free, open source, privacy first, and you bring your own keys. The pieces that have to be smart are smart, and nothing about you sits on someone else's server by default.
 
@@ -156,4 +152,7 @@ I built this because I think people should own their own health data and not pay
 - **ActivityKit**: Live Activity and Dynamic Island for live workouts
 - **MapKit + CoreLocation**: GPS route recording and maps
 
-Code: [github.com/sakshambhutani/PulseLoop](https://github.com/sakshambhutani/PulseLoop) &nbsp;·&nbsp; Ring protocol notes and CLI: [github.com/saksham2001/Smart-Ring-Protocol](https://github.com/saksham2001/Smart-Ring-Protocol/) &nbsp;·&nbsp; How I reverse engineered the ring: [the write up](/hacking/2_hacking/)
+Sources:
+- Code: [github.com/saksham2001/PulseLoopIOS](https://github.com/saksham2001/PulseLoopIOS)
+- Ring protocol notes and CLI: [github.com/saksham2001/Smart-Ring-Protocol](https://github.com/saksham2001/Smart-Ring-Protocol/)
+- How I reverse engineered the ring: [the write up](/hacking/2_hacking/)
