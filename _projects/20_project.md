@@ -89,15 +89,13 @@ The app has four main tabs, all built natively in SwiftUI with a dark, high cont
 Workout recording pulls in a bunch of iOS pieces at once. When you start a session, the coordinator opens a continuous live heart rate stream from the ring at the tightest cadence it supports, samples persist as they arrive and attach to the active session, and an optional GPS recorder traces your route. While the workout is running, there is a Live Activity on the lock screen and a Dynamic Island widget so your heart rate is glanceable without unlocking. When you finish, you get a summary card with duration, distance, average and max heart rate, active minutes, SpO2, a map of the route, and an honest recording quality panel so you know how much to trust the numbers. It feels like the kind of thing you would expect from a much more expensive watch, running off a $7 ring.
 
 <div class="row">
-  <div class="col-12 col-md-6 mt-3 mt-md-0">
+  <div class="col-6 col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/workout-live.png" title="Live workout on the lock screen" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-12 col-md-6 mt-3 mt-md-0">
+  <div class="col-6 col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/workout-summary.png" title="Workout summary" class="img-fluid rounded z-depth-1" %}
   </div>
-</div>
-<div class="row mt-3">
-  <div class="col-sm">
+  <div class="col-6 col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/dynamic-island.png" title="Dynamic Island" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
@@ -123,15 +121,21 @@ The coach is an agentic loop built on the OpenAI Responses API. The model is nev
 The tools fall into a few groups. Retrieval tools are read only and compact: daily and range summaries, a metric time series, activity sessions, sleep trends, goal progress, and a data availability check so the model does not confidently summarize a week that has two days of readings. Analysis tools run deterministic Swift over those numbers instead of asking the model to do mental math: trend detection via linear regression, period comparison, Pearson correlation, z-score outliers, and distribution stats. Chart tools let the model prepare a chart object that gets copied verbatim into the final response and rendered natively, never invented. Memory tools give the coach a durable, local memory for goals, injuries, routines, and preferences, with importance scores and optional expiry. Action tools let it set goals, log notes, create a past workout, or trigger a live reading, and the risky ones (delete, or editing an older session) return a needs confirmation result and show a Confirm or Cancel card rather than happening silently. Web search is available for general knowledge only, with a hard line kept between "your ring data says" and "general guidance says."
 
 <div class="row">
-  <div class="col-12 col-md-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/coach-chart.png" title="Coach conversation with a real-data chart" class="img-fluid rounded z-depth-1" %}
+  <div class="col-6 col-md-3 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/coach-chart.png" title="Conversation with a real-data chart" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-12 col-md-6 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/today-brief.png" title="Coach summary card on Today" class="img-fluid rounded z-depth-1" %}
+  <div class="col-6 col-md-3 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/coach-grounded.png" title="Grounded answer from your own data" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-6 col-md-3 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/coach-actions.png" title="Taking an action with a confirm card" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-6 col-md-3 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/coach-summary.png" title="Coach summary card" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-    The coach answering a question with a chart built from real retrieved data, and a coach generated summary card with suggested follow up questions sitting inline on the Today screen. The whole agent is wrapped in transparency: every tool call is traced with a human readable label, and the prompt leans hard on honesty, grounding, and cautious health language.
+    Four ways the coach shows up: answering with a chart built from real retrieved data, grounding a reply in your own readings, taking an action behind a confirm card, and generating a summary card. The whole agent is wrapped in transparency: every tool call is traced with a human readable label, and the prompt leans hard on honesty, grounding, and cautious health language.
 </div>
 
 ## The privacy model, concretely
@@ -148,7 +152,7 @@ This is very much the beginning. The roadmap I am most excited about: running sm
 
 Get your own ring from here: https://www.aliexpress.us/item/3256810466598469.html
 
-Use xcode to open the project, build and run it on your phone.
+Building it is straightforward. You need Xcode and an iPhone (Bluetooth and Live Activities do not work in the simulator). Open the project in Xcode, set your own Team and a unique bundle identifier under Signing, then build and run to your phone. On first launch, finish onboarding and keep the ring nearby; the app auto-scans and connects when Bluetooth comes on. To turn on the coach, paste your own OpenAI key under Settings, it is stored in the iOS Keychain and only ever leaves the device to call the model. No ring yet? There is a demo data mode so you can explore the whole UI with sample data.
 
 ## Open source, and a call for contributions
 
