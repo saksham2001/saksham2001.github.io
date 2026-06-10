@@ -71,17 +71,17 @@ The app has four main tabs, all built natively in SwiftUI with a dark, high cont
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/today.png" title="Today" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-6 col-md-3 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/today-brief.png" title="Daily coach brief" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-6 col-md-3 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/vitals.png" title="Vitals" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-6 col-md-3 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/sleep.png" title="Sleep" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-6 col-md-3 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/activity.png" title="Activity" class="img-fluid rounded z-depth-1" %}
-  </div>
 </div>
 <div class="caption">
-    Today, Vitals, Sleep, and Activity. I am honest in the app that the sleep decoder is experimental and does not yet recover REM, because I would rather show a humble number than a confidently wrong one.
+    The Today screen with its daily coach brief, plus Vitals and Sleep. I am honest in the app that the sleep decoder is experimental and does not yet recover REM, because I would rather show a humble number than a confidently wrong one.
 </div>
 
 ## Recording a workout
@@ -90,17 +90,22 @@ Workout recording pulls in a bunch of iOS pieces at once. When you start a sessi
 
 <div class="row">
   <div class="col-6 col-md-4 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/activity.png" title="Activity tab" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-6 col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/workout-live.png" title="Live workout on the lock screen" class="img-fluid rounded z-depth-1" %}
   </div>
   <div class="col-6 col-md-4 mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/workout-summary.png" title="Workout summary" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-6 col-md-4 mt-3 mt-md-0">
+</div>
+<div class="row mt-3">
+  <div class="col-sm">
     {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/dynamic-island.png" title="Dynamic Island" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">
-    A live workout on the lock screen and in the Dynamic Island, and the post workout summary with the GPS route and a recording quality breakdown.
+    The Activity tab where a session starts, a live workout on the lock screen, and the post workout summary with its GPS route and recording quality breakdown. Below, the same workout glanceable in the Dynamic Island.
 </div>
 
 ## The AI coach
