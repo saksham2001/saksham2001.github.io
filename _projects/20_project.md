@@ -22,6 +22,18 @@ So I wanted to build the opposite. An app where you own your sensitive health da
 
 This is PulseLoop. It is free, open source, privacy first, and you bring your own keys. The pieces that have to be smart are smart, and nothing about you sits on someone else's server by default.
 
+<div class="row justify-content-center">
+  <div class="col-md-5">
+    <video width="100%" controls>
+      <source src="{{ '/assets/video/projects/pulseloop_showcase.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+<div class="caption">
+    A quick run through the app: the coach answering from your own data, live vitals, sleep, and a recorded workout.
+</div>
+
 ## How the system fits together
 
 PulseLoop is a native SwiftUI app for iPhone. There is no backend, no account, and no vendor cloud. The whole thing breaks down into four layers that stack cleanly on top of each other.
