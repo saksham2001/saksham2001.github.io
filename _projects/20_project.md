@@ -1,20 +1,26 @@
 ---
 layout: page
 title: "PulseLoop"
-description: "An LLM-Native, Privacy-First Health App for a $7 Smart Ring (2026)"
-img: assets/img/projects/pulseloop/system-architecture.png
+description: "Subscription free, privacy first, AI native health companion. Powered by a cheap Temu ring (2026)"
+img: assets/img/projects/pulseloop/thumbnail.png
 importance: 1
 category: fun, llm, health, embedded
 year: 2026
 ---
 
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/projects/pulseloop/thumbnail.png" title="PulseLoop" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
 I recently got a Google Fitbit Air and I genuinely loved the idea behind it. The app wraps every measurement from the band in an LLM. It sends you two daily briefs, it analyzes your sleep and activity, and you can talk to a coach, set goals, and ask about a specific workout. That last part is the real unlock. Sparse temporal health data is not intuitive from graphs and gauges. A line going up and to the right does not tell you much. A coach that can say "your resting heart rate crept up the three nights you slept under six hours" tells you something.
 
-But there were a few things I could not get past. The band is $100, and there is a $10 per month subscription on top of it, so you are looking at roughly $360 in the first year and $120 every year after. The app itself is buggy, the interface is rough, and there is honestly too much LLM stuff shoved into every corner. And it is Google, a company whose entire business depends on collecting as much data about you as it possibly can. Handing them a continuous stream of my heart rate, sleep, and movement felt like the wrong trade.
+But there were a few things I could not get past. The band is $100, and there is a $10 per month subscription on top of it, so you are looking at roughly $220 in the first year and $120 every year after. The app itself is buggy, the interface is rough, and there is honestly too much LLM stuff shoved into every corner. And it is Google, a company whose entire business depends on collecting as much data about you as it possibly can. Handing them a continuous stream of my heart rate, sleep, and movement felt like the wrong trade.
 
-So I wanted to build the opposite. An app where you own your sensitive health data and it never leaves your device except when you choose to ask a question, where the LLM runs through APIs that do not store your prompts or train on your data, and where you pay only for what you actually use. No $360 a year, and no $100 device when a $7 ring gets you most of the way there. I bought a very cheap $7 ring from AliExpress and reverse engineered the BLE protocol.
+So I wanted to build the opposite. An app where you own your sensitive health data and it never leaves your device except when you choose to ask a question, where the LLM runs through APIs that do not store your prompts or train on your data, and where you pay only for what you actually use. No $360 a year, and no $100 device when a $7 ring gets you most of the way there. I bought a very cheap $7 ring from AliExpress and reverse engineered the BLE protocol. It came with a very basic app with terible UI, and you never know where the data is being sent.
 
-That is PulseLoop. It is free, open source, privacy first, and you bring your own keys. The pieces that have to be smart are smart, and nothing about you sits on someone else's server by default.
+This is PulseLoop. It is free, open source, privacy first, and you bring your own keys. The pieces that have to be smart are smart, and nothing about you sits on someone else's server by default.
 
 ## How the system fits together
 
@@ -138,19 +144,25 @@ Compare that to the subscription wearables. With Whoop, Oura, or Fitbit, your mo
 
 This is very much the beginning. The roadmap I am most excited about: running small on-device LLMs (Qwen, a small Llama, or Apple's Foundation Models) so the coach works with no API key and no network at all; generalizing the BLE layer to support other cheap rings beyond the `0x56ff` family; writing custom open firmware to unlock automatic workout detection and higher sampling rates; a multimodal coach with voice and image input; calorie and nutrition tracking; and surfacing exactly which tools the coach called for any given answer, so every response is fully auditable.
 
+## Use it
+
+Get your own ring from here: https://www.aliexpress.us/item/3256810466598469.html
+
+Use xcode to open the project, build and run it on your phone.
+
 ## Open source, and a call for contributions
 
 PulseLoop is open source. If you have a cheap `0x56ff` ring lying around, you can clone the repo, open it in Xcode, drop in your own OpenAI key, and run it on your phone for free. There is also a demo data mode so you can poke around the UI without any hardware at all.
 
-I built this because I think people should own their own health data and not pay a subscription to understand their own bodies, and a project like that is much better as a community than as one person's side project. Good places to start: sniff the protocol of a different cheap ring and help widen hardware support, wire up an on-device model so the coach runs with no API key, pick up a roadmap item in Swift, take on the custom firmware track, or just use it and file issues where the coach gets things wrong. If any of this resonates, the code is on GitHub, and issues and pull requests are open.
+I built this because I think people should own their own health data and not pay a subscription to understand their own bodies, and a project like that is much better as a community than as one person's side project. There is a lot to do and a lot of it is fun. Some good places to start:
 
-## Tech Stack
+- **You have a different cheap ring.** Sniff its protocol, send me captures, and let us widen hardware support. My [protocol notes and CLI](https://github.com/saksham2001/Smart-Ring-Protocol/) are a decent starting point for the reverse engineering side.
+- **You know on-device ML.** Help wire up a local model so the coach can run with no API key at all.
+- **You write Swift.** Pick up a roadmap item, improve the UI, or harden the BLE layer.
+- **You like firmware.** The custom firmware track is wide open.
+- **You just want to use it.** File issues, report bad sleep decodes, and tell me where the coach gets things wrong. That feedback is worth a lot.
 
-- **SwiftUI + SwiftData**: native UI and on-device local persistence
-- **CoreBluetooth**: direct BLE link to the ring, custom 20-byte protocol decoder
-- **OpenAI Responses API**: the agentic coach loop, with a tool registry for retrieval, analysis, charts, memory, actions, and web search
-- **ActivityKit**: Live Activity and Dynamic Island for live workouts
-- **MapKit + CoreLocation**: GPS route recording and maps
+If any of this resonates, the code is on GitHub, and issues and pull requests are open. Star it, fork it, break it, and send me what you find.
 
 Sources:
 - Code: [github.com/saksham2001/PulseLoopIOS](https://github.com/saksham2001/PulseLoopIOS)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Emile"
-description: "Agentic AI for GPU Kernels (2026)"
+description: "Agentic AI Harness for GPU Kernels (2026)"
 img: assets/img/projects/emile/emile_logo.png
 importance: 1
 category: fun, llm, ml
