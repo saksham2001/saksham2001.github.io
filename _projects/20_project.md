@@ -14,6 +14,11 @@ year: 2026
   </div>
 </div>
 
+> ##### UPDATE
+>
+> This write up is from the early days, when the app only spoke to the $7 AliExpress ring. PulseLoop supports a lot more wearables now and has its own [documentation](https://sakshambhutani.xyz/PulseLoopiOS/) for setup and supported devices. If your device is not supported yet, or something is broken, open an [issue on GitHub](https://github.com/saksham2001/PulseLoopiOS/issues).
+{: .block-tip }
+
 I recently got a Google Fitbit Air and I genuinely loved the idea behind it. The app wraps every measurement from the band in an LLM. It sends you two daily briefs, it analyzes your sleep and activity, and you can talk to a coach, set goals, and ask about a specific workout. That last part is the real unlock. Sparse temporal health data is not intuitive from graphs and gauges. A line going up and to the right does not tell you much. A coach that can say "your resting heart rate crept up the three nights you slept under six hours" tells you something.
 
 But there were a few things I could not get past. The band is $100, and there is a $10 per month subscription on top of it, so you are looking at roughly $220 in the first year and $120 every year after. The app itself is buggy, the interface is rough, and there is honestly too much LLM stuff shoved into every corner. And it is Google, a company whose entire business depends on collecting as much data about you as it possibly can. Handing them a continuous stream of my heart rate, sleep, and movement felt like the wrong trade.
