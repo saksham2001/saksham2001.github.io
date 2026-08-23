@@ -1377,19 +1377,3 @@ ninja-keys::part(ninja-input-wrapper) {
     border-bottom-color: var(--global-divider-color);
   }
 }
-
-// inline thumbnails attached to a news item
-.news-thumbs {
-  display: inline-flex;
-  gap: 6px;
-  vertical-align: middle;
-  margin-left: 6px;
-
-  img {
-    height: 46px;
-    width: 46px;
-    object-fit: cover;
-    border-radius: 4px;
-    cursor: zoom-in;
-  }
-}
