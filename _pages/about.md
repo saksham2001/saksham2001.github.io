@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in Computer Science at Columbia University advised by Xia Zhou at the [MobileX Lab](https://mobilex.cs.columbia.edu). I am interested in building practical, inexpensive, and privacy-sensitive health sensing solutions. 
+I am a Ph.D. student in Computer Science at Columbia University advised by [Xia Zhou](http://www.cs.columbia.edu/~xia/) at the [MobileX Lab](https://mobilex.cs.columbia.edu). I am interested in building practical, inexpensive, and privacy-sensitive health sensing solutions. 
 
 I got my masters at Carnegie Mellon University (CMU) in Electrical and Computer Engineering. At CMU, I have worked with several research labs including the [Robotic Caregiving and Human Interaction (RCHI) Lab](https://rchi-lab.github.io), [SmaSH Lab](https://smashlab.io), [Semantic Signals Lab](http://semanticsignals.com), and [WiTech Lab](https://www.witechlab.com).
 
