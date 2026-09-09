@@ -2,17 +2,11 @@
 layout: page
 title: "Remy"
 description: "Your kitchen assistant that helps you cook. (2026)"
-img: assets/img/projects/remy/thumbnail.png
+img: assets/img/projects/remy/thumbnail.gif
 importance: 1
 category: fun, llm, embedded, computer vision
 year: 2026
 ---
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/remy/thumbnail.png" title="Remy camera" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
 
 A friend and I built Remy over a weekend at the SF Hackathon, an invite-only event that flys out students from CMU, Stanford, Berkeley, Waterloo and a few other schools and puts them in a room for a couple of days. It is run by Sebastian Thrun, who founded Udacity, Google X and Waymo. We won the grand prize in the hackathon with this project!
 
