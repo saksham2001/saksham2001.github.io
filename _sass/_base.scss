@@ -123,18 +123,27 @@ blockquote {
 
   /* Award / recognition callout */
   &.block-award {
-    border-color: var(--global-warning-block);
-    background-color: var(--global-warning-block-bg);
+    border-color: var(--global-award-block);
+    background-color: var(--global-award-block-bg);
     font-size: 1rem;
 
     p {
-      color: var(--global-warning-block-text);
       display: flex;
       align-items: baseline;
     }
 
+    /* the theme colours span/strong/em directly, which beats inheriting
+       from the parent p, so set the colour on the children too */
+    p,
+    p span,
+    p strong,
+    p em,
+    p a {
+      color: var(--global-award-block-text);
+    }
+
     i {
-      color: var(--global-warning-block-title);
+      color: var(--global-award-block-title);
       margin-right: 0.6rem;
     }
   }
@@ -208,9 +217,9 @@ ul.task-list input[type="checkbox"] {
       font-size: 0.7rem;
       line-height: 1.35;
       text-align: left;
-      color: var(--global-warning-block-text);
-      background-color: var(--global-warning-block-bg);
-      border: 1px solid var(--global-warning-block);
+      color: var(--global-award-block-text);
+      background-color: var(--global-award-block-bg);
+      border: 1px solid var(--global-award-block);
       box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
       opacity: 0;
       visibility: hidden;
