@@ -1,6 +1,11 @@
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
+      {% if project.award %}
+        <div class="award-badge" data-award="{{ project.award }}" tabindex="0" role="img" aria-label="Award: {{ project.award }}">
+          <i class="fa-solid fa-trophy"></i>
+        </div>
+      {% endif %}
       {% if project.img %}
         {%
           include figure.liquid

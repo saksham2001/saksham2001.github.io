@@ -6,7 +6,11 @@ img: assets/img/projects/vulcan/Falcons21_falcons-vulcan.png
 importance: 2
 category: work, embedded, avionics
 year: 2021
+award: "1st Worldwide in Design Report, 1st in Asia — SAE Aero Design 2021"
 ---
+
+{% include award.liquid %}
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/projects/vulcan/Falcons21_falcons-vulcan.png" title="Vulcan Flagship'21" class="img-fluid rounded z-depth-1" %}

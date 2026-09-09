@@ -6,7 +6,10 @@ img: assets/img/projects/adams/ADAMS_ADAMS-img.jpeg
 importance: 3
 category: fun, embedded, computer vision
 year: 2021
+award: "3rd Prize at Hack-a-Motive, Runner Up at HackBattle, Best Hardware at HackOff"
 ---
+
+{% include award.liquid %}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GD053njx0fU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

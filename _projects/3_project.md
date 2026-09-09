@@ -6,7 +6,10 @@ img: assets/img/projects/touchfree/TouchFree_TouchFree-v2.jpeg
 importance: 3
 category: work, embedded, computer vision
 year: 2020
+award: "UNDP Impact Award — affordable COVID-19 symptom screening"
 ---
+
+{% include award.liquid %}
 
 <iframe src="https://www.youtube.com/embed/HFBD5NxqAko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
 

@@ -6,7 +6,10 @@ img: assets/img/projects/autonomiq/autonomiq_preview.png
 importance: 1
 category: fun, embedded, llm
 year: 2025
+award: "Grand Prize — Google DeepMind AI Agent Hackathon"
 ---
+
+{% include award.liquid %}
 
 ## Project Overview
 

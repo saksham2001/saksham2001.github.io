@@ -120,6 +120,24 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
+
+  /* Award / recognition callout */
+  &.block-award {
+    border-color: var(--global-warning-block);
+    background-color: var(--global-warning-block-bg);
+    font-size: 1rem;
+
+    p {
+      color: var(--global-warning-block-text);
+      display: flex;
+      align-items: baseline;
+    }
+
+    i {
+      color: var(--global-warning-block-title);
+      margin-right: 0.6rem;
+    }
+  }
 }
 
 // Checklist
@@ -158,6 +176,54 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  position: relative;
+
+  .award-badge {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color: #ffffff;
+    background: linear-gradient(145deg, #ffd34d 0%, #f5a623 55%, #e08e0b 100%);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px rgba(224, 142, 11, 0.45);
+
+    &::after {
+      content: attr(data-award);
+      position: absolute;
+      top: calc(100% + 0.4rem);
+      right: 0;
+      z-index: 3;
+      width: max-content;
+      max-width: 14rem;
+      padding: 0.4rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      line-height: 1.35;
+      text-align: left;
+      color: var(--global-warning-block-text);
+      background-color: var(--global-warning-block-bg);
+      border: 1px solid var(--global-warning-block);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.15s ease-in-out;
+      pointer-events: none;
+    }
+
+    &:hover::after,
+    &:focus::after {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 
   .card-img {
     width: 100%;

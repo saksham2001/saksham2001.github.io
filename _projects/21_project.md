@@ -6,7 +6,10 @@ img: assets/img/projects/remy/thumbnail.gif
 importance: 1
 category: fun, llm, embedded, computer vision
 year: 2026
+award: "Grand Prize — SF Hackathon 2026"
 ---
+
+{% include award.liquid %}
 
 A friend and I built Remy over a weekend at the SF Hackathon, an invite-only event that flys out students from CMU, Stanford, Berkeley, Waterloo and a few other schools and puts them in a room for a couple of days. It is run by Sebastian Thrun, who founded Udacity, Google X and Waymo. We won the grand prize in the hackathon with this project!
 

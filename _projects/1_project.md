@@ -6,7 +6,11 @@ img: assets/img/projects/trident/Falcons22_team2.jpeg
 importance: 1
 category: work, embedded, avionics
 year: 2022
+award: "1st Worldwide in Technical Design Report & Oral Presentation — SAE Aero Design 2022"
 ---
+
+{% include award.liquid %}
+
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
       {% include figure.liquid loading="eager" path="assets/img/projects/trident/Falcons22_team.jpeg" title="Trident Flagship'22" class="img-fluid rounded z-depth-1" %}

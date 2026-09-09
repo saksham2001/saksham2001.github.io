@@ -1,0 +1,8 @@
+{% assign award_text = include.award | default: page.award %}
+{% if award_text %}
+  <blockquote class="block-award">
+    <p>
+      <i class="fa-solid fa-trophy"></i><span>{{ award_text }}</span>
+    </p>
+  </blockquote>
+{% endif %}
