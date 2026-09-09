@@ -65,6 +65,15 @@ thumbnail: "assets/img/blog/drone_delhi/delhi_drone_preview.jpeg"
 </div>
 
 <div class="row mt-5">
+    <div class="col-12 mt-3 mt-md-0">
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/VbvQ7L8yZ0Y" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    A drone video of the Akshardham Temple complex.
+</div>
+
+<div class="row mt-5">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/blog/drone_delhi/drone6.JPG" title="Delhi Roundabout" class="img-fluid rounded z-depth-1" %}
     </div>
